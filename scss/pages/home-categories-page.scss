@@ -9,6 +9,8 @@
         tr {
              display: block;
              background-color: var(--header_background);
+             margin-top: 15px;
+             margin-bottom: 15px;
              &:last-child {
                 display: none;
              }
