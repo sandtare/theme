@@ -1,10 +1,7 @@
 @import "variables/colors";
 @import "variables/fonts";
   
-.navigation-categories {
-    .category-list:last-child {
-       display: none;
-    }  
+.navigation-categories { 
     tbody {
         border-top : none;
         display: flex;
