@@ -1,7 +1,5 @@
 .navigation-categories {
-    .category-list:last-child {
-       display: none;
-    }  
+     
     tbody {
         border-top : none;
         display: flex;
@@ -9,5 +7,8 @@
         .category {
             flex: 1;
         }  
+        &:last-child {
+           display: none;
+        }
     }
   }
