@@ -1,0 +1,123 @@
+@import "variables/colors";
+@import "variables/fonts";
+  
+.navigation-categories {
+    .category-list:last-child {
+       display: none;
+    }  
+    tbody {
+        border-top : none;
+        display: flex;
+        flex-wrap: wrap;
+        .category {
+            flex: 1;
+        }  
+    }
+
+    tbody tr {
+        width: 100%;
+        display: flex;
+        &:nth-last-child(-n+2) {
+            border-bottom: none;
+        }
+    }
+    
+    td.latest,
+    td.featured-topic,
+    th.topics,
+    td.topics,
+    th.latest,
+    th.featured-topic {
+        display: none;
+    } 
+
+    tr {
+        padding: 20px 10px;
+     }  
+
+    thead tr {
+        border-bottom: none;
+    }
+
+    .value {
+        font-weight: initial!important;
+        font-size: 0.8rem!important;
+        &:after {
+            content: ' topics';  
+        }  
+     }  
+  
+    .category-name { 
+        white-space: inherit;
+        text-overflow: inherit;
+     }
+  
+    .parent-category {
+      overflow:hidden;
+      &:after{
+          content:'';
+          display: inline-block;
+          width: 100%; 
+          height: 100%;
+          margin-right: -100%;
+          border-bottom: 1px solid var(--tertiary);
+      }
+      .category-name {
+          font-family: supply-regular;
+          font-weight: 400;
+          font-size: 1.8em;
+          margin-top: 30px;
+          &:before {
+              content:'_'
+          }        
+      }  
+      .stat {
+        display: none;
+      }     
+    }
+    .category-list th {
+          padding: 25px 5px;
+   }
+   .category-list td {
+      padding-top: 5px;
+    }       
+   .category-list tr {    
+      border-bottom: none; 
+   }  
+   .alert {
+     display: none;
+   } 
+ }
+
+
+@media (min-width: 576px) {
+  .navigation-categories {
+      .category-list td.topics {
+        display: block;
+        width : 20%;
+        padding-right: 20px;
+    } 
+   } 
+ }  
+  
+@media (min-width: 992px) {
+  .navigation-categories { 
+      tbody tr {
+          width: 50%;
+      }
+   }  
+ }  
+    
+
+.category-list {
+    td {
+        color: var(--primary-400);
+    }
+    tbody .category {
+        border-left-width: 10px;
+    }
+   .topics .badge-notification {
+        border-radius: 2px;
+   }   
+}   
+ 
