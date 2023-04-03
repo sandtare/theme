@@ -1,10 +1,16 @@
 .categories-list.navigation-categories {
     .list-container {
         background-color: var(--secondary);
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0
     } 
     .column:not(.categories) {
        background-color: var(--header_background); 
-    }     
+    }    
+    .column.categories {
+       margin-right: 1em; 
+    } 
     .topics,
     thead {
             display: none;
