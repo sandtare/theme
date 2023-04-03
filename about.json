@@ -1,0 +1,49 @@
+{
+    "name": "Arturia",
+    "about_url": null,
+    "license_url": "https://github.com/sandtare/discourse-theme/blob/main/LICENSE",
+     "assets": {
+        "supply-bold": "assets/supply-bold.woff2",
+        "supply-regular": "assets/supply-regular.woff2",
+        "supply-medium": "assets/supply-medium.woff2",
+        "supply-light": "assets/supply-light.woff2",
+        "footer-banner": "assets/pilot.png",
+        "footer-banner-social": "assets/spacex.png",
+        "home-icon": "assets/home-icon3.png",
+        "facebook-icon": "assets/facebook.svg",
+        "instagram-icon": "assets/instagram.svg",
+        "twitter-icon": "assets/twitter.svg",
+        "youtube-icon": "assets/youtube.svg",
+        "icons-sprite": "assets/custom-icons.svg"
+   },
+    "color_schemes": {
+        "light": {
+          "primary": "222222",
+          "secondary": "f8f8f8",
+          "tertiary": "222222",
+          "quaternary": "068dd0",
+          "quaternary-low": "c0dedc",
+          "header_background": "ffffff",
+          "header_primary": "333333",
+          "highlight": "d4efd8",
+          "danger": "f8745c",
+          "success": "00b1a9",
+          "hate": "aaaaaa"  
+        },
+        "dark": {
+          "primary": "f8f8f8",
+          "primary-high": "ededed",
+          "secondary": "000000",
+          "tertiary": "dfdfdf",
+          "quaternary": "54c3fb",
+          "header_background": "141414",
+          "header_primary": "ffffff",
+          "highlight": "7e9280",
+          "highlight-medium": "818181",
+          "danger": "f8745c",
+          "success": "09fff0",
+          "love": "fa6c8d"
+        }
+    }
+}
+  
