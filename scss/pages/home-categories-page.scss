@@ -7,7 +7,7 @@
         .category {
             flex: 1;
         }  
-        &:last-child {
+        tr:last-child {
            display: none;
         }
     }
