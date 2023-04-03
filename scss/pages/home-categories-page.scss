@@ -1,10 +1,10 @@
 .navigation-categories {
-    border-top : none;
     tbody {
         tr {
              &:last-child {
                 display: none;
              }
+             border-bottom : none;
              td {
                   border-left: none
              }          
