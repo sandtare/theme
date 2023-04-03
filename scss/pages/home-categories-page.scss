@@ -5,7 +5,7 @@
     tbody {
         tr {
              display: block;
-             background-color: var(--header_background)
+             background-color: var(--header_background);
              &:last-child {
                 display: none;
              }
