@@ -4,6 +4,8 @@
     }    
     tbody {
         tr {
+             display: block;
+             background-color: var(--header_background)
              &:last-child {
                 display: none;
              }
@@ -15,7 +17,7 @@
         .category {
             border-left: none;
             .subcategory {
-                background-color: var(--header_background)
+                padding: 4px
             }
         }  
         
