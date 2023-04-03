@@ -2,7 +2,8 @@
     .list-container {
         background-color: var(--secondary);
     } 
-    .topics {
+    .topics,
+    thead {
             display: none
     }
     tbody {
