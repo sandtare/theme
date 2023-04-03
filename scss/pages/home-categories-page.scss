@@ -1,4 +1,7 @@
 .navigation-categories {
+    .list-container {
+        background-color: none;
+    }    
     tbody {
         tr {
              &:last-child {
@@ -10,7 +13,11 @@
              }          
          }
         .category {
-            border-left: none
-        }     
+            border-left: none;
+            .subcategory {
+                background-color: var(--header_background)
+            }
+        }  
+        
     }
   }
