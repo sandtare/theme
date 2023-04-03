@@ -4,9 +4,10 @@
     } 
     .topics,
     thead {
-            display: none
+            display: none;
     }
     tbody {
+        border-top: none;
         tr {
              display: block;
              background-color: var(--header_background);
