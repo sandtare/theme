@@ -1,0 +1,54 @@
+@import "variables/colors";
+
+.d-header {
+  background-color: var(--primary-100);
+  border-left: 12px $base solid;
+  height: 3em;
+  box-shadow: inherit;
+  .unread-high-priority-notifications {
+      background: $base;
+  } 
+  #site-logo {
+    height: 1.3em;
+    margin: 0 10px 0 0;
+  }   
+  .wrap {
+      margin-left: 10px;
+      max-width: 1530px!important;
+  }  
+  .home-text {
+       font-family: supply-regular;
+       font-size: 14px;
+       font-weight: 400;
+       color: var(--header_primary);
+   } 
+  .d-header-icons .d-icon {
+      color: var(--header_primary);
+  }
+} 
+
+img.avatar {
+    border-radius: 15%;
+}
+
+.unread-high-priority-notifications.badge-notification[href] {
+    color: $black;
+}
+
+.search-menu .search-link:focus, 
+.search-menu .search-link:hover {
+    background-color: var(--primary-800);
+    color: var(--secondary);
+    .topic-title,
+    .category-name,
+    .discourse-tag,
+    .blurb,
+    .search-highlight,
+    .widget-link .d-icon{
+       color: var(--secondary)
+   }
+}  
+
+.menu-panel {
+  background-color: var(--header_background)
+}

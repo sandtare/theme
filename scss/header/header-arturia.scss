@@ -1,0 +1,350 @@
+@import "variables/colors";
+
+.arturia-header * {
+  box-sizing: border-box; 
+ }
+
+.arturia-header ul {
+  margin-left:  0!important;
+} 
+
+/********** FONTS ********/
+@font-face {
+  font-family: supply-medium;
+  src: url(fonts/supply-medium.woff2); 
+}
+
+.arturia-header {
+  font-family: supply-medium;
+}
+
+
+/**********  HELPERS ********/
+.arturia-header.bg-white {
+  background-color: #ffffff;
+}
+
+.arturia-header .text-uppercase {  
+  text-transform: uppercase!important;
+}
+
+.arturia-header .prep::before { 
+  content: "_";
+}
+
+
+/********** NAVIGATION ********/
+.arturia-header {
+  position: relative;
+}
+
+.arturia-header .navbar {
+  list-style: none;
+  margin: 0 auto;
+  position: relative;
+  height: 38px;
+}
+
+.arturia-header .navbar-nav {
+  display: flex;
+  display: inline-block;
+  height: 50%;
+  margin-top: 50px;
+  transform: translateX(0);
+  transition: transform .5s ease-in-out;
+  align-items: center;
+  padding-left: 0;
+  padding-bottom: 0;
+  list-style: none;
+  margin-bottom: 0;
+  position:  absolute;
+}
+
+.arturia-header .navbar-collapse {
+  display:  none;
+}
+
+.arturia-header .navbar-collapse.open {
+  display: block;
+  background-color: #f6f6f6;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  overflow: hidden;
+  padding: 50px 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 10001;
+}
+
+.arturia-header .nav-link {
+  color: #000;
+  font-size: 15px;
+  text-decoration: none;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  padding: 0 16px;
+}
+
+.arturia-header .nav-item {
+  margin-bottom:  50px;
+}
+
+.arturia-header .nav-link:hover {
+  color: #00FFF0;
+} 
+
+.arturia-header .active {
+   color: #00b1a9!important;
+} 
+
+@media (min-width: 576px) {
+  .arturia-header,
+  .arturia-header .navbar-nav {
+    height: 58.5px;
+  }
+
+  .arturia-header .navbar {
+  height: 100%;
+  }
+
+  .arturia-header .navbar-nav {
+    display: inherit;
+    margin-top: 0;
+  }
+
+  .arturia-header .navbar {
+    flex-flow: row nowrap;
+  }
+
+  .arturia-header .navbar-collapse {
+    display: flex !important;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: initial;
+    z-index: 1;
+    align-items: center;
+    height:  100%!important;
+    background-color: transparent;
+    justify-content: inherit;
+  }
+
+  .arturia-header .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+
+  .arturia-header .nav-item {
+    margin-bottom: 0;
+    height: 100%;
+  }
+
+  .arturia-header .nav-link {
+    font-size: 11.5px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .arturia-header,
+  .arturia-header .navbar-nav {
+    height: 72px;
+  }
+
+  .arturia-header .nav-link {
+    font-size: 14px;
+  }
+}
+
+
+/********** BURGER ********/
+.arturia-header .navbar-toggler {
+    display: block;
+    height: 15px;
+    padding: 0;
+    position: absolute;
+    top: 13px;
+    margin-left: 17.8px;
+    transform: rotate(0deg);
+    transition: transform .5s ease-in-out;
+    width: 20px;
+    z-index: 1;
+    font-size: 1.17188em;
+    line-height: 1;
+    background-color: transparent;
+    border: none;
+    z-index: 10002;
+}
+
+.arturia-header .navbar-toggler span {
+    background: #000;
+    border-radius: 9px;
+    display: block;
+    height: 2px;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    transition: .25s ease-in-out;
+    width: 100%;
+}    
+
+.arturia-header .navbar-toggler span:first-child {
+    top: 0;
+}
+
+.arturia-header .navbar-toggler span:last-child {
+    top: 10px;
+    transform-origin: left center;
+}
+
+.arturia-header .navbar-toggler:hover {
+  cursor: pointer;
+}
+
+.arturia-header .navbar-toggler.open span:first-child {
+    top: 5px;
+    transform: rotate(45deg);
+    left: 0;
+}
+.arturia-header .navbar-toggler.open span:last-child {
+    top: 12px;
+    transform: rotate(-45deg);
+    left: 2px;
+}
+
+
+/********** LOGO ********/
+.arturia-header .navbar-brand {
+  position:  absolute;
+  top: 0;
+  left: 0;
+}
+
+.arturia-header .btn {
+  padding-left: 1.75rem;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  z-index: 2;
+}
+
+.arturia-header .btn::before {
+  width: 100%;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: width .3s ease-in-out,left .15s ease-in-out;
+  z-index: -1;
+  background-color: #00fff0;
+}
+
+.arturia-header .btn::after {
+  background: #000;
+  width: .65rem;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: width .3s ease-in-out,left .15s ease-in-out;
+  z-index: -1;
+}
+
+.arturia-header .btn {
+  border: none;
+  color: #000;
+}
+
+
+.arturia-header .logo-mobile {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 0 8px 3px;
+    position: relative;
+    top: 8px;
+}
+
+.arturia-header .logo-container {
+    margin: 10px;
+}
+
+.arturia-header .logo-mobile img {
+  height: 23px;
+}
+
+.arturia-header .logo-mobile a {
+  z-index: 10002;
+}
+
+.arturia-header .logo-tablet,
+.arturia-header .logo-desktop {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .arturia-header .navbar-toggler {
+        display: none;
+    }
+    
+    .arturia-header .logo-tablet {
+      display: block;
+      height: 39px;
+      width: 39px;
+      z-index: 1;
+    }
+
+    .arturia-header .logo-mobile {
+      display: none;
+    }
+}
+
+ 
+
+@media (min-width: 768px) {
+    .arturia-header .logo-desktop {
+        display: inline-block;
+        height: 58.5px;
+        width: 170.6px;
+        padding: 11px 0px 10px 23px
+    }
+    
+    .arturia-header .logo-tablet {
+        display: none;
+    }
+
+    .arturia-header .logo-container {
+        margin: 0px;
+    }
+
+    .arturia-header .logo-desktop img {
+      height: 39px;
+      width: 135px;
+    } 
+}
+
+@media (min-width: 992px) {
+    .arturia-header .logo-desktop img {
+      height: 48px;
+      width: 166px;
+    } 
+
+    .arturia-header .logo-desktop {
+        height: 72px;
+        width: 210px;
+        padding: 14px 16px 14px 28px;
+    }
+
+    .arturia-header .logo-desktop::after {
+      background: #000;
+      width: .75rem;
+    }   
+}    
+
