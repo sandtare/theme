@@ -1,7 +1,10 @@
 .navigation-categories {
     .list-container {
         background-color: var(--secondary);
-    }    
+    } 
+    .topics {
+            display: none
+    }
     tbody {
         tr {
              display: block;
@@ -19,9 +22,6 @@
             .subcategory {
                 padding: 4px
             }
-        }  
-        .topics {
-            display: none
-        }
+        }   
     }
   }
