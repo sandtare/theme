@@ -1,14 +1,13 @@
 .navigation-categories {
      
     tbody {
-        border-top : none;
-        display: flex;
-        flex-wrap: wrap;
-        .category {
-            flex: 1;
-        }  
-        tr:last-child {
-           display: none;
-        }
+        tr {
+             &:last-child {
+                display: none;
+             }
+             td {
+                  border-left: none
+             }          
+         }
     }
   }
