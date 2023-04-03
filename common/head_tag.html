@@ -1,0 +1,108 @@
+<script type="text/discourse-plugin" version="0.8">
+
+
+    /* Add class to the body when click on the "Followed" link */
+     api.onPageChange((url) => {
+       if (window.location.href.indexOf("bookmarks") > -1) {
+          document.querySelector("body").classList.add("body-bookmarks");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-bookmarks");
+       }
+    }); 
+    
+    
+    /* Add class to the body when click on the "Top" link */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("top") > -1) {
+          document.querySelector("body").classList.add("body-top");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-top");
+       }
+    });
+    
+    /* Add class to the body when click on the "Latest" link */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("latest") > -1) {
+          document.querySelector("body").classList.add("body-latest");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-latest");
+       }
+    });
+    
+     /* Add class to the body when click on the "New" link */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("new") > -1) {
+          document.querySelector("body").classList.add("body-new");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-new");
+       }
+    });
+    
+    /* Add class to the body when click on the "Unread" link */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("unread") > -1) {
+          document.querySelector("body").classList.add("body-unread");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-unread");
+       }
+    });
+    
+    /* Add class to the body when click on the "New" link */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("top") > -1) {
+          document.querySelector("body").classList.add("body-unread");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-unread");
+       }
+    });
+    
+    
+     /* Add class to the body when go on the "Tag group" page */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("tag_groups") > -1) {
+          document.querySelector("body").classList.add("tag-groups");
+       }
+       else {
+          document.querySelector("body").classList.remove("tag-groups");
+       }
+    });
+     
+    
+    /* Replace icons */
+    api.replaceIcon('home', 'home-icon');
+    api.replaceIcon('shield-alt', 'arturia-icon');
+    
+    /*api.onPageChange((url) => {
+       if (location.pathname.split('/')[1] == "review") {
+            api.replaceIcon('check', 'full-circle-icon');
+            api.replaceIcon('times', 'empty-circle-icon');
+       }
+        else {
+          api.replaceIcon('full-circle-icon', 'check');
+          api.replaceIcon('empty-circle-icon', 'times');
+       }
+    });*/
+    
+   
+    
+     /* Add text beside home icon */
+     api.decorateWidget('home-logo:after', helper => {
+         const showExtraInfo = helper.attrs.minimized;
+             if(!showExtraInfo) {
+                 return helper.h('a.home-text', {href:'https://forum-dev.arturia.team'}, 'Forums');
+             }
+     });
+</script>
+
+    
+
+
+
+
+

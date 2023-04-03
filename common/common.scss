@@ -1,0 +1,67 @@
+@import "pages/home-categories-page";
+@import "top-menu";
+@import "header/search-banner";
+@import "header/navigation-forum";
+@import "pages/category-page";
+@import "footer/footer-sus-sections";
+@import "footer/footer-arturia";
+@import "header/header-forum";
+@import "header/header-arturia";
+@import "components-plugins/category-header-widget";
+@import "components-plugins/solved";
+@import "pages/topic-list-page";
+@import "pages/topic-page";
+@import "pages/email-page";
+@import "pages/review-page";
+@import "user/user-profile";
+@import "user/user-card";
+@import "user/users-page";
+@import "admin/admin-interface";
+@import "admin/category-setting-page";
+@import "admin/reorder-categories";
+@import "pages/post-redaction";
+@import "pages/bookmarks-top";
+@import "pages/search-page";
+@import "pages/tags-page";
+@import "pages/badges-page";
+@import "signup";
+@import "components-plugins/poll";
+@import "components-plugins/voting";
+@import "user/login";
+
+
+.list-container {
+  background-color: var(--header_background);
+  margin: 42px 0;
+  padding: 0 10px;
+}
+
+@media (min-width: 1180px) {
+  .list-container {
+    padding: 0 30px;   
+   }
+}  
+
+#main-outlet-wrapper{
+  max-width: 1300px;
+  padding-left: 25px;
+  padding-right: 25px;
+   #main-outlet {
+     z-index: 1;
+     } 
+} 
+
+h1 {
+  padding-right: 20px;
+}  
+
+@media (prefers-color-scheme: dark) {
+      body {
+        background-color: #000000!important;
+      }
+ } 
+
+  
+
+
+
