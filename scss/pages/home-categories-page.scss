@@ -2,6 +2,9 @@
     .list-container {
         background-color: var(--secondary);
     } 
+    .column not(.categories) {
+       background-color: var(--header_background); 
+    }     
     .topics,
     thead {
             display: none;
