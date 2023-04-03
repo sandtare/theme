@@ -1,6 +1,6 @@
 .navigation-categories {
+    border-top : none;
     tbody {
-        border-top : none;
         tr {
              &:last-child {
                 display: none;
@@ -9,5 +9,8 @@
                   border-left: none
              }          
          }
+        .category {
+            border-left: none
+        }     
     }
   }
