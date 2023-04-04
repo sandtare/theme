@@ -3,17 +3,16 @@ body[class*='category-'] {
     border-left: none;
     padding-left: 0;
     position: relative;
-    .category-text-title {
+    > h3:first-child  {
       border-color: inherit; 
-      border-width: 5px;
+      border-width: 0;
       border-style: solid;
       &::after {
             content: "";
             width: 0px;
             height: 70%;
             position: absolute;
-            border-radius: 20px;
-            border-width: 10px;
+            border-width: 5px;
             border-style: solid;
             border-color: inherit;
             top: 50%;
