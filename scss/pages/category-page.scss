@@ -9,7 +9,7 @@ body[class*='category-'] {
       border-style: solid;
       &::after {
         content: "";
-        height: 15%;
+        height: 18px;
         position: absolute;
         border-style: solid;
         border-color: inherit;
@@ -17,5 +17,11 @@ body[class*='category-'] {
        }       
      }
    }
+  .category-name {
+    padding-left: 12px;
+    font-size: 1.5rem;
+    font-family: supply;
+    font-weight: 400;
+  }
 }
 
