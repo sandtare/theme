@@ -8,17 +8,13 @@ body[class*='category-'] {
       border-width: 0;
       border-style: solid;
       &::after {
-            content: "";
-            width: 0px;
-            height: 70%;
-            position: absolute;
-            border-width: 5px;
-            border-style: solid;
-            border-color: inherit;
-            top: 50%;
-            transform: translateY(-50%);
-            left: 10px;
-        }       
+        content: "";
+        height: 15%;
+        position: absolute;
+        border-style: solid;
+        border-color: inherit;
+        top: 17px;
+       }       
      }
    }
 }
