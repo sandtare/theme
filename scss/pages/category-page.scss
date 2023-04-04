@@ -1,10 +1,8 @@
 body[class*='category-']:not(.navigation-categories) {
   thead {
-    .category,
+    .category span,
     .topics {
-      span {
-         display: none;
-      }
+       display: none;
     }   
   } 
   tbody {
