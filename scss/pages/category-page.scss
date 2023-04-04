@@ -1,7 +1,10 @@
 body[class*='category-']:not(.navigation-categories) {
   thead {
     display: none;
-  }  
+  } 
+  tbody {
+    border-top: none
+  }
   .category-list {
     .category {
       border-left: none;
