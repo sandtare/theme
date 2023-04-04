@@ -23,7 +23,16 @@ body[class*='category-']:not(.navigation-categories) {
       font-size: 1.5rem;
       font-family: supply;
       font-weight: 400;
-    }
+      overflow:hidden;
+      &:after {
+          content:'';
+          display: inline-block;
+          width: 100%; 
+          height: 100%;
+          margin-right: -100%;
+          border-bottom: 1px solid var(--tertiary);
+      }
+    }    
   }
 }
 
