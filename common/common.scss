@@ -10,10 +10,15 @@
 .badge-wrapper.bullet .badge-category-bg {
   width: 5px
 }  
+
 img.avatar {
   border-radius: 10%;
 }
-  
+
+.badge-category-parent-bg {
+  display: none;
+}
+
 @media (min-width: 1180px) {
   .list-container {
     padding: 0 30px;   
