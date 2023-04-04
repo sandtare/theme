@@ -1,5 +1,7 @@
 body[class*='category-']:not(.navigation-categories) {
-  
+  thead {
+    display: none;
+  }  
   .category-list {
     .category {
       border-left: none;
@@ -24,7 +26,7 @@ body[class*='category-']:not(.navigation-categories) {
         font-family: supply;
         font-weight: 400;
       }  
-       }
-   }
+    }
+  }
 }
 
