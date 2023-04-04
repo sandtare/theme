@@ -1,0 +1,285 @@
+@import "variables/fonts";
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+/********** FONTS ********/
+@font-face {
+  font-family: supply-light;
+  src: url(fonts/supply-light.woff2); /*Put the good path*/
+}
+
+@font-face {
+  font-family: supply-regular;
+  src: url(fonts/supply-regular.woff2); /*Put the good path*/
+}
+
+.arturia-footer a {
+  font-family: supply-light;
+  font-weight: 300;
+  font-size: 12.1875px;
+  line-height: 1.65;
+ } 
+
+.arturia-footer h5 {
+  font-family: supply-regular;
+  font-weight: 400;
+  font-size: 12.1875px;
+  line-height: 1.3;
+  margin-bottom: 19.5px;
+}
+
+.arturia-footer small {
+    font-size: 80%;
+    font-family: supply-regular;
+}
+
+@media (min-width: 992px) {
+  .arturia-footer a,
+  .arturia-footer h5  {
+    font-size: 15px;
+  }  
+  .arturia-footer small a {
+    font-size: 13px!important;
+  } 
+}   
+
+.arturia-footer .text-uppercase {
+  text-transform: uppercases!important;
+}
+
+.arturia-footer .prep::before {
+  content: "_";
+}
+
+
+
+
+
+
+/********** COLORS HELPERS ********/
+.arturia-footer.text-white {
+  color: #fff !important;
+}
+
+.arturia-footer.bg-black {
+  background-color: #000!important;
+}
+
+.arturia-footer .text-muted {
+  color: #6c757d;
+}
+
+.arturia-footer .border-dark {
+  border-color: #131418!important;
+}
+
+
+
+/********** MARGIN/PADDING HELPERS ********/
+.arturia-footer .pb-5, 
+.arturia-footer .py-5 {
+  padding-bottom: 58.5px;
+}
+
+.arturia-footer .pt-5, 
+.arturia-footer .py-5 {
+  padding-top: 58.5px;
+}
+
+.arturia-footer .pt-3 {
+  padding-top: 24px;
+}
+
+.arturia-footer .mb-4 {
+  margin-bottom: 29.25px;
+}
+
+.arturia-footer .mt-4 {
+  margin-top: 29.25px;
+}
+
+
+
+/********** TEXT HELPERS ********/
+.arturia-footer .text-center {
+  text-align: center;
+}
+
+
+
+/********** CONTAINER ********/
+.arturia-footer .container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+ 
+ @media (min-width: 576px) {
+    .arturia-footer .container {
+     max-width: 540px;
+    }
+}  
+ 
+ @media (min-width: 768px) {
+    .arturia-footer .container {
+        max-width: 720px;
+    }
+} 
+ 
+ @media (min-width: 992px) {
+    .arturia-footer .container {
+      max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .arturia-footer .container {
+      max-width: 1140px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .arturia-footer .container {
+      max-width: 1380px;
+    }
+}
+
+
+
+/********** GRID ********/
+.arturia-footer [class*='col-'] {
+  padding-left: .75rem;
+  padding-right: .75rem;
+  position: relative;
+  width: 100%;
+}
+
+.arturia-footer .flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -9.75px;
+  margin-right: -9.75px;
+}
+
+.arturia-footer .col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.arturia-footer .col-9{
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.arturia-footer .col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+@media (min-width: 576px) {
+   .arturia-footer .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 9.75px;
+    padding-right: 9.75px;
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .arturia-footer .col-lg-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .arturia-footer .d-lg-block {
+    display: block;
+  }
+}
+
+@media (max-width: 992px) {
+  .arturia-footer .d-none {
+    display: none;
+  }
+}
+
+
+
+/********** IMAGES ********/
+.arturia-footer img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.arturia-footer .img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.arturia-footer .list-unstyled,
+.arturia-footer .list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+
+/********** LINKS LIST********/
+.arturia-footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.arturia-footer a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.arturia-footer li {
+  margin-bottom: 13px;
+}
+
+.arturia-footer .list-inline-item:not(:last-child) {
+  margin-right: 6.5px;
+}
+
+.arturia-footer .list-inline-item {
+  display: inline-block;
+}
+
+
+
+/********** COPYRIGHT ********/
+.arturia-footer .copyright a {
+  color: #6c757d;
+}
+
+.arturia-footer hr {
+  border-top: 1px solid rgba(0,0,0,.1);
+  margin-bottom: 24px;
+  margin-top: 24px;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+
+
+
+
+
+

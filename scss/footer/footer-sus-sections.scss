@@ -1,0 +1,167 @@
+@import "variables/fonts";
+@import "variables/colors";
+  
+@media (min-width: 1200px) {
+    .help .wrap,
+    .tuned .wrap {
+      max-width: 1210px;
+    } 
+} 
+    
+.help,
+.tuned {
+     padding-bottom: 40px;
+    .help-txt {
+         padding-left: 30px;
+         color: $white;
+         line-height: 1.5;
+         p {
+            font-family: supply-light;
+            padding-right: 30%;
+         } 
+         h3 {
+            font-family: supply-regular;
+            font-size: 2.25rem;
+        } 
+     }  
+    .row {
+      display: flex;
+      flex-wrap: no-wrap;
+      margin-right: -0.75rem;
+      margin-left: -0.75rem;
+      &.social {
+         justify-content: space-evenly;
+          width: 100%;
+      }
+    }
+    .align-items-center {
+        align-items: center !important;
+    }
+    .col-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .container {
+      width: 100%;
+      padding-right: 0.75rem;
+      padding-left: 0.75rem;
+      margin-right: auto;
+      margin-left: auto;
+      @media (min-width: 576px) {
+         max-width: 540px;
+      }
+      @media (min-width: 768px) {
+         max-width: 720px;
+      }
+      @media (min-width: 1080px) {
+        max-width: 1080px;
+      }
+    }
+     
+     @media (min-width: 768px) {
+       .col-md-8 {
+            flex: 0 0 66.66%;
+            max-width: 66.66%;
+         }
+       .col-md-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+         }  
+        .col-md-5 {
+            flex: 0 0 41.66%;
+            max-width: 41.66%;
+         } 
+        .col-md-4 {
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+         } 
+       .col-md-3 {
+            flex: 0 0 25%;
+            max-width: 25%;
+         }
+     } 
+        
+    .btn {
+       border: none; 
+       padding: 20px 30px 20px 30px;
+       position: relative;
+       z-index: 2;
+       background-color: $base;
+       color: $primary;
+       font-size: 20px;
+       font-family: supply-medium;
+       &:before {
+          content: '';
+          background-color: $primary;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 10px;
+          z-index: -1;
+       }    
+       &:hover:before {
+          left: 10px;
+          width: calc(100% - 10px);
+          transition: width .3s ease-in-out,left .15s ease-in-out;
+       }
+       &:hover {
+          color: $secondary;
+          transition: .3s ease-in-out;
+       }
+    }
+    .help-bg {
+          background-image: url($footer-banner);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position-x: 100%;
+          margin: 0 -30px;
+          padding: 50px 25px;
+    } 
+    .tuned-bg {
+          background-image: url($footer-banner-social);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position-x: 100%;
+          margin: 0 -30px;
+          padding: 50px 25px;
+    } 
+  .social {
+        justify-content: center;
+        div {
+          height: 40px;
+          width: 40px;
+          &.instagram {
+              background-image: url($instagram-icon);
+              background-repeat: no-repeat;
+              background-size: 100%;
+           } 
+          &.facebook {
+              background-image: url($facebook-icon);
+              background-repeat: no-repeat;
+              background-size: 100%;
+           } 
+          &.twitter {
+              background-image: url($twitter-icon);
+              background-repeat: no-repeat;
+              background-size: 100%;
+           } 
+          &.youtube {
+              background-image: url($youtube-icon);
+              background-repeat: no-repeat;
+              background-size: 100%;
+           } 
+        }     
+    }  
+ }
+
+
+body:not(.category-technical-discussions) .help { 
+  display: none; 
+}
+
+body.navigation-categories .tuned,
+body.category-technical-discussions .tuned {
+  display: none;
+}
+
