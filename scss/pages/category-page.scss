@@ -8,7 +8,7 @@ body[class*='category-']:not(.navigation-categories) {
         border-color: inherit; 
         border-width: 0;
         border-style: solid;
-        &::after {
+        &::before {
           content: "";
           height: 18px;
           position: absolute;
