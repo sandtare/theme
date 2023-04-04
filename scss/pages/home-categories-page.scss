@@ -40,7 +40,8 @@
             }
         }   
     }
-    .category-text-title {
+    .category-text-title,
+    .column .table-heading {
       overflow:hidden;
       &:after{
           content:'';
@@ -57,7 +58,8 @@
         font-family: supply;
         font-size: 1.5rem;
         font-weight: 400;
-        padding-bottom: 5px
+        padding-bottom: 5px;
+        padding-right: 10px;
     }
   }
 
