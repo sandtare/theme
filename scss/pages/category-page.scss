@@ -1,27 +1,29 @@
 body[class*='category-'] {
-  .category {
-    border-left: none;
-    padding-left: 0;
-    position: relative;
-    > h3:first-child  {
-      border-color: inherit; 
-      border-width: 0;
-      border-style: solid;
-      &::after {
-        content: "";
-        height: 18px;
-        position: absolute;
+  .category-list {
+    .category {
+      border-left: none;
+      padding-left: 0;
+      position: relative;
+      > h3:first-child  {
+        border-color: inherit; 
+        border-width: 0;
         border-style: solid;
-        border-color: inherit;
-        top: 18px;
-       }       
+        &::after {
+          content: "";
+          height: 18px;
+          position: absolute;
+          border-style: solid;
+          border-color: inherit;
+          top: 18px;
+         }       
+       }
      }
-   }
-  .category-name {
-    padding-left: 14px;
-    font-size: 1.5rem;
-    font-family: supply;
-    font-weight: 400;
+    .category-name {
+      padding-left: 14px;
+      font-size: 1.5rem;
+      font-family: supply;
+      font-weight: 400;
+    }
   }
 }
 
