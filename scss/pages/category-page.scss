@@ -1,4 +1,4 @@
-body[class*='category-'] {
+body[class*='category-']:not(.navigation-categories) {
   .category-list {
     .category {
       border-left: none;
