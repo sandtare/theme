@@ -36,7 +36,7 @@
         .category {
             border-left: none;
             .subcategory {
-                padding: 4px
+                padding: 4px 0;
             }
         }   
     }
@@ -44,6 +44,7 @@
         font-family: supply;
         font-size: 1.2em;
         font-weight: 400;
+        padding-bottom: 5px
     }
   }
 
