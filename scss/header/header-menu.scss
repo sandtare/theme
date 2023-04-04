@@ -5,6 +5,34 @@
   src: url(fonts/supply-medium.woff2); 
 }
 
+.d-header {
+   height: 72px;
+   box-shadow: inherit;
+   .wrap {
+      margin-left: 20px;
+   }    
+  .panel {
+    width: 80vw;
+    .custom-header-links a {
+      font-family: supply;
+      font-size: 14px;
+      &:before { 
+        content: "_";
+      }    
+    }   
+  } 
+  .header-buttons {
+    margin-right: auto;
+    margin-left:  auto;
+  }  
+  .d-header-icons {
+    position: absolute;
+    right: 0
+   }
+ .support-custom-header-links {
+    margin-right: 80px
+  }
+}
 
 
 
