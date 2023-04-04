@@ -7,6 +7,7 @@
     } 
     .column:not(.categories) {
        background-color: var(--header_background); 
+       padding: 13px 23px
     }    
     .column.categories {
        margin-right: 1em; 
