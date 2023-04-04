@@ -13,14 +13,21 @@
   }  
   .title {
     .custom-header-links a {
+      position: relative;
       font-family: supply;
       font-size: 14px;
       &:before { 
         content: "_";
       }    
-    }   
+    } 
+   .search-header {
+      width: 300px
+   }
   } 
-
+  .custom-header-links {
+      position: absolute;
+      left: 36%;
+  }   
  .search-icon {
    display: none
   }
