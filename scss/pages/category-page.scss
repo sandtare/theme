@@ -10,3 +10,25 @@ body[class*='category-'] {
    }
 }
 
+.category-list tbody .category {
+    border-left: none;
+    > h3:first-child {
+        border-width: 0;
+        border-style: solid;
+        border-color: inherit;
+        
+        &::after {
+            content: "";
+            width: 0px;
+            height: 70%;
+            position: absolute;
+            border-radius: 20px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: inherit;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10px;
+        }        
+    }
+
