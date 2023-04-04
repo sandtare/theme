@@ -51,7 +51,8 @@
           border-bottom: 1px solid var(--tertiary);
       }
     }    
-    h3 .category-name {
+    h3 .category-name,
+    .column .table-heading {
         font-family: supply;
         font-size: 1.15em;
         font-weight: 400;
