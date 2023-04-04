@@ -8,6 +8,9 @@
 .d-header {
    height: 72px;
    box-shadow: inherit;
+  .wrap {
+    max-width: 100%
+  }  
   .panel {
     .custom-header-links a {
       font-family: supply;
