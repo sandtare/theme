@@ -4,26 +4,15 @@
   box-sizing: border-box;
 }
 
-/********** FONTS ********/
-@font-face {
-  font-family: supply-light;
-  src: url(fonts/supply-light.woff2); /*Put the good path*/
-}
-
-@font-face {
-  font-family: supply-regular;
-  src: url(fonts/supply-regular.woff2); /*Put the good path*/
-}
-
 .arturia-footer a {
-  font-family: supply-light;
+  font-family: supply;
   font-weight: 300;
   font-size: 12.1875px;
   line-height: 1.65;
  } 
 
 .arturia-footer h5 {
-  font-family: supply-regular;
+  font-family: supply;
   font-weight: 400;
   font-size: 12.1875px;
   line-height: 1.3;
@@ -32,7 +21,7 @@
 
 .arturia-footer small {
     font-size: 80%;
-    font-family: supply-regular;
+    font-family: supply;
 }
 
 @media (min-width: 992px) {
