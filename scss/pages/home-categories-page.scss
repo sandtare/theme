@@ -1,4 +1,5 @@
 .categories-list.navigation-categories {
+    
     .list-container {
         background-color: var(--secondary);
         padding: 0;
@@ -11,7 +12,8 @@
     }    
     .column.categories {
        margin-right: 1em; 
-    } 
+    }
+    #create-topic,
     .topics,
     thead {
             display: none;
