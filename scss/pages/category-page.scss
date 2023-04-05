@@ -1,4 +1,8 @@
 body[class*='category-']:not(.navigation-categories) {
+  .list-container {
+    margin: 0
+   }
+
   thead {
     .category span {
        display: none;
