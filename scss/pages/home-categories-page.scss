@@ -72,6 +72,12 @@
       color: var(--primary);
     }
 }
-.latest-topic-list .table-heading {
-    border-bottom: none
-}    
+.latest-topic-list {
+    .table-heading {
+        border-bottom: none
+    }  
+    .posts-map {
+        font-weight: 200
+    }
+} 
+
