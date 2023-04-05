@@ -28,6 +28,9 @@
   .parent-box-link {
     display: none;
   }  
+  .list-container {
+    margin: 0
+   }
 }
 
 
@@ -39,9 +42,6 @@
 
 .categories-list {
   .category-header-widget {
-    .category-title-name h1:before { 
-       content: "_";
-     }
      .category-title-header {
          border-left: none!important;
       }    
