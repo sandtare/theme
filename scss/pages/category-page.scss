@@ -8,6 +8,9 @@ body[class*='category-']:not(.navigation-categories) {
     border-top: none
   }
   .category-list {
+    .topics .value {
+      font-weight: 200;
+    }
     .category {
       border-left: none;
       padding-left: 0;
