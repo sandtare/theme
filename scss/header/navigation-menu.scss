@@ -11,6 +11,10 @@
    .select-kit-header {
       .selected-name {
       	border-bottom: 1px solid var(--primary-high);	
+	transition: all 0.25s;
+	&:hover {
+          border: none;
+	}	
      	.name {
 	  font-family: supply;
 	  &::after {
