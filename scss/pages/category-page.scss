@@ -1,8 +1,8 @@
 body[class*='category-']:not(.navigation-categories) {
   .list-container {
-    margin: 0
-    background-color: none;  
-    row {
+    margin: 0;
+    background: none;  
+    .row {
        background-color: var(--header_background);
     }  
   }  
