@@ -5,9 +5,6 @@
 }
 
 .category-header-widget {
-  .category-logo.aspect-image {
-    display: none;
-  }  
   z-index: -2;
   position: relative;
   margin-top: 25px;
@@ -19,6 +16,9 @@
     border-top: none !important;
     border-bottom: none !important;
   }
+  .category-logo.aspect-image {
+    display: none;
+  }  
   .category-title-contents {
     padding-top: 0!important;
     h1 {
