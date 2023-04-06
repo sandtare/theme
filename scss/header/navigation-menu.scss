@@ -10,33 +10,35 @@
    }  
    .select-kit-header {
       .selected-name {
-	      border-bottom: 1px solid var(--header_background);	
-	      .name {
-		  font-family: supply;
-		  &::after {
-		    border-style: solid;
-		    border-width: 0.15em 0.15em 0 0;
-		    content: '';
-		    display: inline-block;
-		    height: 0.45em;
-		    left: 0;
-		    position: relative;
-		    top: 0.5em;
-		    transform: rotate(45deg);
-		    vertical-align: top;
-		    width: 0.45em;
-		    transition: all 0.25s;
-		  }
-		  &::first-letter {
-		      text-transform: uppercase;
-		  }
-	       }
-	       .caret-icon {
-		  display: none;
-	       } 
-	    }    
+      	border-bottom: 1px solid var(--header_background);	
+     	.name {
+	  font-family: supply;
+	  &::after {
+	    border-style: solid;
+	    border-width: 0.15em 0.15em 0 0;
+	    content: '';
+	    display: inline-block;
+	    height: 0.45em;
+	    left: 0;
+	    position: relative;
+	    top: 0.5em;
+	    transform: rotate(45deg);
+	    vertical-align: top;
+	    width: 0.45em;
+	    transition: all 0.25s;
+	  }
+	  &::first-letter {
+	      text-transform: uppercase;
+	  }
+       }
+      } 
+     .caret-icon {
+	  display: none;
+	}    
     }
   .select-kit.single-select.is-expanded .selected-name .name::after  {
 	    transform: rotate(135deg);
     }
 }
+
+
