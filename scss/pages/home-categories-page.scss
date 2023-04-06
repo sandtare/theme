@@ -1,5 +1,14 @@
+@font-face {
+  font-family: Supply-bold;
+  src: url($supply-bold) format('woff2')
+}
+
+body {
+    font-family: Supply-bold;
+    font-size: 15px;
+} 
+
 .categories-list.navigation-categories {
-    
     .list-container {
         background-color: var(--secondary);
         padding: 0;
