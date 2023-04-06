@@ -10,6 +10,7 @@
   }  
   z-index: -2;
   position: relative;
+  margin-top: 25px;
   margin-bottom: 0;
   background-color: var(--header_background);
   padding: 50px 30px 20px 30px;
@@ -19,6 +20,7 @@
     border-bottom: none !important;
   }
   .category-title-contents {
+    padding-top: 0!important;
     h1 {
       font-family: supply-regular;
     }  
