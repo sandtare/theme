@@ -28,6 +28,7 @@
             transform: rotate(45deg);
             vertical-align: top;
             width: 0.45em;
+	    transition: all 0.25s;
           }
           &::first-letter {
               text-transform: uppercase;
