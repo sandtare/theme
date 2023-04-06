@@ -1,7 +1,11 @@
 body[class*='category-']:not(.navigation-categories) {
   .list-container {
     margin: 0
+    background-color: none;  
    }
+  row {
+     background-color: var(--header_background);
+  }  
   #header-list-area {
     margin-left: 20px;
     margin-right: 20px;
