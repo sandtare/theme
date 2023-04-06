@@ -21,16 +21,16 @@ body[class*='category-']:not(.navigation-categories) {
        display: none;
     }   
   } 
-  tbody {
-    border-top: none
-  }
   .category-list {
     .topics .value {
       font-weight: 200;
     }
-    tr:last-child {
-      border-bottom: 1px solid red
-    }
+    tbody {
+      border-top: none;
+      tr:last-child {
+        border-bottom: 1px solid red
+      }
+     }  
     .category {
       border-left: none;
       padding-left: 0;
