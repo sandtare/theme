@@ -10,7 +10,11 @@ body[class*='category-']:not(.navigation-categories) {
   #header-list-area {
     margin-left: 45px;
     margin-right: 55px;
+    padding-bottom: 50px;
   } 
+  #list-area {
+    margin-top: 50px;
+  }  
   thead {
     .category span {
        display: none;
