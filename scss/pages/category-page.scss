@@ -52,7 +52,7 @@ body[class*='category-']:not(.navigation-categories) {
       }  
     }
   }
-   .topic-list-item:last-child {
+   .category-list:last-child {
       border-bottom: none
   }
 }
