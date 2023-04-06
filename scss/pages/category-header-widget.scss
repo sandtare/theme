@@ -16,16 +16,14 @@
     border-top: none !important;
     border-bottom: none !important;
   }
-  .category-logo.aspect-image {
+  .category-logo.aspect-image,
+  .category-title-description {
     display: none;
   }  
   .category-title-contents {
     padding-top: 0!important;
     h1 {
       font-family: supply-regular;
-    }  
-    .category-title-description {
-      color: var(--header_primary);
     }   
   }  
   .category-title-name {
