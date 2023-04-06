@@ -33,15 +33,14 @@
                 transform: rotate(45deg);
                 vertical-align: top;
                 width: 0.45em;
-                }
-                &::first-letter {
-                    text-transform: uppercase;
-                }
-             }
-             .caret-icon {
-                display: none;
-             } 
-          } 
+              }
+              &::first-letter {
+                  text-transform: uppercase;
+              }
+           }
+           .caret-icon {
+              display: none;
+           } 
        }   
     }
 }
