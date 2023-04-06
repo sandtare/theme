@@ -14,9 +14,6 @@
 	transition: all 0.25s;
 	&:hover {
           border: none;
-	  .name::after  {
-	    transform: rotate(135deg);
-    	  }
 	}	
      	.name {
 	  font-family: supply;
@@ -41,7 +38,10 @@
       } 
      .caret-icon {
 	  display: none;
-	} 
+     } 
+     .select-kit.single-select.is-expanded .selected-name .name::after  {
+	    transform: rotate(135deg);
+    }
    }
 }
 
