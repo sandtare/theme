@@ -5,6 +5,9 @@
 }
 
 .category-header-widget {
+  .category-logo.aspect-image {
+    display: name
+  }    
   z-index: -2;
   position: relative;
   margin-top: 25px;
@@ -60,7 +63,4 @@
    }
 }
 
-.category-header div[class^="category-title-header"] {
-  border-left-width: 10px!important;
-}
 
