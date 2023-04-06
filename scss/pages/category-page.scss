@@ -15,7 +15,7 @@ body[class*='category-']:not(.navigation-categories) {
   #list-area {
     margin-top: 20px;
     padding: 30px 55px 30px 45px;
-    tr:nth-child(2n+1) {
+    tbody tr:nth-child(2n+1) {
       background-color: var(--secondary);
     }
   }  
