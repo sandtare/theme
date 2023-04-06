@@ -28,7 +28,7 @@ body[class*='category-']:not(.navigation-categories) {
     tbody {
       border-top: none;
       tr:last-child {
-        border-bottom: 1px solid red
+        border-bottom: none;
       }
      }  
     .category {
