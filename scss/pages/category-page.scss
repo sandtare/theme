@@ -53,7 +53,7 @@ body[class*='category-']:not(.navigation-categories) {
     }
   }
    .category-list:last-child {
-      border-bottom: none
+      border-bottom: 1px solid red
   }
 }
 
