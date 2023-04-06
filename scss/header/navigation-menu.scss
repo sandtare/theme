@@ -21,7 +21,7 @@
           font-family: supply;
           .selected-name .name {
               font-family: supply;
-              &::after ::first-letter {
+              &::first-letter {
                   text-transform: uppercase;
               }
           } 
