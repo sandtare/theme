@@ -16,8 +16,11 @@
        }  
        .selected-name .name {
           font-family: supply;
-          &::first-letter {
+          .selected-name .name {
+              font-family: supply;
+              &::after ::first-letter {
                   text-transform: uppercase;
-          }
-    } 
+              }
+          } 
+       }    
 }
