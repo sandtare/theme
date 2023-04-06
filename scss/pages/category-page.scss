@@ -15,6 +15,9 @@ body[class*='category-']:not(.navigation-categories) {
   #list-area {
     margin-top: 20px;
     padding: 30px 55px 30px 45px;
+    tr:nth-child(2n+1) {
+      background-color: var(--secondary);
+    }
   }  
   thead {
     .category span {
@@ -27,13 +30,8 @@ body[class*='category-']:not(.navigation-categories) {
     }
     tbody {
       border-top: none;
-      tr {
-        &:last-child {
+      tr:last-child {
           border-bottom: none;
-        }
-          &:nth-child(2n+1) {
-            background-color: var(--secondary);
-          }
         }
      }  
     .category {
