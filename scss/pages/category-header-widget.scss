@@ -6,19 +6,17 @@
 
 .category-header-widget {
   .category-logo.aspect-image {
-    display: none
-  }    
+    display: none;
+  }  
+ .category-title-contents {
+   padding: 0;
+  }
   z-index: -2;
   position: relative;
   margin-top: 25px;
   margin-bottom: 0;
   background-color: var(--header_background);
   padding: 50px 30px 20px 30px;
-  .category-title-header {
-    border-right: none !important;
-    border-top: none !important;
-    border-bottom: none !important;
-  }
   .category-title-contents {
     h1 {
       font-family: supply-regular;
