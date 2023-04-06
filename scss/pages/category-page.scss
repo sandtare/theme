@@ -27,9 +27,14 @@ body[class*='category-']:not(.navigation-categories) {
     }
     tbody {
       border-top: none;
-      tr:last-child {
-        border-bottom: none;
-      }
+      tr {
+        &:last-child {
+          border-bottom: none;
+        }
+          &:nth-child(2n+1) {
+            background-color: var(--secondary);
+          }
+        }
      }  
     .category {
       border-left: none;
