@@ -28,6 +28,9 @@ body[class*='category-']:not(.navigation-categories) {
     .topics .value {
       font-weight: 200;
     }
+    tr:last-child {
+      border-bottom: 1px solid red
+    }
     .category {
       border-left: none;
       padding-left: 0;
@@ -51,9 +54,6 @@ body[class*='category-']:not(.navigation-categories) {
         font-weight: 400;
       }  
     }
-  }
-   .category-list:last-child {
-      border-bottom: 1px solid red
   }
 }
 
