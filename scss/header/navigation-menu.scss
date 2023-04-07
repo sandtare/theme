@@ -1,4 +1,6 @@
 @import "variables/fonts";
+@import "variables/colors";
+
 
 .navigation-container {
   .list-controls .combo-box .combo-box-header,
@@ -12,13 +14,9 @@
    }  
    .select-kit-header {
       .selected-name {
-      	//border-bottom: 1px solid var(--primary-high);	
-	//transition: all 0.25s;
-	//&:hover {
-          //border: none;
-	//}	
      	.name {
-	  font-family: supply-regular;
+	  font-family: supply;
+	  transition: all 0.25s;
 	  &::after {
 	    border-style: solid;
 	    border-width: 0.15em 0.15em 0 0;
@@ -36,7 +34,9 @@
 	  &::first-letter {
 	      text-transform: uppercase;
 	  }
-       }
+        }
+	&:hover .name {
+	    color: $base;
       } 
      .caret-icon {
 	  display: none;
