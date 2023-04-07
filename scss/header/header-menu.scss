@@ -1,20 +1,16 @@
-
-/********** FONTS ********/
-@font-face {
-  font-family: supply-medium;
-  src: url(fonts/supply-medium.woff2); 
-}
+@import "variables/fonts";
 
 .d-header {
    height: 72px;
    box-shadow: inherit;
   .wrap {
-    max-width: 100%
+    max-width: 100%;
+    padding: 0 20px
   }  
   .title {
     .custom-header-links a {
       position: relative;
-      font-family: supply;
+      font-family: supply-bold;
       font-size: 14px;
       &:before { 
         content: "_";
