@@ -42,8 +42,8 @@
      .caret-icon {
 	  display: none;
      } 
-     .select-kit.single-select.is-expanded .selected-name .name::after  {
-	    transform: rotate(135deg);
+    .select-kit.single-select.is-expanded .selected-name .name::after  {
+	transform: rotate(135deg);
     }
    }
 }
