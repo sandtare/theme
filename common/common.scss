@@ -1,10 +1,12 @@
 @import "pages/home-categories-page";
 @import "pages/category-page";
+@import "pages/category-header-widget";
+@import "pages/admin-page";
 @import "header/header-menu";
 @import "header/navigation-menu";
 @import "footer/footer-sus-sections";
 @import "footer/footer-arturia";
-@import "pages/category-header-widget";
+
 
 .list-container {
   background-color: var(--header_background);
