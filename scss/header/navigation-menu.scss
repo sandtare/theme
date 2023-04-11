@@ -16,7 +16,7 @@
       .select-kit-selected-name {
      	.name {
 	  font-family: supply-regular;
-	  color: 
+	  color: var(--primary);
 	  transition: all 0.15s;
 	  &::after {
 	    border-style: solid;
@@ -49,8 +49,5 @@
    .select-kit.single-select.is-expanded .selected-name .name::after  {
 	transform: rotate(135deg);
     }
-}
-.badge-wrapper.bullet span.badge-category {
-  color: var(--primary);
 }
 
