@@ -61,7 +61,7 @@
     }
   }   
 
-.search-menu .search-input input#search-term:focus {
+.search-menu .search-input:focus-within {
    border-color: $base
 }   
 
