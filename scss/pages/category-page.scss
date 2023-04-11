@@ -46,26 +46,22 @@ body[class*='category-']:not(.navigation-categories) {
     .category {
       border-left: none;
       padding-left: 0;
-      position: relative;
       > h3:first-child  {
         border-color: inherit; 
         border-width: 0;
+        position: relative;
         > a {
           border-color: inherit; 
           border-width: 0;
-          > div {
-            border-color: inherit; 
-            border-width: 0;
-            border-style: solid;
-            &::before {
+          border-style: solid;
+          &::before {
               content: "";
               height: 16px;
               position: absolute;
               border-style: solid;
               border-color: inherit;
               top: 0px;
-             }  
-           }
+           }  
          }
        } 
       .category-name {
