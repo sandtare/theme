@@ -6,10 +6,5 @@
 </script>
 
 <script>
-    const title = div.table-heading
-    var parent = title.parentNode;
-    var wrapper = document.createElement('div');
-
-    parent.replaceChild(wrapper, title);
-    wrapper.appendChild(title);
+    $("div.table-heading").wrap("<div></div>");
 </script>
