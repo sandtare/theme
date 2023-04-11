@@ -35,6 +35,7 @@
         }
 	.category-name {
 	  font-family: supply-regular;
+	  color: var(--primary);
 	  transition: all 0.15s;     
 	}	
 	&:hover .name,
