@@ -10,7 +10,9 @@
   .title {
     .custom-header-links {
        position: absolute;
+       display: none;
        @media screen and (min-width: 798px) {
+          display: block;
           left: 30%;
        }  
        @media screen and (min-width: 1240px) {
