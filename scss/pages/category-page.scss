@@ -28,7 +28,8 @@ body.categories-list.category {
      }
   }  
   thead {
-    .category span {
+    .category span,
+    .topics {
        display: none;
     }   
   } 
