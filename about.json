@@ -3,9 +3,9 @@
     "about_url": null,
     "license_url": "https://github.com/sandtare/discourse-theme/blob/main/LICENSE",
      "assets": {
-        "supply-bold": "assets/supply-bold.woff2",
-        "supply-regular": "assets/supply-regular.woff2",
-        "supply-medium": "assets/supply-medium.woff2",
+        "supply-bold": "assets/supply-bold.ttf",
+        "supply-regular": "assets/supply-regular.ttf",
+        "supply-medium": "assets/supply-medium.ttf",
         "supply-light": "assets/supply-light.ttf",
         "footer-banner": "assets/pilot.png",
         "footer-banner-social": "assets/spacex.png",
