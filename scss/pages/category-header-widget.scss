@@ -72,4 +72,8 @@
    }
 }
 
-
+body.category:not(.categories-list) {
+  .category-header-widget .category-title-header {
+    bordder-left: initial
+ }
+}
