@@ -32,7 +32,8 @@
 	    transition: all 0.25s;
 	  }
         }
-	&:hover .name {
+	&:hover .name,
+	&:hover .category-name {
 	    color: $base-dark;
 	}	
       } 
