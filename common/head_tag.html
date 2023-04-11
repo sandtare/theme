@@ -3,4 +3,55 @@
     api.replaceIcon('caret-right', 'arrow-right-icon');
     api.replaceIcon('caret-down', 'arrow-down-icon');
     */
+    
+    /* Add class to the body when click on the "Followed" link */
+     api.onPageChange((url) => {
+       if (window.location.href.indexOf("bookmarks") > -1) {
+          document.querySelector("body").classList.add("body-bookmarks");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-bookmarks");
+       }
+    }); 
+    
+    
+    /* Add class to the body when click on the "Top" link */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("top") > -1) {
+          document.querySelector("body").classList.add("body-top");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-top");
+       }
+    });
+    
+    /* Add class to the body when click on the "Latest" link */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("latest") > -1) {
+          document.querySelector("body").classList.add("body-latest");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-latest");
+       }
+    });
+    
+     /* Add class to the body when click on the "New" link */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("new") > -1) {
+          document.querySelector("body").classList.add("body-new");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-new");
+       }
+    });
+    
+    /* Add class to the body when click on the "Unread" link */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("unread") > -1) {
+          document.querySelector("body").classList.add("body-unread");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-unread");
+       }
+    });
 </script>
