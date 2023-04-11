@@ -32,6 +32,10 @@
 	    transition: all 0.25s;
 	  }
         }
+	.category-name {
+	  font-family: supply-regular;
+	  transition: all 0.15s;     
+	}	
 	&:hover .name,
 	&:hover .category-name {
 	    color: $base-dark;
