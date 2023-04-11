@@ -72,7 +72,7 @@ body[class*='category-']:not(.navigation-categories) {
   }
 }
 
-body:not(.category) {
+body:not(.categories-list) {
    #create-topic {
       display: none
     }
