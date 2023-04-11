@@ -62,6 +62,7 @@
   }   
 
 .search-menu .search-input:focus-within {
-   border-color: $base
+   border-color: $base;
+   outline-color: $base;
 }   
 
