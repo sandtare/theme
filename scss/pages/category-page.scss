@@ -1,7 +1,4 @@
-body[class*='category-']:not(.navigation-categories):not(.category) {
-  #create-topic {
-    display: none
-  }
+body[class*='category-']:not(.navigation-categories) {
   .list-container {
     margin: 0;
     padding: 0;
@@ -75,3 +72,8 @@ body[class*='category-']:not(.navigation-categories):not(.category) {
   }
 }
 
+body:not(.category) {
+   #create-topic {
+      display: none
+    }
+}
