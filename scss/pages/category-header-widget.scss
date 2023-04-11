@@ -16,6 +16,7 @@
     border-right: none!important;
     border-bottom: none!important;
     margin-bottom: 0!important;
+    border-left-size: 10px!important;
   }
   .category-logo.aspect-image,
   .category-title-description {
@@ -23,6 +24,7 @@
   }  
   .category-title-contents {
     padding-top: 0!important;
+    padding-bottom: 0!important;
     h1 {
       font-family: supply-regular;
       font-weight: 400;
@@ -74,8 +76,3 @@
    }
 }
 
-body.category:not(.categories-list) {
-  .category-header-widget .category-title-header {
-    bordder-left: initial
- }
-}
