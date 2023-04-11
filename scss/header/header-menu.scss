@@ -12,7 +12,7 @@
        position: absolute;
        display: none;
        @media screen and (min-width: 798px) {
-          display: block;
+          display: flex;
           left: 30%;
        }  
        @media screen and (min-width: 1240px) {
