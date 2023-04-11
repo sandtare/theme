@@ -1,4 +1,7 @@
 body[class*='category-']:not(.navigation-categories) {
+  #create-topic {
+    display: none
+  }
   .list-container {
     margin: 0;
     padding: 0;
