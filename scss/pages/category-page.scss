@@ -1,4 +1,4 @@
-body[class*='category-']:not(.navigation-categories) {
+body[class*='category-']:not(.navigation-categories):not(.category) {
   #create-topic {
     display: none
   }
