@@ -12,9 +12,9 @@
   background-color: var(--header_background);
   padding: 50px 30px 0;
   .category-title-header {
-    border-top: none;
-    border-right: none;
-    border-bottom: none;
+    border-top: none!important;
+    border-right: none!important;
+    border-bottom: none!important;
   }
   .category-logo.aspect-image,
   .category-title-description {
