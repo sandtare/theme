@@ -35,13 +35,14 @@
       width: 300px
    }
   } 
-   
- .search-input {
-   border-radius: 5px;
- }
- .search-header {
-   margin: 18px 0 0 10px;
- }
+  .header-search-enabled.align-right .contents  {
+    .search-input {
+      border-radius: 5px;
+    }
+    .search-header {
+      margin: 18px 0 0 10px;
+    }
+  }    
  .search-icon {
    display: none
   }
