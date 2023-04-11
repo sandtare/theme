@@ -9,6 +9,10 @@
   }  
   .title {
     .custom-header-links {
+       @media screen and (min-width: 900px) {
+          position: absolute;
+          left: 36%;
+       }    
        a {
          position: relative;
          font-family: supply-regular;
@@ -25,10 +29,8 @@
       width: 300px
    }
   } 
-  .custom-header-links {
-      position: absolute;
-      left: 36%;
-  }   
+   
+  
  .search-icon {
    display: none
   }
