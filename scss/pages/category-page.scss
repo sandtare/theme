@@ -50,17 +50,16 @@ body[class*='category-']:not(.navigation-categories) {
         border-color: inherit; 
         border-width: 0;
         border-style: solid;
+      .category-name {
+        padding-left: 12px;
         &::before {
           content: "";
           height: 16px;
           position: absolute;
           border-style: solid;
           border-color: inherit;
-          top: 31px;
+          top: 0px;
          }       
-       }
-      .category-name {
-        padding-left: 12px;
       }  
     }
   }
