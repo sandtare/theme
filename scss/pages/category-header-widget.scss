@@ -11,6 +11,11 @@
   margin-bottom: 0;
   background-color: var(--header_background);
   padding: 50px 30px 0;
+  .category-title-header {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+  }
   .category-logo.aspect-image,
   .category-title-description {
     display: none;
