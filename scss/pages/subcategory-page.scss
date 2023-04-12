@@ -1,9 +1,9 @@
 body.category:not(.categories-list),
-body.body-bookmarks,
-body.body-top,
-body.body-latest,
-body.body-new,
-body.body-unread {
+body.body-bookmarks:not(.category),
+body.body-top:not(.category),
+body.body-latest:not(.category),
+body.body-new:not(.category),
+body.body-unread:not(.category) {
   .list-container {
     padding-top: 0;
     margin-top: 0;
