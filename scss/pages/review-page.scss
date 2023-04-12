@@ -3,6 +3,10 @@
     padding: 50px;
 }
 
+.reviewable .reviewable-container .reviewable-list {
+  max-width: 992px;
+}
+
 .reviewable-flagged-post .select-kit .select-kit-header {
     color: var(--primary);
     background-color: var(--primary-low)!important;
