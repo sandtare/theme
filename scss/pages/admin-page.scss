@@ -22,6 +22,18 @@
   }
  }
 
+nav-pills > li {
+    > a, 
+    button {
+      transition: transform .5s ease-in-out;
+    }  
+    > a:hover, 
+    button:hover {
+      color: var(--primary);
+      background-color: var(--highlight-medium);
+    }
+  }
+
 .nav-stacked a {
   transition: transform .5s ease-in-out;
   &:hover {
