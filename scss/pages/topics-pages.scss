@@ -107,8 +107,14 @@
   }
 }
 
-.timeline-container.timeline-fullscreen .topic-timeline .post-excerpt {
-     padding-top: 20px
-}     
+.timeline-container.timeline-fullscreen {
+     .topic-timeline .post-excerpt {
+          padding-top: 20px
+     }  
+     &.show {
+       padding-left: 40px;
+       padding-right: 40px;
+     }
+}      
 
 
