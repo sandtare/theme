@@ -1,97 +1,99 @@
 @import "variables/colors";
-  
-.user-content {
-  background-color: var(--header_background);
-  .top-sub-section li {
-      border-left: none;
-  }  
-}
-  
-.user-main {
-  background-color: var(--header_background);
-  padding: 50px 30px;
-  .badge-group-list .btn {
-      background: var(--primary-low-mid);
-   } 
-  .about .details {
-      background: var(--header_background)!important;
-  }  
-  .top-section a {
-      color: $blue;
-  }
-  table a,
-  .badge-group-list a {
-      color: var(--header_primary)!important;
-  } 
- .nav-pills > li > a {
-      padding: 10px 15px;
-      &.active,
-      &:hover {
-        color: $white;
-        background-color: $base-dark;
-     }
-  } 
-  h3:not(.location-and-website):not(.featured-topic) {
-    border-bottom: 1px solid $gray-dark;
-    margin-right: 20px;
-  }  
-  .badge-info-item h3 {
-     border-bottom: none!important;
-     &:before {
-       content: ''!important;
-    } 
-  } 
-  .stats-title {
-      text-transform: inherit;
-      font-size: 1.3rem;
-      padding-bottom: 10px;
-  }
-  .more {
-      text-decoration: underline;
-      color: var(--header_primary)!important;
-  }
-  .top-sub-section {
-      width: 49%;
-      margin-top: 1.5rem;
-  }
-  .btn-primary:hover {
-      background: var(--primary-medium);
-      color: var(--secondary);
-      .d-icon {
-        color: var(--secondary);
+
+body.user-summary-page {
+  .user-content {
+    background-color: var(--header_background);
+    .top-sub-section li {
+        border-left: none;
     }  
-  } 
-}  
-
-.user-summary-page .user-content-wrapper h3:before  {
-      content: '_';
-} 
-
-.user-profile-website a {
-    text-decoration: none!important;
-}  
-
-.featured-topic a {
-    text-decoration: none!important;
-    color: var(--quaternary);
-} 
-
-.primary-textual h3:last-child {
-    border-bottom: var(--primary-700);
-}  
-
-.user-profile-avatar {
-  padding-bottom: 60px;
-} 
-
-.user-main .staff-counters {
-  background: var(--primary-very-high);
-}   
-
- .user-profile-names h3 {
-   border:none!important;
   }
 
-.user-messages-page .topic-list tbody tr:nth-child(2n+1) {
-      background-color: var(--secondary);
+  .user-main {
+    background-color: var(--header_background);
+    padding: 50px 30px;
+    .badge-group-list .btn {
+        background: var(--primary-low-mid);
+     } 
+    .about .details {
+        background: var(--header_background)!important;
+    }  
+    .top-section a {
+        color: $blue;
     }
+    table a,
+    .badge-group-list a {
+        color: var(--header_primary)!important;
+    } 
+   .nav-pills > li > a {
+        padding: 10px 15px;
+        &.active,
+        &:hover {
+          color: $white;
+          background-color: $base-dark;
+       }
+    } 
+    h3:not(.location-and-website):not(.featured-topic) {
+      border-bottom: 1px solid $gray-dark;
+      margin-right: 20px;
+    }  
+    .badge-info-item h3 {
+       border-bottom: none!important;
+       &:before {
+         content: ''!important;
+      } 
+    } 
+    .stats-title {
+        text-transform: inherit;
+        font-size: 1.3rem;
+        padding-bottom: 10px;
+    }
+    .more {
+        text-decoration: underline;
+        color: var(--header_primary)!important;
+    }
+    .top-sub-section {
+        width: 49%;
+        margin-top: 1.5rem;
+    }
+    .btn-primary:hover {
+        background: var(--primary-medium);
+        color: var(--secondary);
+        .d-icon {
+          color: var(--secondary);
+      }  
+    } 
+  }  
+
+  .user-summary-page .user-content-wrapper h3:before  {
+        content: '_';
+  } 
+
+  .user-profile-website a {
+      text-decoration: none!important;
+  }  
+
+  .featured-topic a {
+      text-decoration: none!important;
+      color: var(--quaternary);
+  } 
+
+  .primary-textual h3:last-child {
+      border-bottom: var(--primary-700);
+  }  
+
+  .user-profile-avatar {
+    padding-bottom: 60px;
+  } 
+
+  .user-main .staff-counters {
+    background: var(--primary-very-high);
+  }   
+
+   .user-profile-names h3 {
+     border:none!important;
+    }
+
+  .user-messages-page .topic-list tbody tr:nth-child(2n+1) {
+        background-color: var(--secondary);
+      }
+   }
