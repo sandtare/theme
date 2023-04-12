@@ -15,10 +15,23 @@ body.body-unread:not(.category) {
   .topic-list tbody tr:nth-child(2n+1) {
       background-color: var(--secondary);
     }
-  #create-topic {
-    background-color: $base
- }   
+  
 }
+
+body.body-bookmarks:not(.category),
+body.body-top:not(.category),
+body.body-latest:not(.category),
+body.body-new:not(.category),
+body.body-unread:not(.category) {
+  #create-topic {
+      display: none
+  }   
+}  
+
+body.category:not(.categories-list),
+ #create-topic {
+    background-color: $base
+ }  
 
 .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), 
 .latest-topic-list-item.visited a.title:not(.badge-notification), 
