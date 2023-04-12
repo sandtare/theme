@@ -8,18 +8,19 @@
   }
 }  
 
-.nav-pills > li {
-  > a:hover, 
-  button:hover {
-    color: var(--primary);
+.admin-controls {
+  .nav-pills > li {
+    > a:hover, 
+    button:hover {
+      color: var(--primary);
+      background-color: var(--highlight-medium);
+    }
+  } 
+  .nav-stacked li a:hover {
     background-color: var(--highlight-medium);
-  }
-} 
-.nav-stacked li a:hover {
-  background-color: var(--highlight-medium);
-  color: var(--primary)
-  &:after {
-    border-left-color: var(--primary)
-  }
-}  
-
+    color: var(--primary)
+    &:after {
+      border-left-color: var(--primary)
+    }
+  }  
+}
