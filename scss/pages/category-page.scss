@@ -34,9 +34,17 @@ body.categories-list.category {
     }   
   } 
   .category-list {
+    .featured-topic a {
+      &.last-posted-at,
+      &.last-posted-at:visited {
+        font-size: 14px;
+        color: var(--primary-500);
+      }
+    }  
     .topics .value {
       font-weight: 200;
       font-size: 15px;
+      color: var(--primary-500)
     }
     tbody {
       border-top: none;
@@ -76,6 +84,7 @@ body.categories-list.category {
     }
   }
 }
+
 
       
 
