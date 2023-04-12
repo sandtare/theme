@@ -1,0 +1,29 @@
+.reviewable-flagged-post .select-kit .select-kit-header {
+    color: var(--primary);
+    background-color: var(--primary-low)!important;
+    &:hover {
+        background-color: var(--primary-medium)!important;
+        color: var(--secondary);
+    }
+}  
+
+.user-flag-percentage .percentage-label.agreed,
+.user-flag-percentage .percentage-label.agreed + .d-icon,
+.reviewable .status span.approved {
+  color: var(--danger);
+}
+
+.user-flag-percentage .percentage-label.disagreed,
+.user-flag-percentage .percentage-label.disagreed + .d-icon,
+.reviewable .status span.rejected {
+  color: var(--success);
+}
+
+.btn.refresh:active {
+    background: var(--primary-medium)important;
+}
+
+.select-kit.single-select.is-disabled .select-kit-header,
+.btn-primary[disabled]:not(.is-loading){
+  opacity: 0.8;
+}
