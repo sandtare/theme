@@ -10,23 +10,15 @@
 
 .admin-controls {
   .nav-pills > li {
-    > a, 
-    button {
-      transition: transform 5s ease-in-out;
-    }  
     > a:hover, 
     button:hover {
       color: var(--primary);
       background-color: var(--highlight-medium);
     }
-  }
+   }
  }
 
 nav-pills > li {
-    > a, 
-    button {
-      transition: transform 5s ease-in-out;
-    }  
     > a:hover, 
     button:hover {
       color: var(--primary);
@@ -35,7 +27,6 @@ nav-pills > li {
   }
 
 .nav-stacked a {
-  transition: transform 5s ease-in-out;
   &:hover {
     background-color: var(--highlight-medium);
     color: var(--primary);
