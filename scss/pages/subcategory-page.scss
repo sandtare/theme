@@ -4,11 +4,11 @@ body.body-top,
 body.body-latest,
 body.body-new,
 body.body-unread {
-  .list-container, 
+  .list-container {
+    padding-top: 0;
+  } 
   #list-area {
     margin-top: 0;
-  }
-  #list-area {
     padding-top: 50px;
   }
   .topic-list tbody tr:nth-child(2n+1) {
