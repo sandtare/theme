@@ -75,11 +75,11 @@
    }
 }
 
-.body-bookmarks,
-.body-top,
-.body-latest,
-.body-new,
-.body-unread {
+.body-bookmarks:not(.category),
+.body-top:not(.category),
+.body-latest:not(.category),
+.body-new:not(.category),
+.body-unread:not(.category) {
     .list-container {
         margin-top: 0;
         padding-top: 42px;
