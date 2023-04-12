@@ -156,12 +156,11 @@
  }
 
 
-body:not(.category-technical-discussions) .help { 
+body:not(.categories-list.navigation-categories) .help { 
   display: none; 
 }
 
-body.navigation-categories .tuned,
-body.category-technical-discussions .tuned {
+body.navigation-categories .tuned {
   display: none;
 }
 
