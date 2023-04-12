@@ -1,6 +1,9 @@
 @import "variables/fonts";
   
 .categories-list.navigation-categories {
+    #list-area {
+      margin-bottom: 0;
+    }
     .list-container {
         background-color: var(--secondary);
         padding: 0;
