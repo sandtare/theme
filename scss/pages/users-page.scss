@@ -91,3 +91,7 @@
  .user-profile-names h3 {
    border:none!important;
   }
+
+.user-messages-page .topic-list tbody tr:nth-child(2n+1) {
+      background-color: var(--secondary);
+    }
