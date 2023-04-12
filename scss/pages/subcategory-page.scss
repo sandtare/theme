@@ -28,9 +28,10 @@ body.body-unread:not(.category) {
   }   
 }  
 
-body.category:not(.categories-list),
- #create-topic {
-    background-color: $base
+body.category:not(.categories-list) {
+   #create-topic {
+      background-color: $base
+   }  
  }  
 
 .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), 
