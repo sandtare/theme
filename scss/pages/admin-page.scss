@@ -8,13 +8,12 @@
   }
 }  
 
-nav-pills > li {
-    > a:hover, 
-    button:hover {
-      color: var(--primary)!important;
-      background-color: var(--highlight-medium)!important;
-    }
-  }
+.nav-pills > li > a:hover, 
+.nav-pills > li button:hover {
+  color: var(--primary);
+  background-color: var(--highlight-medium);
+}
+
 
 .nav-stacked a {
   &:hover {
