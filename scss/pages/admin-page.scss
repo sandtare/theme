@@ -8,21 +8,11 @@
   }
 }  
 
-.admin-controls {
-  .nav-pills > li {
-    > a:hover, 
-    button:hover {
-      color: var(--primary)!important;
-      background-color: var(--highlight-medium);
-    }
-   }
- }
-
 nav-pills > li {
     > a:hover, 
     button:hover {
       color: var(--primary)!important;
-      background-color: var(--highlight-medium);
+      background-color: var(--highlight-medium)!important;
     }
   }
 
@@ -31,7 +21,7 @@ nav-pills > li {
     background-color: var(--highlight-medium);
     color: var(--primary)!important;
     &:after {
-      border-left-color: var(--primary);
+      border-left-color: var(--primary)!important;
     }
    }
-}  
+
