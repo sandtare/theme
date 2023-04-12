@@ -20,6 +20,7 @@
           "primary": "222222",
           "secondary": "f8f8f8",
           "tertiary": "222222",
+          "tertiary-hover": "646464",
           "quaternary": "00B1A9",
           "quaternary-low": "c0dedc",
           "header_background": "ffffff",
