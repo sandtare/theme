@@ -75,7 +75,43 @@
    }
 }
 
-
+.body-bookmarks,
+.body-top,
+.body-latest,
+.body-new,
+.body-unread {
+    .list-container {
+        margin-top: 0;
+        padding-top: 42px;
+    }   
+    .discovery-above-outlet {  
+        span {
+            border-left: 10px solid $base;
+            height: 3em;
+            position: relative;
+            display: block;
+            &:before {
+                font-family: supply-regular;
+                font-size: 2em; 
+                position: absolute;
+                top: 0;
+                padding: 0 20px;
+                background-color: var(--header_background);
+            } 
+            &:after {
+                content: '';
+                display: inline-block;
+                width: 100%;
+                height: 1px;
+                margin-right: -100%;
+                border-bottom: 1px solid var(--tertiary);
+                position: absolute;
+                top: 31px;
+                z-index: -1;
+            }  
+        }
+    }
+  }
 
 .body-bookmarks .discovery-above-outlet span:before {
      content: "Followed topics";
