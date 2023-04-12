@@ -7,3 +7,10 @@
     background-color: var(--header_background);
   }
 }  
+
+.nav-pills > li {
+  > a:hover, 
+  button:hover {
+    color: var(--primary);
+  }
+}  
