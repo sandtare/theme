@@ -50,7 +50,10 @@ body.categories-list.category {
       border-top: none;
       tr:last-child {
           border-bottom: none;
-        }
+       }
+      .value:after {
+          content: ' topics';  
+        }  
      }  
     td {
       vertical-align: middle;
