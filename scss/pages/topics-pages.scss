@@ -1,3 +1,113 @@
-[class*="archetype-"] {
-  
+[class*="archetype-"]  {
+     .search-banner::after {
+          background-color: transparent!important;
+     }    
+     #topic-title {
+          padding: 50px 30px 20px;
+          margin-bottom: 0;
+          background-color: var(--header_background);
+      }    
+     .posts:not(.posts-map),
+     .topic-above-footer-buttons-outlet {
+          padding: 0 30px;
+          margin-bottom: 0;
+          margin-top: 0;
+          background-color: var(--header_background);
+      }   
+     #topic-footer-buttons {
+          max-width: 100%;
+          padding: 30px 30px 50px;
+          margin-top: 0;
+          background-color: var(--header_background);
+      }
+      .suggested-topics-wrapper {
+          padding: 0 30px 50px; 
+          background-color: var(--header_background);
+          margin-bottom: 50px
+      }   
+     .suggested-topics-title {
+          padding-top: 30px
+     } 
+     .topic-map {
+          background-color: var(--header_background);
+          border: none;
+          .buttons .btn  { 
+               background-color: var(--header_background);
+               border-left: 0;
+          }  
+          section {
+               border: none;
+          }  
+          .map,
+          .topic-map-expanded {
+               border-top: 1px solid var(--primary-low)
+          }          
+     } 
+     
+     .topic-avatar {
+          padding-top: 30px;
+     }   
+     
+     .topic-body {
+          padding: 30px 0 20px 0;
+          width: 80%;
+      }  
+     
+     .topic-category {
+          margin-top: 5px;
+          a:first-child .badge-category-bg {
+               display: none;
+         }       
+     } 
+     
+     .categories-wrapper span:first-child .badge-category-bg {
+               display: none;
+         }       
+     
+     .container.posts .topic-navigation {
+          margin-left: 0;
+          margin-right: 4em;
+     }
+     
+     .discourse-tag.bullet {
+          align-items: first baseline;
+     }
+
+     .names span {
+          overflow: initial;
+          a {
+               font-family: supply-regular;
+          }
+     }    
+     
+     .topic-meta-data {
+          align-items: start;
+          .user-title {
+               font-family: supply-light;
+               font-size: 0.9em;
+          }      
+          .names {
+               display: block;
+          }     
+     }     
+ }
+
+.post-stream .cooked a {
+     color: $blue;
+}     
+
+.post-notice.new-user {
+     background: var(--highlight-medium);
+     width: 85%;
+     max-width: 100%
+}     
+.popup-menu .btn:focus .d-icon, .popup-menu .btn:hover .d-icon {
+     color: var(--header_background)
+ }     
+
+.topic-post.voting-post button {
+  &.like-count,
+  &.toggle-like {
+    display: block;
+  }
 }
