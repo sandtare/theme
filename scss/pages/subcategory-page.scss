@@ -1,4 +1,9 @@
-body.category:not(.categories-list) {
+body.category:not(.categories-list),
+.body-bookmarks,
+.body-top,
+.body-latest,
+.body-new,
+.body-unread {
   .list-container, 
   #list-area {
     margin-top: 0;
