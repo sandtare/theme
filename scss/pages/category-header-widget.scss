@@ -53,14 +53,22 @@
    }
  }  
    
-   
+.categories-list {
+.category-header-widget {
+   .category-title-header {
+       border-left: none!important;
+    }    
+ }  
+}    
+
 .categories-list,
-.category {  
-   .top-title,
-   .followed-title {
-       display: none!important;
-   }
-}  
+  .category {  
+     .top-title,
+     .followed-title {
+         display: none!important;
+     }
+  }  
+} 
   
 .categories-list.navigation-categories {
   .category-header-widget {
