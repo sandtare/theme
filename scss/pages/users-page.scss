@@ -27,8 +27,8 @@
       padding: 10px 15px;
       &.active,
       &:hover {
-        color: $black;
-        background-color: $base;
+        color: $white;
+        background-color: $base-dark;
      }
   } 
   h3:not(.location-and-website):not(.featured-topic) {
