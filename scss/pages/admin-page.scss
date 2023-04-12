@@ -12,6 +12,7 @@
   > a:hover, 
   button:hover {
     color: var(--primary);
+    background-color: var(--highlight-medium);
   }
 } 
 .nav-stacked li a:hover {
@@ -21,4 +22,4 @@
     border-left-color: var(--primary)
   }
 }  
-  
+
