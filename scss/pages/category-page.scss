@@ -14,9 +14,10 @@ body.categories-list.category {
     margin-left: 45px;
     margin-right: 55px;
     padding-bottom: 50px;
+    padding-top: 40px;
   } 
   #list-area {
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 30px 55px 30px 45px;
     tbody tr:nth-child(2n+1) {
       background-color: var(--secondary);
