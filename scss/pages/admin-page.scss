@@ -10,13 +10,8 @@
 
 .nav-pills > li > a:hover, 
 .nav-pills > li button:hover {
-  color: var(--primary);
-  background-color: var(--highlight-medium);
-}
-
-.admin-controls .nav-pills > li a.hover {
-  color: var(--primary);
-  background-color: var(--highlight-medium);
+  color: var(--primary)!important;
+  background-color: var(--highlight-medium)!important;
 }
 
 .nav-stacked a {
