@@ -15,12 +15,13 @@
       color: var(--primary);
       background-color: var(--highlight-medium);
     }
-  } 
-  .nav-stacked li a:hover {
-    background-color: var(--highlight-medium);
-    color: var(--primary)
-    &:after {
-      border-left-color: var(--primary)
-    }
-  }  
-}
+  }
+ }
+
+.nav-stacked li a:hover {
+  background-color: var(--highlight-medium);
+  color: var(--primary)
+  &:after {
+    border-left-color: var(--primary)
+  }
+}  
