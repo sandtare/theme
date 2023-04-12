@@ -75,3 +75,24 @@
    }
 }
 
+
+
+.body-bookmarks .discovery-above-outlet span:before {
+     content: "Followed topics";
+}
+
+.body-top .discovery-above-outlet span:before {
+     content: "Top topics";
+}
+
+.body-latest .discovery-above-outlet span:before {
+     content: "Latest topics";
+}
+
+.body-new .discovery-above-outlet span:before {
+     content: "New topics";
+}
+
+.body-unread .discovery-above-outlet span:before {
+     content: "Unread topics";
+}
