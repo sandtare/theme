@@ -24,7 +24,7 @@
           "quaternary-low": "c0dedc",
           "header_background": "ffffff",
           "header_primary": "333333",
-          "highlight": "a3e2df;8",
+          "highlight-high": "a3e2df;8",
           "danger": "f8745c",
           "success": "00B1A9",
           "hate": "aaaaaa"  
