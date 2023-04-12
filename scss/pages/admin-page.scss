@@ -28,8 +28,8 @@
 
 .nav-stacked a:hover {
   background-color: var(--highlight-medium);
-  color: var(--primary)
+  color: var(--primary);
   &:after {
-    border-left-color: var(--primary)
+    border-left-color: var(--primary);
   }
 }  
