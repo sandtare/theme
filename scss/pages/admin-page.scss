@@ -18,6 +18,14 @@
   }
  }
 
+.nav-pills > li {
+    > a:hover, 
+    button:hover {
+      color: var(--primary);
+      background-color: var(--highlight-medium);
+    }
+  }
+
 .nav-stacked a:hover {
   background-color: var(--highlight-medium);
   color: var(--primary)
