@@ -15,18 +15,16 @@ input[type="color"] {
   background-color: var(--secondary-or-primary);
 }
 
-.group-box-inner {
-  background-color: var(--tertiary-or-white);
-} 
-
+.group-box-inner,
 .group-staff,
-.user-content {
+.user-content,
+.group-details-container {
   background-color: var(--tertiary-or-white)
 }  
 
-.user-content {
-  padding-right: 25px;
-  padding-left: 25px
+.group-staff {
+  padding-right: 30px;
+  padding-left: 30px
 }  
     
 .select-kit.combo-box .select-kit-header,
