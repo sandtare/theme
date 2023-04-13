@@ -1,8 +1,9 @@
 @import "variables/fonts";
 @import "variables/colors";
 
-.list-controls .combo-box .combo-box-header {
-	background-color: var(--secondary-or-primary)
+.list-controls .combo-box .combo-box-header,
+.list-controls .select-kit .select-kit-collection {
+    background-color: var(--secondary-or-primary)
 }	
 
 .navigation-container {  
