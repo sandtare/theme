@@ -47,15 +47,16 @@ img.avatar {
      } 
 } 
 
+body {
+  background-color: var(--body_background);
+}
+
 h1 {
   padding-right: 20px;
 }  
 
-@media (prefers-color-scheme: dark) {
-      body {
-        background-color: red!important;
-      }
- } 
+
+      
 
   
 
