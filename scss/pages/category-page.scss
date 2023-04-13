@@ -25,7 +25,7 @@ body.categories-list.category {
     .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), 
     .latest-topic-list-item.visited a.title:not(.badge-notification), 
     .category-topic-link.visited a.title:not(.badge-notification) {
-      color: var(--primary);
+      color: var(--secondary-or-primary);
      }
   }  
   thead {
