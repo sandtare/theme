@@ -19,6 +19,11 @@ input[type="color"] {
   background-color: var(--tertiary-or-white);
 } 
 
+.group-staff,
+.user-content {
+  background-color: var(--tertiary-or-white)
+}  
+
 .select-kit.combo-box .select-kit-header,
 .select-kit.is-expanded .select-kit-collection {
   background-color: var(--tertiary-or-white)
