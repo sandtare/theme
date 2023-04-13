@@ -15,6 +15,10 @@ input[type="color"] {
   background-color: var(--secondary-or-primary);
 }
 
+.group-box-inner {
+  background-color: var(--tertiary-or-white);
+} 
+
 .admin-interface {
   #main-outlet-wrapper {
     background-color: var(--tertiary-or-white);
