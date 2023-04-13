@@ -8,6 +8,7 @@
     max-width: 100%;
     padding: 0 20px
   }  
+
   .title {
     .custom-header-links {
        position: absolute;
@@ -33,8 +34,10 @@
         color: $base-dark;
     }   
    .search-header {
-      width: 300px
-   }
+      width: 300px;
+      #search-term {
+     background-color: var(--tertiary-or-white);
+      }
   } 
   
  .search-icon {
