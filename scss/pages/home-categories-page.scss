@@ -11,7 +11,7 @@
         margin-right: 0
     } 
     .column:not(.categories) {
-       background-color: var(--header_background); 
+       background-color: var(--tertiary-or-white); 
        padding: 13px 23px
     }    
     .column.categories {
@@ -26,7 +26,7 @@
         border-top: none;
         tr {
              display: block;
-             background-color: var(--header_background);
+             background-color: var(--tertiary-or-white);
              margin-bottom: 15px;
              padding: 13px 23px;
              &:not(:first-child) {
