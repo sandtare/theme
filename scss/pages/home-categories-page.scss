@@ -1,6 +1,10 @@
 @import "variables/fonts";
   
 .categories-list.navigation-categories {
+    .categories-and-latest, 
+    .categories-and-top {
+      background-color: var(--secondary-or-primary)
+   }  
     #list-area {
       margin-bottom: 0;
     }
