@@ -24,6 +24,11 @@ input[type="color"] {
   background-color: var(--tertiary-or-white)
 }  
 
+.user-content {
+  padding-right: 25px;
+  padding-left: 25px
+}  
+    
 .select-kit.combo-box .select-kit-header,
 .select-kit.is-expanded .select-kit-collection {
   background-color: var(--tertiary-or-white)
