@@ -39,10 +39,10 @@
           "quaternary": "54c3fb",
           "header_background": "000000",
           "header_primary": "ffffff",
-          "highlight": "7e9280",
-          "highlight-medium": "818181",
+          "highlight": "00B1A9",
+          "highlight-medium": "cdefed",
           "danger": "f8745c",
-          "success": "09fff0",
+          "success": "00B1A9",
           "love": "fa6c8d"
         }
     }
