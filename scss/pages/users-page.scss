@@ -10,12 +10,16 @@ body.user-summary-page {
 
   .user-main {
     background-color: var(--tertiary-or-white);
-    padding: 50px 30px;
+    padding-top: 40px 20px;
     .badge-group-list .btn {
         background: var(--primary-low-mid);
      } 
-    .about .details {
+    .about {
+      margin-left: 10px;
+      margin-right: 10px;
+      .details {
         background: var(--tertiary-or-white)!important;
+      }  
     }  
     .top-section a {
         color: $blue;
@@ -53,7 +57,7 @@ body.user-summary-page {
     }
     .top-sub-section {
         width: 49%;
-        margin-top: 1.5rem;
+        margin: 1.5rem;
     }
     .btn-primary:hover {
         background: var(--primary-medium);
