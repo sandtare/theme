@@ -38,6 +38,7 @@
         "dark": {
           "primary": "f8f8f8",
           "primary-high": "ededed",
+          "primary-low-mid": "373737", 
           "secondary": "000000",
           "tertiary": "dfdfdf",
           "quaternary": "00B1A9",
