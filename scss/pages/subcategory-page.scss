@@ -1,9 +1,5 @@
 body.category:not(.categories-list),
-body.body-bookmarks:not(.category),
-body.body-top:not(.category),
-body.body-latest:not(.category),
-body.body-new:not(.category),
-body.body-unread:not(.category) {
+body[class*="body-"]:not(.category) {
   .list-container {
     padding-top: 0;
     margin-top: 0;
@@ -13,16 +9,12 @@ body.body-unread:not(.category) {
     padding-top: 50px;
   }
   .topic-list tbody tr:nth-child(2n+1) {
-      background-color: var(--secondary);
+      background-color: var(--secondary-or-primary);
     }
   
 }
 
-body.body-bookmarks:not(.category),
-body.body-top:not(.category),
-body.body-latest:not(.category),
-body.body-new:not(.category),
-body.body-unread:not(.category) {
+body[class*="body-"]:not(.category) {
   #create-topic {
       display: none
   }   
