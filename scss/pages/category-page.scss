@@ -20,7 +20,7 @@ body.categories-list.category {
     margin-top: 20px;
     padding: 30px 55px 30px 45px;
     tbody tr:nth-child(2n+1) {
-      background-color: var(--secondary-or-primary);
+      background-color: var(--primary-low);
     }
     .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), 
     .latest-topic-list-item.visited a.title:not(.badge-notification), 
