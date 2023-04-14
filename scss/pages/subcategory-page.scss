@@ -24,7 +24,11 @@ body.category:not(.categories-list) {
    #create-topic {
       background-color: $base;
       color: $base 
+      &:hover {
+        background-color: $base-dark;
+     }    
    }  
+  
  }  
 
 .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), 
