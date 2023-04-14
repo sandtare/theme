@@ -42,8 +42,8 @@ body.category:not(.categories-list) {
   color: var(--primary);
 }
 
-.select-kit .select-kit-collection:hover,
-.select-kit-row.is-highlighted:hover
+.select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
   .top-date-string {
     color: var(--tertiary-hover)
+  }
 }
