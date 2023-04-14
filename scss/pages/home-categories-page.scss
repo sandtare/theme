@@ -2,10 +2,6 @@
 @import "variables/colors";
   
 .categories-list.navigation-categories {
-  .badge-notification.unread-posts {
-    background-color: $base;
-    color: $black 
-  } 
   .categories-and-latest, 
   .categories-and-top {
     background-color: var(--secondary-or-primary)
