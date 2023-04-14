@@ -1,14 +1,14 @@
 body.search-page {
   .search-container {
+      .search-header {
+         background-color: var(--tertiary-or-white)!important;
+         padding: 0 10%!important;
+      } 
     .search-filters {
         background: var(--tertiary-or-white);
         .search-advanced-filters {
             background: var(--tertiary-or-white)
          } 
-      .search-header {
-         background-color: var(--tertiary-or-white)!important;
-         padding: 0 10%!important;
-      } 
      }      
     .search-advanced {
       .search-info,
