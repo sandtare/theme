@@ -2,7 +2,7 @@
 @import "variables/colors";
   
 .categories-list.navigation-categories {
-  .btn {
+  .btn:not(.arturia-btn) {
     background-color: var(--primary-low-mid);
     &:hover {
       background-color: var(--primary-medium);
