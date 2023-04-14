@@ -63,3 +63,10 @@ input[type="color"] {
     }
    }
 }
+
+.admin-report .main {
+  .report-alert.no-data, 
+  .report-alert.rate-limited {
+      background: var(--primary-low);
+   }
+ }
