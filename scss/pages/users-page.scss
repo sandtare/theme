@@ -1,7 +1,6 @@
 @import "variables/colors";
 
-body.user-summary-page,
-body.user-activity-page {
+body[class*="user-"]{
   .user-content {
     background-color: var(--tertiary-or-white);
     .top-sub-section li {
