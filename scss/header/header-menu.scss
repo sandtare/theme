@@ -77,3 +77,8 @@
 .title .search-header .results li:not(.category):not(.heading):hover a:not(.badge-notification) {
   background-color: var(--highlight-medium);
 }
+
+.search-menu .searching a.show-advanced-search .d-icon, 
+.search-menu .searching a.clear-search .d-icon {
+  color: var(--primary-medium);
+}
