@@ -55,7 +55,7 @@ h1 {
   padding-right: 20px;
 } 
 
-.btn:not(btn-danger) {
+.btn:not(.btn-danger) {
     background-color: var(--primary-low-mid);
 }
 
