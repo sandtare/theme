@@ -4,13 +4,13 @@ body.search-page {
         background: var(--tertiary-or-white);
         .search-advanced-filters {
             background: var(--tertiary-or-white)
-         }  
-     }      
-    .search-advanced {
+         } 
       .search-header {
          background-color: var(--tertiary-or-white);
-         padding: 0 10%;
+         padding: 0 10%!important;
       } 
+     }      
+    .search-advanced {
       .search-info,
         .select-kit .select-kit-body {
             background-color: var(--tertiary-or-white);
