@@ -1,6 +1,12 @@
 @import "variables/colors";
 
-body[class*="user-"]{
+body[class*="user-"] {
+  .user-stream {
+    .item, 
+    .user-stream-item {
+      background-color: var(--secondary-or-primary)
+    }  
+  }
   .user-content {
     background-color: var(--tertiary-or-white);
     .top-sub-section li {
