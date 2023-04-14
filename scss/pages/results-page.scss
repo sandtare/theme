@@ -15,6 +15,16 @@ body.search-page {
       .select-kit .select-kit-body {
           background-color: var(--tertiary-or-white);
           padding-bottom: 2em;
+        .btn {
+          background-color: var(--primary-low-mid);
+          &:hover {
+            background-color: var(--primary-medium);
+            color: var(--primary-low);
+            svg {
+              color: var(--primary-low);
+            }
+          }  
+        }
       }
     .search-results {
         background-color: var(--tertiary-or-white);
@@ -36,7 +46,7 @@ body.search-page {
       padding-top: 2rem;
     }
   }
-  search-footer {
+  .search-footer {
     padding-bottom: 2rem
   }  
 }
