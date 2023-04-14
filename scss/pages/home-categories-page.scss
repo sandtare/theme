@@ -2,16 +2,6 @@
 @import "variables/colors";
   
 .categories-list.navigation-categories {
-  .btn:not(.arturia-btn) {
-    background-color: var(--primary-low-mid);
-    &:hover {
-      background-color: var(--primary-medium);
-      color: var(--primary-low);
-      svg {
-        color: var(--primary-low);
-      }
-    }  
-  }
   .badge-notification.unread-posts {
     background-color: $base;
     color: $black 
