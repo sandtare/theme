@@ -79,6 +79,9 @@ body[class*="user-"] {
     .item {
       background-color: var(--secondary-or-primary)
     }  
+    .notification.unread {
+      background-color: var(--primary-medium);
+    }
   }
  
   .user-profile-website a {
