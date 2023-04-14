@@ -11,7 +11,6 @@ body[class*="body-"]:not(.category) {
   .topic-list tbody tr:nth-child(2n+1) {
       background-color: var(--primary-low);
     }
-  
 }
 
 body[class*="body-"]:not(.category) {
@@ -26,9 +25,10 @@ body.category:not(.categories-list) {
       color: $black; 
       &:hover {
         background-color: $base-dark;
-     }    
-   }  
-  
+     } 
+     .d-icon {
+      color: $black;
+     }  
  }  
 
 .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), 
