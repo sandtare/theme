@@ -6,6 +6,7 @@
     background-color: var(--primary-low-mid);
     &:hover {
       background-color: var(--primary-medium);
+      color: var(--primary-low)
     }  
   }
   .badge-notification.unread-posts {
