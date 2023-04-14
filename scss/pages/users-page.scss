@@ -1,6 +1,9 @@
 @import "variables/colors";
 
 body[class*="user-"] {
+  .topic-list tbody tr:nth-child(2n+1) {
+    background-color: var(--secondary-or-primary);
+  }
   .user-content {
     background-color: var(--tertiary-or-white);
     .top-sub-section li {
