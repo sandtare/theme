@@ -1,16 +1,19 @@
 .search-container {
-  .search-advanced .search-info,
-  .select-kit .select-kit-body {
-      background-color: var(--tertiary-or-white);
-  }
-  .search-header {
-     padding: 2rem 10%;
- } 
+  .search-advanced {
+    .search-info,
+      .select-kit .select-kit-body {
+          background-color: var(--tertiary-or-white);
+      }
+      .search-header {
+         padding: 2rem 10%;
+     } 
+    .search-results {
+        background-color: var(--tertiary-or-white);
+        margin-top: 30px;
+        padding-top: 2rem;
+        padding-bottom: 2rem
+      } 
+    } 
 }   
 
-.search-results {
-  background-color: var(--tertiary-or-white);
-  margin-top: 30px;
-  padding-top: 2rem;
-  padding-bottom: 2rem
-} 
+
