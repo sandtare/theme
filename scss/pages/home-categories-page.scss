@@ -2,13 +2,16 @@
 @import "variables/colors";
   
 .categories-list.navigation-categories {
-    .badge-notification.unread-posts {
-      background-color: $base;
-      color: $black 
-    } 
-    .categories-and-latest, 
-    .categories-and-top {
-      background-color: var(--secondary-or-primary)
+  .btn {
+    background-color: var(--primary-low-mid);
+  }
+  .badge-notification.unread-posts {
+    background-color: $base;
+    color: $black 
+  } 
+  .categories-and-latest, 
+  .categories-and-top {
+    background-color: var(--secondary-or-primary)
    }  
     #list-area {
       margin-bottom: 0;
