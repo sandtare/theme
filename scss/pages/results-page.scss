@@ -1,5 +1,8 @@
 body.search-page {
   .search-container {
+    .search-filters {
+        background: var(--tertiary-or-white)
+     }      
      .search-header {
          background-color: var(--tertiary-or-white);
          padding: 2rem 10%;
