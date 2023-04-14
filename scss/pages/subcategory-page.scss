@@ -23,13 +23,16 @@ body.category:not(.categories-list) {
    #create-topic {
       background-color: $base;
       color: $black; 
-      &:hover {
-        color: var(--primary);
-        background-color: var(--highlight-medium);
-     } 
      .d-icon {
       color: $black;
      }  
+     &:hover {
+        color: var(--primary);
+        background-color: var(--highlight-medium);
+       .d-icon {
+        color: $white;
+       } 
+     } 
    } 
  }  
 
