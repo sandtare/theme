@@ -1,6 +1,10 @@
 @import "variables/fonts";
   
 .categories-list.navigation-categories {
+  
+    .badge-notification.unread-posts {
+      background-color: $base;
+    } 
     .categories-and-latest, 
     .categories-and-top {
       background-color: var(--secondary-or-primary)
