@@ -56,22 +56,9 @@ h1 {
 } 
 
 .btn {
-    background-color: var(--primary-low-mid);
+    //background-color: var(--primary-low-mid);
 }
-
-.discourse-no-touch .btn-danger:hover, 
-.discourse-no-touch .json-editor-btn-delete:hover, 
-.discourse-no-touch .btn-danger.btn-hover, 
-.discourse-no-touch .btn-hover.json-editor-btn-delete {
-  background: var(--danger-hover);
-  color: var(--secondary);
-}
-
-.btn-danger, 
-.json-editor-btn-delete {
-  color: var(--secondary);
-  background: var(--danger);
-}     
+  
 
   
 
