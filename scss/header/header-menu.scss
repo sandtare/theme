@@ -76,4 +76,5 @@
 
 .title .search-header .results li:not(.category):not(.heading):hover a:not(.badge-notification) {
   background-color: var(--secondary-low);
+   color: var(--primary)
 }
