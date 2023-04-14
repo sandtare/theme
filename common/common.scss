@@ -55,10 +55,17 @@ h1 {
   padding-right: 20px;
 } 
 
-.btn:not(.btn-danger) {
+.btn {
     background-color: var(--primary-low-mid);
 }
 
+.discourse-no-touch .btn-danger:hover, 
+.discourse-no-touch .json-editor-btn-delete:hover, 
+.discourse-no-touch .btn-danger.btn-hover, 
+.discourse-no-touch .btn-hover.json-editor-btn-delete {
+  background: var(--danger-hover);
+  color: var(--secondary);
+}
 
       
 
