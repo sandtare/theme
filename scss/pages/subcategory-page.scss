@@ -24,7 +24,8 @@ body.category:not(.categories-list) {
       background-color: $base;
       color: $black; 
       &:hover {
-        background-color: $base-dark;
+        color: var(--primary);
+        background-color: var(--highlight-medium);
      } 
      .d-icon {
       color: $black;
