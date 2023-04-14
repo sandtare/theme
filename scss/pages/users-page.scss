@@ -2,7 +2,7 @@
 
 body[class*="user-"] {
   .topic-list tbody tr:nth-child(2n+1) {
-    background-color: var(--secondary-or-primary);
+    background-color: var(--primary-low);
   }
   .user-content {
     background-color: var(--tertiary-or-white);
