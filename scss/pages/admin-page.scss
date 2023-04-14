@@ -1,12 +1,12 @@
-input,
-.select-kit.multi-select .multi-select-header {
+input {
   background-color: var(--secondary-or-primary);
 }
 
 .group-box-inner,
 .group-staff,
 .user-content,
-.group-details-container {
+.group-details-container,
+.select-kit.multi-select .multi-select-header {
   background-color: var(--tertiary-or-white)
 }  
 
