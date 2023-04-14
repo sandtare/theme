@@ -4,6 +4,9 @@
 .categories-list.navigation-categories {
   .btn {
     background-color: var(--primary-low-mid);
+    &:hover {
+      background-color: var(--primary-medium);
+    }  
   }
   .badge-notification.unread-posts {
     background-color: $base;
