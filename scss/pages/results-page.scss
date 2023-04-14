@@ -1,7 +1,10 @@
 body.search-page {
   .search-container {
     .search-filters {
-        background: var(--tertiary-or-white)
+        background: var(--tertiary-or-white);
+        .search-advanced-filters {
+            background: var(--tertiary-or-white)
+         }  
      }      
      .search-header {
          background-color: var(--tertiary-or-white);
