@@ -1,11 +1,5 @@
 @import "variables/colors";
 
- .user-stream {
-    .item {
-      background-color: var(--secondary-or-primary)
-    }  
-  }
-
 body[class*="user-"] {
   .user-content {
     background-color: var(--tertiary-or-white);
@@ -81,6 +75,13 @@ body[class*="user-"] {
         content: '_';
   } 
 
+  .user-stream {
+    .item,
+    .user-stream-item {
+      background-color: var(--secondary-or-primary)
+    }  
+  }
+ 
   .user-profile-website a {
       text-decoration: none!important;
   }  
