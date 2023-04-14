@@ -60,7 +60,11 @@ tr {
   border-bottom: 1px solid var(--primary-200);
 }
 
-
+.list-cell, .table-heading, 
+.category-list td, 
+.category-list th {
+  color: var(--primary-300);
+}
   
 
 
