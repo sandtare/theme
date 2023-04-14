@@ -1,3 +1,6 @@
-.search-container .search-advanced .search-info {
-  background-color: var(--tertiary-or-white);
-}
+.search-container {
+  .search-advanced .search-info,
+  .select-kit .select-kit-body {
+    background-color: var(--tertiary-or-white);
+  }
+ } 
