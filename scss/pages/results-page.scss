@@ -6,11 +6,11 @@ body.search-page {
             background: var(--tertiary-or-white)
          }  
      }      
-     .search-header {
-         background-color: var(--tertiary-or-white);
-         padding: 2rem 10%;
-      } 
     .search-advanced {
+      .search-header {
+         background-color: var(--tertiary-or-white);
+         padding: 0 10%;
+      } 
       .search-info,
         .select-kit .select-kit-body {
             background-color: var(--tertiary-or-white);
