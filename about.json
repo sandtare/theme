@@ -19,6 +19,7 @@
         "light": {
           "primary": "222222",
           "primary-low": "f8f8f8",  
+          "primary-low-mid": "e3e3e3",  
           "secondary": "f8f8f8",
           "tertiary": "222222",
           "tertiary-hover": "646464",
