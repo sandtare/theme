@@ -1,5 +1,9 @@
 body.search-page {
   .search-container {
+     .search-header {
+         background-color: var(--tertiary-or-white);
+         padding: 2rem 10%;
+      } 
     .search-advanced {
       .search-info,
         .select-kit .select-kit-body {
@@ -11,10 +15,7 @@ body.search-page {
         } 
       } 
   }  
-  .search-header {
-     background-color: var(--tertiary-or-white);
-     padding: 2rem 10%;
-  } 
+ 
 
   .fps-result {
     padding: 0 0.5em 1.5em 0;
