@@ -31,12 +31,11 @@ body.search-page {
     .topic .bulk-select {
       left: 4px;
       top: 3.5em;
-    }  
+    }
+    &:first-child {
+      padding-top: 2rem;
+      padding-bottom: 2rem
+    }
   }
-  
-  .fps-result-entries {
-    padding-top: 2rem;
-    padding-bottom: 2rem
-  }  
 }
 
