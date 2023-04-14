@@ -43,7 +43,7 @@ body.category:not(.categories-list) {
 }
 
 .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover .top-date-string,
-.select-kit.dropdown-select-box.period-chooser .period-chooser-row .top-date-string {
+.select-kit .select-kit-collection .select-kit-row.is-selected .top-date-string {
     color: var(--tertiary-hover)
   }
 
