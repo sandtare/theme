@@ -23,7 +23,7 @@ body[class*="body-"]:not(.category) {
 body.category:not(.categories-list) {
    #create-topic {
       background-color: $base;
-      color: $base 
+      color: $black; 
       &:hover {
         background-color: $base-dark;
      }    
