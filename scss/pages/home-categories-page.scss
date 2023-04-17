@@ -2,6 +2,9 @@
 @import "variables/colors";
   
 .categories-list.navigation-categories {
+  .number:after {
+    content: ' topics';  
+  }
   .categories-and-latest, 
   .categories-and-top {
     background-color: var(--secondary-or-primary)
