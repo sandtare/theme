@@ -85,8 +85,11 @@ body.categories-list.category {
       }  
     }
   }
-  h3:hover .category-name {
-    color: $base-dark!important
+  h3:hover {
+    .category-name,
+    a[href]{
+      color: $base-dark!important
+    }
   }
 }
 
