@@ -107,6 +107,11 @@
     }
 } 
 
-.badge-notification.new-topic::before {
-  background: $base;
-} 
+.badge-notification {
+  background-color: $base;
+  color: $black;
+  &.new-topic::before {
+    background: $base;
+    color: $black;
+  } 
+}
