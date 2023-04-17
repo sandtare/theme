@@ -10,7 +10,8 @@
       margin-bottom: 0;
       .show-more {
         position: initial;
-        margin-bottom: 20px
+        margin-bottom: 20px;
+        background-color: var(--secondary-or-primary)
       }
     }
     .list-container {
