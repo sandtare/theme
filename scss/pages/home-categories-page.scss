@@ -124,7 +124,16 @@
     .topic-last-activity span {
         font-size: 14px
     }
+  .title {
+     color: var(--primary-high);
+     transition: all 0.15s;
+     &:hover {
+       color: var(--primary-medium);
+     }
+  }
 } 
+
+
 
 .badge-notification {
   display: inline-block!important;
