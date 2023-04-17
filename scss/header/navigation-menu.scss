@@ -1,7 +1,9 @@
 @import "variables/fonts";
 @import "variables/colors";
 
-.list-controls .combo-box .combo-box-header,
+.list-controls .combo-box .combo-box-header {
+	background-color: var(--secondary-or-primary)
+}
 .list-controls .select-kit .select-kit-collection,
 .select-kit.single-select .select-kit-filter.is-expanded {
     background-color: var(--primary-low-mid)
@@ -72,7 +74,7 @@
 		transform: rotate(135deg);
 	   }
 	   select-kit-body {
-		border: 1px solid var(--primary-low-mid);
+		border: 1px solid var(--secondary-or-primary);
 	  }	
      } 
 }
