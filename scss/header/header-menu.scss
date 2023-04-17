@@ -85,5 +85,9 @@
 
 .unread-high-priority-notifications {
   background: $base;
-  color: $black;
+  &.badge-notification[href] {
+      color: $black;
+  }    
 }
+
+
