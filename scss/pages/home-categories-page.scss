@@ -112,9 +112,12 @@
     background-color: $base!important;
     color: $black!important;
     border-radius: 4px;
+    display: inline-block;
+    padding-right: 5px;
   }  
   &.new-topic::before {
     background: $base!important;
     color: $black!important;
   } 
 }
+
