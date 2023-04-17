@@ -73,8 +73,8 @@
 	   .selected-name .name::after  {
 		transform: rotate(135deg);
 	   }
-	   select-kit-body {
-		border: 1px solid var(--primary-500);
+	   .select-kit-body {
+		border: 1px solid var(--secondary-or-primary);
 	  }	
      } 
 }
