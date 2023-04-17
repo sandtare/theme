@@ -108,8 +108,8 @@
 } 
 
 .badge-notification {
-  display: inline-block;
-  padding-right: 5px;
+  display: inline-block!important;
+  padding-right: 5px!important;
   &.new-posts {
     background-color: $base!important;
     color: $black!important;
