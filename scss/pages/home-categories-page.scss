@@ -90,8 +90,8 @@
     .category-description {
         display: none
    }
-   h3:hover, 
-   a[href] {
+   h3:hover { 
+      a[href], 
       .category-name {
           color: $base-dark!important
        }
