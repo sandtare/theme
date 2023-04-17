@@ -62,10 +62,10 @@
        .subcategory {
             padding: 4px 0;
             .category-name {
-                 color: var(--tertiary);
+                 color: var(--primary-high);
                  transition: all 0.15s;
                  &:hover {
-                   color: var(--tertiary-medium);
+                   color: var(--primary-medium);
                  }
               }
             }
