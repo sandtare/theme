@@ -33,7 +33,8 @@
           "highlight": "00B1A9",
           "danger": "f8745c",
           "success": "00B1A9",
-          "hate": "aaaaaa"  
+          "hate": "aaaaaa",
+          "primary-low-mid-or-secondary-high": "bfbfbf"
         },
         "dark": {
           "primary": "f8f8f8",
@@ -52,7 +53,8 @@
           "danger": "f8745c",
           "success": "00B1A9",
           "love": "fa6c8d",
-          "primary-high-or-secondary-low": "A9A9A9"
+          "primary-high-or-secondary-low": "A9A9A9",
+          "primary-low-mid-or-secondary-high": "7a7979"
         }
     }
 }
