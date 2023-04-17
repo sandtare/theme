@@ -4,6 +4,7 @@
 
 .select-kit.dropdown-select-box.composer-actions .select-kit-header,
 .d-editor-button-bar,
-.d-editor-textarea-wrapper textarea {
+.d-editor-textarea-wrapper textarea,
+#reply-control .category-input .category-chooser .select-kit-header {
   background: var(--primary-very-low);
 }
