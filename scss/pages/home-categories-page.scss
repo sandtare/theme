@@ -115,14 +115,14 @@
     color: $black!important;
     border-radius: 4px;
     &:hover {
-      background-color: $base!important;
+      background-color: $base-dark!important;
     }
   }  
   &.new-topic::before {
     background: $base!important;
     color: $black!important;
     &:hover {
-      background-color: $base!important;
+      background-color: $base-adrk!important;
     }
   } 
 }
