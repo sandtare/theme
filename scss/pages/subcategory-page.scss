@@ -24,11 +24,14 @@ body.category:not(.categories-list) {
       background-color: $base;
       color: $black; 
      .d-icon {
-      color: $black;
+        color: $black;
      }  
      &:hover {
         color: var(--primary);
         background-color: var(--highlight-medium);
+        .d-icon {
+          color: var(--primary);
+       }
      } 
    } 
  }  
