@@ -124,13 +124,20 @@
     .topic-last-activity span {
         font-size: 14px
     }
-   .title {
+    .title {
      color: var(--primary-high)!important;
      transition: all 0.15s;
      &:hover {
        color: var(--primary-medium)!important;
      }
-  }
+   }
+   .category-name {
+      color: var(--primary-high)!important;
+         transition: all 0.15s;
+         &:hover {
+           color: var(--primary-medium)!important;
+         }
+    } 
 } 
 
 
