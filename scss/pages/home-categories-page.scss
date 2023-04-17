@@ -114,10 +114,16 @@
     background-color: $base!important;
     color: $black!important;
     border-radius: 4px;
+    &:hover {
+      background-color: $base!important;
+    }
   }  
   &.new-topic::before {
     background: $base!important;
     color: $black!important;
+    &:hover {
+      background-color: $base!important;
+    }
   } 
 }
 
