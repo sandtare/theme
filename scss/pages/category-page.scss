@@ -87,7 +87,7 @@ body.categories-list.category {
   }
  .category-text-title:hover {
    .category-name {
-      color: $base-dark
+      color: $base-dark!important
     }  
   } 
 }
