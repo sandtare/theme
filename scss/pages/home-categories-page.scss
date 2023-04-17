@@ -131,11 +131,12 @@
     transition: all 0.15s;  
     &:hover {
       background-color: $base-dark!important;
+      color: var(--secondary)!important
     }
   }  
   &.new-topic::before {
     background: $base!important;
-    color: var(--secondary)!important;
+    color: $black!important;
     transition: all 0.15s;  
   } 
   &.new-topic:hover::before {
