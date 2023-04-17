@@ -108,9 +108,11 @@
 } 
 
 .badge-notification {
-  background-color: $base!important;
-  color: $black!important;
-  border-radius: 4px;
+  &.new-posts {
+    background-color: $base!important;
+    color: $black!important;
+    border-radius: 4px;
+  }  
   &.new-topic::before {
     background: $base!important;
     color: $black!important;
