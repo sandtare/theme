@@ -67,8 +67,12 @@
 	  display: none;
      } 
    }
-   .select-kit.single-select.is-expanded .selected-name .name::after  {
-	transform: rotate(135deg);
-    }
+   .select-kit.single-select.is-expanded {
+	   .selected-name .name::after  {
+		transform: rotate(135deg);
+	   }
+	   select-kit-body {
+		border: 1px solid var(--primary-low-mid);
+	  }	   
 }
 
