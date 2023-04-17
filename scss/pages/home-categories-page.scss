@@ -65,7 +65,9 @@
                 padding: 4px 0;
                .category-name {
                  color: var(--tertiary);
-                 &:hover: var(--tertiary-hover);
+                 &:hover {
+                   color: var(--tertiary-hover);
+                 }
               }
             }
          }
