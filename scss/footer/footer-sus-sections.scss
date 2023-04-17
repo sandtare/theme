@@ -83,12 +83,13 @@
         
     .btn {
        border: none; 
-       padding: 20px 30px 20px 30px;
+       padding: 13px 15px 13px 25px;
        position: relative;
        z-index: 2;
        background-color: $base;
        color: $primary;
-       font-size: 20px;
+       font-size: 16px;
+       margin-top: 10px;
        font-family: supply-medium;
        &:before {
           content: '';
