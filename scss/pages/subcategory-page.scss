@@ -29,9 +29,6 @@ body.category:not(.categories-list) {
      &:hover {
         color: var(--primary);
         background-color: var(--highlight-medium);
-       .d-icon {
-        color: $white;
-       } 
      } 
    } 
  }  
