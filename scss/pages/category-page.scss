@@ -1,7 +1,5 @@
 @import "variables/colors";
 
-
-
 body.categories-list.category {
   #create-topic {   
     display: none
@@ -61,6 +59,13 @@ body.categories-list.category {
      }  
     td {
       vertical-align: middle;
+      .title {
+         color: var(--primary-high)!important;
+         transition: all 0.15s;
+         &:hover {
+           color: var(--primary-medium)!important;
+         }
+       }
       
     }    
     .category {
