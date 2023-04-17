@@ -85,9 +85,9 @@ body.categories-list.category {
       }  
     }
   }
- .category-title-link:hover {
-     color: $base-dark!important 
-  } 
+  h3:hover .category-name {
+    color: $base-dark!important
+  }
 }
 
 .d-icon-thumbtack {
