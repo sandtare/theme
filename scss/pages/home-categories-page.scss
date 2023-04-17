@@ -11,7 +11,7 @@
       .show-more {
         position: initial;
         margin-bottom: 20px;
-        &:hover {
+        &:hover .alert.alert-info {
           background-color: var(--primary-low);
         }
       }
