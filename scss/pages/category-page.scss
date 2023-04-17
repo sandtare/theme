@@ -82,12 +82,13 @@ body.categories-list.category {
        } 
       .category-name {
         padding-left: 12px;
-        .category-name:hover {
-            color: $base-dark
-        } 
       }  
     }
   }
+ .category-text-title:hover {
+   .category-name {
+      color: $base-dark
+   }     
 }
 
 .d-icon-thumbtack {
