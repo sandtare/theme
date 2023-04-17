@@ -1,1 +1,6 @@
-
+.fa.solved,
+.fa.accepted,
+.post-controls .extra-buttons .accepted-text .d-icon, 
+.post-controls .extra-buttons .accepted-text .accepted-label {
+      color: var(--success)!important; 
+ }
