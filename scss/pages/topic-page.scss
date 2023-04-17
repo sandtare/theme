@@ -5,34 +5,34 @@
      #topic-title {
           padding: 50px 30px 20px;
           margin-bottom: 0;
-          background-color: var(--header_background);
+          background-color: var(--tertiary-or-white);
       }    
      .posts:not(.posts-map),
      .topic-above-footer-buttons-outlet {
           padding: 0 30px;
           margin-bottom: 0;
           margin-top: 0;
-          background-color: var(--header_background);
+          background-color: var(--tertiary-or-white);
       }   
      #topic-footer-buttons {
           max-width: 100%;
           padding: 30px 30px 50px;
           margin-top: 0;
-          background-color: var(--header_background);
+          background-color: var(--tertiary-or-white);
       }
       .suggested-topics-wrapper {
           padding: 0 30px 50px; 
-          background-color: var(--header_background);
+          background-color: var(--tertiary-or-white);
           margin-bottom: 50px
       }   
      .suggested-topics-title {
           padding-top: 30px
      } 
      .topic-map {
-          background-color: var(--header_background);
+          background-color: var(--tertiary-or-white);
           border: none;
           .buttons .btn  { 
-               background-color: var(--header_background);
+               background-color: var(--tertiary-or-white);
                border-left: 0;
           }  
           section {
