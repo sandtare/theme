@@ -89,7 +89,7 @@ body.categories-list.category {
   }
 }
 
-.category-list tbody .category h3:hover a[href],
+.category-list tbody .category h3:hover a[href] {
       color: $base-dark!important
     }
 
