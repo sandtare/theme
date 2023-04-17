@@ -124,11 +124,11 @@
     .topic-last-activity span {
         font-size: 14px
     }
-  .title {
-     color: var(--primary-high);
+   .title {
+     color: var(--primary-high)!important;
      transition: all 0.15s;
      &:hover {
-       color: var(--primary-medium);
+       color: var(--primary-medium)!important;
      }
   }
 } 
