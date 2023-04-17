@@ -82,7 +82,9 @@ body.categories-list.category {
        } 
       .category-name {
         padding-left: 12px;
-        
+        .category-name:hover {
+            color: $base-dark
+        } 
       }  
     }
   }
