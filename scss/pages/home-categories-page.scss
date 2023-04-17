@@ -135,7 +135,7 @@
   }  
   &.new-topic::before {
     background: $base!important;
-    color: $black!important;
+    color: var(--secondary)!important;
     transition: all 0.15s;  
   } 
   &.new-topic:hover::before {
