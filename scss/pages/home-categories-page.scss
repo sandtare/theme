@@ -86,6 +86,7 @@
         padding-bottom: 5px;
         padding-right: 10px;
         font-weight: 400;
+        transition: all 0.15s;  
     }
     .category-description {
         display: none
@@ -123,6 +124,7 @@
     background-color: $base!important;
     color: $black!important;
     border-radius: 4px;
+    transition: all 0.15s;  
     &:hover {
       background-color: $base-dark!important;
     }
@@ -130,6 +132,7 @@
   &.new-topic::before {
     background: $base!important;
     color: $black!important;
+    transition: all 0.15s;  
   } 
   &.new-topic:hover::before {
       background-color: $base-dark!important;
