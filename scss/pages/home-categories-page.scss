@@ -8,6 +8,10 @@
    }  
     #list-area {
       margin-bottom: 0;
+      .show-more {
+        position: initial;
+        margin-bottom: 20px
+      }
     }
     .list-container {
         background-color: var(--secondary);
@@ -95,6 +99,4 @@
     .topic-last-activity span {
         font-size: 14px
     }
-
 } 
-
