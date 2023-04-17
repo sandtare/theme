@@ -12,7 +12,7 @@
         position: initial;
         margin-bottom: 20px;
         &:hover .alert.alert-info {
-          background-color: &base;
+          background-color: $base;
         }
       }
       .contents {
