@@ -115,15 +115,14 @@
     color: $black!important;
     border-radius: 4px;
     &:hover {
-      background-color: $base-dark!important;
+      background-color: var(--highlight-medium)!important;
     }
   }  
   &.new-topic::before {
     background: $base!important;
     color: $black!important;
-    &:hover {
-      background-color: $base-dark!important;
-    }
   } 
+  &.new-topic:hover::before {
+      background-color: var(--highlight-medium)!important;
 }
 
