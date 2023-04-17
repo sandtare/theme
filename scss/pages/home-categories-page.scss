@@ -108,10 +108,11 @@
 } 
 
 .badge-notification {
-  background-color: $base;
-  color: $black;
+  background-color: $base!important;
+  color: $black!important;
+  border-radius: 4px;
   &.new-topic::before {
-    background: $base;
-    color: $black;
+    background: $base!important;
+    color: $black!important;
   } 
 }
