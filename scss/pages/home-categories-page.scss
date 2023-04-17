@@ -60,11 +60,17 @@
              }          
          }
        .subcategory {
-                padding: 4px 0;
+            padding: 4px 0;
+            .category-name {
+                 color: var(--tertiary);
+                 transition: all 0.15s;
+                 &:hover {
+                   color: var(--tertiary-hover);
+                 }
+              }
             }
         }   
-    }
-}
+ 
     .category-text-title,
     .column .table-heading {
       overflow:hidden;
@@ -105,7 +111,7 @@
   .category-topic-link.visited a.title:not(.badge-notification) {
       color: var(--primary);
     }
-
+ }
 .latest-topic-list {
     .table-heading {
         border-bottom: none
