@@ -91,12 +91,8 @@ div.edit-category {
 }
 
 .admin-controls,
-.admin-controls .controls {
-    background-color: var(--primary-100);
-    .btn-default {
-      background-color: var(--primary-low-mid);
-      &:hover {
-        background-color: var(--primary-medium);
-      }  
-   } 
+.admin-controls .controls,
+.admin-controls nav {
+    background-color: var(--primary-100);   
 }  
+   
