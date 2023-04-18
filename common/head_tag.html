@@ -54,4 +54,14 @@
           document.querySelector("body").classList.remove("body-unread");
        }
     });
+    
+     /* Add class to the body when click on the "Group" link */
+    api.onPageChange((url) => {
+       if (window.location.href.indexOf("g/") > -1) {
+          document.querySelector("body").classList.add("body-group");
+       }
+       else {
+          document.querySelector("body").classList.remove("body-group");
+       }
+    });
 </script>
