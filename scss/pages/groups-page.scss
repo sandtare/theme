@@ -1,10 +1,15 @@
-.groups-new-page {
+.groups-new-page,
+.groups-page,
+.body-group {
   #main-outlet {
      background-color: var(--tertiary-or-white);
      padding: 30px 50px;
      margin-top: 30px;
      margin-bottom: 30px
   }
+}
+
+.groups-new-page {
   .user-preferences .bio-composer, 
   .group-form-bio {
     border: 1px solid var(--primary-medium);
@@ -15,12 +20,6 @@
 }
 
 .groups-page {
-  #main-outlet {
-     background-color: var(--tertiary-or-white);
-     padding: 30px 50px;
-     margin-top: 30px;
-     margin-bottom: 30px
-  }
   .group-box-inner {
     background-color: var(--primary-100);
   }
@@ -28,3 +27,4 @@
     background-color: var(--primary-low-mid);
   }
  }
+
