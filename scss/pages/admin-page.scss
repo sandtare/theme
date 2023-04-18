@@ -84,4 +84,8 @@ div.edit-category {
   .edit-category-nav .nav-stacked {
     background-color: var(--primary-200);
   }
+  .select-kit.combo-box .select-kit-header, 
+  .select-kit.is-expanded .select-kit-collection {
+    background-color: var(--secondary-or-primary);
+  }
 }
