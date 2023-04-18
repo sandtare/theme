@@ -80,5 +80,8 @@ div.edit-category {
   .edit-category-description,
   .category-back {
     background: var(--primary-300);
-   }    
+   }  
+  .edit-category-nav .nav-stacked {
+    background-color: var(--primary-200);
+  }
 }
