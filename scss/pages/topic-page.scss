@@ -1,4 +1,8 @@
 [class*="archetype-"]  {
+     .topic-body,
+     .topic-avatar {
+       border-top: 1px solid var(--primary-low-mid);
+     } 
      nav.post-controls .actions button .d-icon {
           opacity: 0.7;
           color: var(--primary-high-or-secondary-low)
@@ -135,4 +139,5 @@
 
 .topic-list .topic-list-data.bulk-select {
      text-align: center
-}     
+}    
+
