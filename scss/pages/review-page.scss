@@ -1,6 +1,12 @@
 .reviewable {
-    background-color: var(--tertiary-or-white);
-    padding: 50px;
+   background-color: var(--tertiary-or-white);
+     padding: 25px 50px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     .reviewable-title,
+     .reviewable-filters{
+         background-color: var(--primary-100);
+    }
 }
 
 .reviewable .reviewable-container .reviewable-list {
