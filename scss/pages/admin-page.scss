@@ -93,4 +93,7 @@ div.edit-category {
 .admin-controls,
 .admin-controls .controls {
     background-color: var(--primary-100);
+    .btn-default {
+      background-color: var(--primary-low-mid);
+   } 
 }  
