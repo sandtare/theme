@@ -37,3 +37,8 @@
 .group-details-button .btn-default {
   background-color: var(--primary-low-mid)
 }  
+
+.user-stream .item, 
+.user-stream .user-stream-item {
+  border-bottom: 1px solid var(--primary-low-mid);
+}   
