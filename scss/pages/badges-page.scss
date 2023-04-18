@@ -6,7 +6,8 @@
      .badge-card {
          background-color: var(--primary-100);
     }
-     .badge-contents:hover .badge-card {
-            background-color: var(--primary-low-mid);
-     }
+}
+
+.badge-contents:hover .badge-card {
+       background-color: var(--primary-low-mid);
 }
