@@ -21,7 +21,9 @@
      margin-top: 30px;
      margin-bottom: 30px
   }
-  .group-box-inner,
+  .group-box-inner {
+    background-color: var(--primary-200);
+  }
   .groups-header-new {
     background-color: var(--primary-low-mid);
   }
