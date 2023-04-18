@@ -40,6 +40,10 @@ body.category:not(.categories-list) {
 .latest-topic-list-item.visited a.title:not(.badge-notification), 
 .category-topic-link.visited a.title:not(.badge-notification) {
   color: var(--primary);
+   transition: all 0.15s;
+     &:hover {
+          color: var(--primary-medium)
+     } 
 }
 
 .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover .top-date-string,
