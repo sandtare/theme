@@ -149,7 +149,8 @@
     background-color: $base!important;
     color: $black!important;
     border-radius: 4px;
-    transition: all 0.15s;  
+    transition: all 0.15s;
+    display: none;
     &:hover {
       background-color: $base-dark!important;
       color: var(--secondary)!important
