@@ -42,3 +42,8 @@
 .user-stream .user-stream-item {
   border-bottom: 1px solid var(--primary-low-mid);
 }   
+
+.user-preferences .bio-composer, 
+.group-form-bio {
+  border: 1px solid var(--primary-low-mid);
+}
