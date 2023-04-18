@@ -77,7 +77,8 @@ div.edit-category {
   .edit-category-title-bar {
     background-color: var(--tertiary-or-white);
   }  
-  .btn {
+  .d-button-label,
+  .category-back {
     background: var(--primary-300);
    }    
 }
