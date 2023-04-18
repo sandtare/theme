@@ -5,4 +5,11 @@
      margin-top: 30px;
      margin-bottom: 30px
   }
+  .user-preferences .bio-composer, 
+  .group-form-bio {
+    border: 1px solid var(--primary-medium);
+  }
+  .btn {
+    background: var(--primary-medium);
+   }
 }
