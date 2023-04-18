@@ -95,5 +95,8 @@ div.edit-category {
     background-color: var(--primary-100);
     .btn-default {
       background-color: var(--primary-low-mid);
+      &:hover {
+        background-color: var(--secondary-or-primary);
+      }  
    } 
 }  
