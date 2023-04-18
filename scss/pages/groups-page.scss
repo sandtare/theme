@@ -1,6 +1,6 @@
 .groups-new-page,
 .groups-page,
-.body-group {
+.body-group:not(.tags-page) {
   #main-outlet {
      background-color: var(--tertiary-or-white);
      padding: 25px 50px;
