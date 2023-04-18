@@ -124,3 +124,12 @@
 }      
 
 
+.topic-list-main-link a.title, 
+.topic-list .main-link a.title, 
+.latest-topic-list-item .main-link a.title {
+     transition: all 0.15s;
+     &:hover {
+          color: var(--primary-medium)
+     }          
+}     
+
