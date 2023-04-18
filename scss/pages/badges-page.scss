@@ -1,9 +1,12 @@
 .badges-page .badges {
-   background-color: var(--tertiary-or-white);
+     background-color: var(--tertiary-or-white);
      padding: 25px 50px;
      margin-top: 30px;
      margin-bottom: 30px;
      .badge-card {
          background-color: var(--primary-100);
+         &:hover {
+            background-color: var(--primary-low-mid);
+         }
     }
 }
