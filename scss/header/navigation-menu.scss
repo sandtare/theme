@@ -14,7 +14,11 @@
    margin-right: 0
 }
 
-.navigation-container {  
+.navigation-container { 
+ .nav-item_votes,
+ .nav-item_my_votes {
+     display: none;
+ }	 
  .btn {
     background-color: var(--primary-low-mid);
     &:hover {
