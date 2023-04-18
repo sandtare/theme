@@ -92,8 +92,10 @@ div.edit-category {
 
 .admin-controls,
 .admin-controls .controls,
-.admin-controls nav,
-.admin-controls svg {
+.admin-controls nav {
     background-color: var(--primary-100);   
+}  
+.admin-controls svg {
+    color: var(--primary-100);   
 }  
    
