@@ -14,6 +14,7 @@
       .show-more {
         position: initial;
         margin-bottom: 20px;
+        transition: all 0.15s;
         &:hover .alert.alert-info {
           background-color: var(--highlight-medium);
         }
