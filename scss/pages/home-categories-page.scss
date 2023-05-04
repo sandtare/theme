@@ -95,7 +95,7 @@
       } 
     }
     .column:not(.categories).table-heading:hover:after {
-       border-bottom: 1px solid var(--tertiary);
+       border-bottom: 1px solid var(--tertiary)!important;
     } 
     h3 .category-name,
     .column .table-heading {
