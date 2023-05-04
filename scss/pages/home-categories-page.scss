@@ -151,14 +151,14 @@
   display: inline-block!important;
   padding-right: 5px!important;
   &.new-posts {
-    background-color: $base!important;
-    color: $black!important;
+    background-color: $base-dark!important;
+    color: $white!important;
     border-radius: 4px;
     transition: all 0.15s;
     display: none!important;
     &:hover {
-      background-color: $base-dark!important;
-      color: var(--secondary)!important
+      background-color: $base!important;
+      color: $black!important
     }
   }  
   &.new-topic::before {
