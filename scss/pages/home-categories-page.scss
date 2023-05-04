@@ -151,11 +151,13 @@
   display: inline-block!important;
   padding-right: 5px!important;
   &.new-posts {
+    display: none!important;
+  }
+  &.unread-posts {
     background-color: $base-dark!important;
     color: $white!important;
     border-radius: 4px;
     transition: all 0.15s;
-    display: none!important;
     &:hover {
       background-color: $base!important;
       color: $black!important
