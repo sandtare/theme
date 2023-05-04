@@ -31,7 +31,10 @@
     } 
     .column:not(.categories) {
        background-color: var(--tertiary-or-white); 
-       padding: 13px 23px
+       padding: 13px 23px;
+      .title {
+        font-size: var(--font-0)
+      }  
     }    
     .column.categories {
        margin-right: 1em; 
