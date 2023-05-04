@@ -8,7 +8,7 @@
 .select-kit.single-select .select-kit-filter.is-expanded {
     background-color: var(--primary-50)
 }	
-.select-kit.combo-box.category-drop .select-kit-row[data-value="all-categories"]:first-letter {
+.select-kit.combo-box.category-drop .select-kit-row[data-value="all-categories"] {
     text-transform: uppercase	
 }	
 
