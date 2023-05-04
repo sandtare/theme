@@ -94,7 +94,7 @@
          border-bottom: 1px solid $base-dark;
       } 
       .column:not(.categories).table-heading:hover:after {
-         border-bottom-color var(--tertiary);
+         border-bottom-color: var(--tertiary);
       } 
     }    
     h3 .category-name,
