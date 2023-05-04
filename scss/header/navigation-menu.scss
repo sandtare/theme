@@ -59,6 +59,11 @@
 	    transition: all 0.25s;
 	  }
         }
+        &[title="all categories"] {
+	   .name:first-letter {
+		text-transform: uppercase;   
+	   }
+        }      
 	.category-name {
 	  font-family: supply-regular;
 	  color: var(--primary);
