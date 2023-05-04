@@ -32,6 +32,7 @@
      .column:not(.categories) {
         background-color: var(--tertiary-or-white); 
         padding: 13px 23px;
+        margin-bottom: 15px;
        .title {
          font-size: var(--font-0)
        }  
@@ -42,7 +43,8 @@
          font-size: var(--font-0);
        }
        .category-list {
-         height: 100%
+         height: 100%;
+         display: flex
        }  
      }
      #create-topic,
