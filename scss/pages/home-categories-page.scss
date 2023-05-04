@@ -49,6 +49,10 @@
     }
     tbody {
         border-top: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
         tr {
              display: block;
              background-color: var(--tertiary-or-white);
