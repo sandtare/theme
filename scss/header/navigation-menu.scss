@@ -8,6 +8,11 @@
 .select-kit.single-select .select-kit-filter.is-expanded {
     background-color: var(--primary-50)
 }	
+.list-controls .select-kit .select-kit-collection {
+   li[data-name="all categories"]:first-letter {
+      text-transform: uppercase	
+   }
+}	
 
 #navigation-bar {
    margin-left: auto;
