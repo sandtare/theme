@@ -36,7 +36,7 @@
     .column.categories {
        margin-right: 1em; 
       .badge-wrapper {
-        font-size: inherit;
+        font-size: var(--font-0);
       }
     }
     #create-topic,
