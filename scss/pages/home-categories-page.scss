@@ -88,8 +88,7 @@
          }   
 
      .category-text-title,
-     .column {
-       .table-heading {
+     .column .table-heading {
          overflow:hidden;
          &:after {
              content:'';
@@ -104,10 +103,9 @@
             border-bottom: 1px solid $base-dark;
          } 
        }  
-       &:not(.categories) .table-heading:hover::after {
+       .column:not(.categories) .table-heading:hover::after {
            border-bottom: 1px solid var(--tertiary)!important;
        }
-     }
      h3 .category-name,
      .column .table-heading {
          color: var(--primary);
