@@ -35,6 +35,9 @@
     }    
     .column.categories {
        margin-right: 1em; 
+      .badge-wrapper {
+        font-size: larger;
+      }
     }
     #create-topic,
     .topics,
