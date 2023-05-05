@@ -30,9 +30,14 @@
          }  
         } 
      } 
-     .headerLink:hover a {
-        color: $base-dark;
-    }   
+     .headerLink {
+        a {
+            padding-right: 10px
+        }
+        &:hover a {
+           color: $base-dark;
+       } 
+    }     
    .search-header {
       width: 300px;
       #search-term {
@@ -52,7 +57,7 @@
     padding-right: 10px
   }
   .d-header-icons .unread-high-priority-notifications {
-  right: 20px;
+      right: 20px;
   }
 }
 
