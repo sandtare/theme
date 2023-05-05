@@ -13,11 +13,11 @@
     .custom-header-links {
        position: absolute;
        display: none;
-       @media screen and (min-width: 798px) {
+       @media screen and (min-width: 992px) {
           display: flex;
-          left: 30%;
+          left: 28%;
        }  
-       @media screen and (min-width: 1240px) {
+       @media screen and (min-width: 1550px) {
           position: absolute;
           left: 37.3%;
        }    
