@@ -39,10 +39,16 @@
        } 
     }     
    .search-header {
-      width: 300px;
+       @media screen and (max-width: 1340px) {
+         width: 230px;
+      } 
+      @media screen and (min-width: 1341px) {
+         width: 300px;
+      }   
       #search-term {
          background-color: var(--tertiary-or-white);
       }
+    
     }  
   } 
   
