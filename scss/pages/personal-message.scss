@@ -1,7 +1,13 @@
-.archetype-private_message .topic-body .cooked {
-  border: 1px solid var(--primary-low-mid);
-  border-radius: 0 5px 5px 5px
-}  
+.archetype-private_message {
+  .topic-body .cooked {
+    border: 1px solid var(--primary-low-mid);
+    border-radius: 0 5px 5px 5px
+  }  
+  .topic-map .participants .user {
+    background: var(--primary-100);
+    border-radius: var(--border-radius);
+  }
+}    
 
 .small-action .topic-avatar, 
 .small-action .small-action-desc {
