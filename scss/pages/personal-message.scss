@@ -10,6 +10,8 @@
 }    
 
 .small-action .topic-avatar, 
-.small-action .small-action-desc {
+.small-action .small-action-desc,
+.topic-status-info, 
+.topic-timer-info {
   border-top: 1px solid var(--primary-low-mid);
 }
