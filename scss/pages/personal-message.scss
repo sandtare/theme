@@ -2,3 +2,8 @@
   border: 1px solid var(--primary-low-mid);
   border-radius: 0 5px 5px 5px
 }  
+
+.small-action .topic-avatar, 
+.small-action .small-action-desc {
+  border-top: 1px solid var(--primary-low-mid);
+}
