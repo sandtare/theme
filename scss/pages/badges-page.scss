@@ -15,13 +15,16 @@
      padding: 15px 10px 10px
 }
 
-.user-info .user-detail .name a, 
-.user-info .user-detail .username a {
-  color: var(--primary);
-  transition: all 0.15s;
-     &:hover {
-          color: var(--primary-800)!important;
-   }   
+.user-info .user-detail {
+     .name a, 
+     .username a,
+     .details a {
+       color: var(--primary);
+       transition: all 0.15s;
+          &:hover {
+               color: var(--primary-800)!important;
+        }   
+    }        
 }
 
 .badge-link {
