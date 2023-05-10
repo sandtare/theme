@@ -50,6 +50,9 @@ input[type="color"] {
   .admin-report-table .table {
       border: 1px solid var(--primary-low-mid);
   }
+  .dashboard .misc .storage-stats, .dashboard-next .misc .storage-stats {
+      border-right: 1px solid var(--primary-low-mid);
+  }  
   #main-outlet-wrapper {
     background-color: var(--tertiary-or-white);
     margin-top: 20px;
