@@ -22,19 +22,7 @@
  .nav-item_my_votes {
      display: none;
  }	 
- .btn {
-    background-color: var(--primary-low-mid);
-    &:hover {
-      background-color: var(--primary-medium);
-      color: var(--primary-low);
-      svg {
-        color: var(--primary-low);
-      }
-    }  
-  }
-  .nav-pills > li a.active {
-    color: $white;
-  }
+
   .list-controls .combo-box .combo-box-header,
   .select-kit {
       &.combo-box .select-kit-header {
