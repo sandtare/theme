@@ -41,7 +41,8 @@ input[type="color"] {
   .version-checks .section-title,
   .dashboard .section .section-title, 
   .dashboard-next .section .section-title,
-  .content-list ul li {
+  .content-list ul li,
+  .admin-badges .badges-header {
       border-bottom: 1px solid var(--primary-low-mid);
   } 
   .counters-list .counters-header,
@@ -54,7 +55,8 @@ input[type="color"] {
   .dashboard .misc .storage-stats, .dashboard-next .misc .storage-stats {
       border-right: 1px solid var(--primary-low-mid);
   }  
-  .display-row {
+  .display-row,
+  .admin-badges .badges-header {
     border-top: 1px solid var(--primary-low-mid);
   }  
   #main-outlet-wrapper {
