@@ -38,7 +38,7 @@ body[class*="user-"] {
     table a,
     .badge-group-list a:not(.badge-link) {
         color: var(--header_primary-high)!important;
-        transition: all 0.15s,
+        transition: all 0.15s;
         &:hover {
           color: var(--header_primary-medium);
        }  
