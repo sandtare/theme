@@ -90,3 +90,8 @@ tr {
     background-color: var(--secondary);
     } 
 }  
+
+.btn-danger, 
+.json-editor-btn-delete {
+  color: var(--primary);
+}
