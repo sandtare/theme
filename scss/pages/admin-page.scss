@@ -49,7 +49,8 @@ input[type="color"] {
   .counters-list .admin-report .main,
   .dashboard .misc, .dashboard-next .misc,
   .admin-report-table .table,
-  .admin-badges .content-list .admin-badge-list {
+  .admin-badges .content-list .admin-badge-list,
+  .dashboard-reports .report {
       border: 1px solid var(--primary-low-mid);
   }
   .dashboard .misc .storage-stats, .dashboard-next .misc .storage-stats {
