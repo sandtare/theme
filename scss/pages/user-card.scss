@@ -1,23 +1,23 @@
 .user-card {
-    border: 1px solid var(--primary)!important;
-    border-top-width: 10px!important;
-    box-shadow: 0 0 0!important;
+    border: 1px solid var(--primary);
+    border-top-width: 10px;
+    box-shadow: 0 0 0;
     .metadata {
-        border-bottom: 1px var(--primary-low-mid) solid!important;
-        border-top: 1px var(--primary-low-mid) solid!important;
-        padding-top: 10px!important;
-        margin-top: 10px!important;
-        padding-bottom: 10px!important;
-        margin-bottom: 10px!important;
+        border-bottom: 1px var(--primary-low-mid) solid;
+        border-top: 1px var(--primary-low-mid) solid;
+        padding-top: 10px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
         h3,
         h3 span {
-          color: var(--primary-medium)!important
+          color: var(--primary-medium)
        }  
     } 
     .card-content {
-          background: var(--header_background)!important;
+          background: var(--header_background);
      }
     .badge-section .user-badge {
-          background-color: var(--primary-200)!important;
+          background-color: var(--primary-200);
      }
 }
