@@ -97,6 +97,15 @@ tr {
   color: var(--primary-low);
 }
 
+.btn-primary {
+  background: var(--tertiary);
+}
+
+.btn-danger {
+  color: var(--secondary)!important;
+  background: var(--danger)!important;
+}
+
 .btn-danger:hover, 
 .json-editor-btn-delete:hover {
   color: $white!important;
@@ -105,9 +114,6 @@ tr {
   }
 }
 
-.btn-primary {
-  background: var(--tertiary);
-}
 
 .nav-pills {
     background-color: var(--primary-100);
