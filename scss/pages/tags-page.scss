@@ -1,9 +1,14 @@
-.tags-page:not(.body-group):not([class*="tag-"]) #main-outlet {
-     background-color: var(--tertiary-or-white);
-     padding: 25px 50px;
-     margin-top: 30px;
-     margin-bottom: 30px;
-}
+.tags-page {
+     .discovery-above-outlet {
+          display: none
+     }     
+     &:not(.body-group):not([class*="tag-"]) #main-outlet {
+          background-color: var(--tertiary-or-white);
+          padding: 25px 50px;
+          margin-top: 30px;
+          margin-bottom: 30px;
+     }
+}     
 
 .tags-list {
   border-bottom: 1px solid var(--primary-low-mid);
