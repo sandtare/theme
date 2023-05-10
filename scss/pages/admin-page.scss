@@ -40,12 +40,14 @@ input[type="color"] {
 .admin-interface {
   .version-checks .section-title,
   .dashboard .section .section-title, 
-  .dashboard-next .section .section-title {
+  .dashboard-next .section .section-title,
+  tr {
       border-bottom: 1px solid var(--primary-low-mid);
   } 
   .counters-list .counters-header,
   .counters-list .admin-report .main,
-  .dashboard .misc, .dashboard-next .misc {
+  .dashboard .misc, .dashboard-next .misc,
+  .admin-report-table .table {
       border: 1px solid var(--primary-low-mid);
   }
   #main-outlet-wrapper {
