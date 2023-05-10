@@ -89,10 +89,11 @@ tr {
   &:hover {
     background-color: var(--secondary);
     } 
-  &:focus svg {
-    color: var(--primary-high)
-  }
 }  
+
+.btn:focus .d-icon {
+  color: var(--primary-high);
+}
 
 .btn-danger:hover, 
 .json-editor-btn-delete:hover {
