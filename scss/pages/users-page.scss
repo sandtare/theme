@@ -23,8 +23,13 @@ body[class*="user-"] {
     .about {
       margin-left: 10px;
       margin-right: 10px;
-      .details {
-        background: var(--tertiary-or-white)!important;
+    .secondary {
+       border-top: 1px solid var(--primary-low-mid);
+    }  
+    .details,
+    &.collapsed-info .details {
+      border-bottom: 1px solid var(--primary-low-mid);
+      background: var(--tertiary-or-white)!important;
       }  
     }  
     .top-section a {
@@ -35,7 +40,6 @@ body[class*="user-"] {
         color: var(--header_primary)!important;
     } 
    .nav-pills > li > a {
-        padding: 10px 15px;
         &.active,
         &:hover {
           color: $white;
@@ -148,15 +152,4 @@ body.users-page {
   background-color: var(--highlight-medium);
 }
 
-body.user-invites-page,
-body.user-activity-page {
-  .user-main .about {
-    .details,
-    &.collapsed-info .details {
-      border-bottom: 1px solid var(--primary-low-mid);
-  }
-    .secondary {
-       border-top: 1px solid var(--primary-low-mid);
-    }  
-  }  
-}  
+
