@@ -40,7 +40,8 @@ input[type="color"] {
 .admin-interface {
   .version-checks .section-title,
   .dashboard .section .section-title, 
-  .dashboard-next .section .section-title {
+  .dashboard-next .section .section-title,
+  .content-list ul li {
       border-bottom: 1px solid var(--primary-low-mid);
   } 
   .counters-list .counters-header,
