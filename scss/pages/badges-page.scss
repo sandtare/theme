@@ -8,9 +8,6 @@
 
 .badges-page .badge-card {
     background-color: var(--primary-100);
-    .badge-link:hover {
-          color: var(--primary-high);
-     }
 }
 
 .badge-info.user-info {
@@ -21,4 +18,8 @@
 .user-info .user-detail .name a, 
 .user-info .user-detail .username a {
   color: var(--primary-high);
+}
+
+.badge-link:hover {
+     color: var(--primary-high)!important;
 }
