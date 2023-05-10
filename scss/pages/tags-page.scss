@@ -21,11 +21,13 @@
      padding-left: 10px
 }
 
-.discourse-tag.simple:hover {
-  color: var(--primary-high);
-}
-
-.discourse-tag.simple,
-.discourse-tag.simple:visited {
-  color: var(--primary-medium);
+.discourse-tag.simple {
+     color: var(--primary-medium);
+     transition: all 0.15s;   
+     &:visited {
+       color: var(--primary-medium);
+     }
+     &:hover {
+       color: var(--primary-high);
+     }
 }
