@@ -148,7 +148,8 @@ body.users-page {
   background-color: var(--highlight-medium);
 }
 
-body.user-invites-page {
+body.user-invites-page,
+body.user-activity-page {
   .user-main .about {
     &.collapsed-info .details {
       border-bottom: 1px solid var(--primary-low-mid);
