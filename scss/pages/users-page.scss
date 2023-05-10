@@ -134,4 +134,9 @@ body.users-page {
   .open-edit-columns-btn {
     background-color: var(--primary-low-mid);
   }
+  .directory table td, 
+  .directory table th {
+    border-bottom: 1px solid var(--primary-low-mid);
+  }
 }
+
