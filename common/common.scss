@@ -109,6 +109,7 @@ tr {
 .btn-danger:hover, 
 .json-editor-btn-delete:hover {
   color: $white!important;
+  background: var(--danger-hover)!important;
   svg {
     color: $white!important;
   }
