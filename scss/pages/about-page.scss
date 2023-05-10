@@ -1,6 +1,6 @@
 body.about-page,
 body.static-faq,
-body.static-tos
+body.static-tos,
 body.static-privacy {
   #main-outlet {
     padding: 25px 50px;
@@ -14,5 +14,11 @@ body.static-privacy {
   } 
   li {
     margin-bottom: 0
-  }   
+  } 
+  a {
+    transition: all 0.15s
+  }
+  a:hover {
+    color: var(--tertiary-high)
+  }
 }  
