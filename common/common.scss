@@ -90,7 +90,7 @@ tr {
     background-color: var(--secondary);
     } 
   &:focus svg {
-    var(--primary-high)
+    color: var(--primary-high)
   }
 }  
 
