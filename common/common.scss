@@ -93,8 +93,8 @@ tr {
 
 .btn-danger:hover, 
 .json-editor-btn-delete:hover {
-  color: $white;
+  color: $white!important;
   svg {
-    color: $white;
+    color: $white!important;
   }
 }
