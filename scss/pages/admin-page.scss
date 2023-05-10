@@ -19,7 +19,10 @@ input[type="color"] {
 .group-staff,
 .user-content,
 .group-details-container,
-.select-kit.multi-select .multi-select-header {
+.select-kit.multi-select .multi-select-header,
+.counters-list .counters-header,
+.counters-list .admin-report .main,
+.dashboard .misc, .dashboard-next .misc {
   background-color: var(--tertiary-or-white)
 }  
 
@@ -38,6 +41,11 @@ input[type="color"] {
 }
 
 .admin-interface {
+  .version-checks .section-title,
+  .dashboard .section .section-title, 
+  .dashboard-next .section .section-title {
+      border-bottom: 1px solid var(--primary-low-mid);
+  } 
   #main-outlet-wrapper {
     background-color: var(--tertiary-or-white);
     margin-top: 20px;
