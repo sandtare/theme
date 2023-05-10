@@ -147,3 +147,9 @@ body.users-page {
 .directory .me {
   background-color: var(--highlight-medium);
 }
+
+body.user-invites-page {
+  .user-main .about.collapsed-info .details {
+      border-bottom: 1px solid var(--primary-low-mid);
+  }
+}  
