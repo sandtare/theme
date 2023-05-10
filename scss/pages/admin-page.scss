@@ -60,6 +60,9 @@ input[type="color"] {
   .admin-badges .badges-header {
     border-top: 1px solid var(--primary-low-mid);
   }  
+  tbody {
+    border-top: 3px solid var(--primary-low-mid);
+  }
   #main-outlet-wrapper {
     background-color: var(--tertiary-or-white);
     margin-top: 20px;
