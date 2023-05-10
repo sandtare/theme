@@ -20,6 +20,9 @@
   color: var(--primary-high);
 }
 
-.badge-link:hover {
-     color: var(--primary-700)!important;
+.badge-link {
+     transition: all 0.15s;
+     &:hover {
+          color: var(--primary-700)!important;
+     }     
 }
