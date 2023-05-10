@@ -149,7 +149,12 @@ body.users-page {
 }
 
 body.user-invites-page {
-  .user-main .about.collapsed-info .details {
+  .user-main .about {
+    &.collapsed-info .details {
       border-bottom: 1px solid var(--primary-low-mid);
   }
+    .secondary {
+       border-top: 1px solid var(--primary-low-mid);
+    }  
+  }  
 }  
