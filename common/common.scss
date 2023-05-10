@@ -85,7 +85,8 @@ tr {
   background-color: var(--secondary-or-primary);
 }
 
-.btn-default {
+.btn-default,
+.btn {
   background-color: var(--primary-low-mid);
   &:hover {
     background-color: var(--secondary);
