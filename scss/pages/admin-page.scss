@@ -40,8 +40,7 @@ input[type="color"] {
 .admin-interface {
   .version-checks .section-title,
   .dashboard .section .section-title, 
-  .dashboard-next .section .section-title,
-  tr {
+  .dashboard-next .section .section-title {
       border-bottom: 1px solid var(--primary-low-mid);
   } 
   .counters-list .counters-header,
@@ -52,6 +51,9 @@ input[type="color"] {
   }
   .dashboard .misc .storage-stats, .dashboard-next .misc .storage-stats {
       border-right: 1px solid var(--primary-low-mid);
+  }  
+  .display-row {
+    border-top: 1px solid var(--primary-low-mid);
   }  
   #main-outlet-wrapper {
     background-color: var(--tertiary-or-white);
