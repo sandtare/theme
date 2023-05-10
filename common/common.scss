@@ -121,5 +121,12 @@ tr {
     padding: 10px;
     li {
       margin-bottom: 0
+      a.active,
+      button.active {
+        color: $white;
+        background-color: var(--quaternary);
+      }
     } 
 }
+
+
