@@ -38,6 +38,9 @@ input[type="color"] {
 }
 
 .admin-interface {
+  .admin-actions .btn {
+    background: var(--primary-100)
+  }  
   .version-checks .section-title,
   .dashboard .section .section-title, 
   .dashboard-next .section .section-title,
