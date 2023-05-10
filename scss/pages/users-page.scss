@@ -36,7 +36,7 @@ body[class*="user-"] {
         color: $blue;
     }
     table a,
-    .badge-group-list a {
+    .badge-group-list a:not(.badge-link) {
         color: var(--header_primary)!important;
     } 
    .nav-pills > li > a {
