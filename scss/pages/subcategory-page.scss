@@ -1,5 +1,5 @@
 body.category:not(.categories-list),
-body[class*="body-"]:not(.category) {
+body[class*="body-"]:not(.category):not(.tags-page) {
   .list-container {
     padding-top: 0;
     margin-top: 0;
