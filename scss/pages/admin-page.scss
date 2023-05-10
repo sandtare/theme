@@ -47,7 +47,8 @@ input[type="color"] {
   .counters-list .counters-header,
   .counters-list .admin-report .main,
   .dashboard .misc, .dashboard-next .misc,
-  .admin-report-table .table {
+  .admin-report-table .table,
+  .admin-badges .content-list .admin-badge-list {
       border: 1px solid var(--primary-low-mid);
   }
   .dashboard .misc .storage-stats, .dashboard-next .misc .storage-stats {
