@@ -91,7 +91,10 @@ tr {
     } 
 }  
 
-.btn-danger, 
-.json-editor-btn-delete {
-  color: var(--primary);
+.btn-danger:hover, 
+.json-editor-btn-delete:hover {
+  color: $white;
+  svg {
+    color: $white;
+  }
 }
