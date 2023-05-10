@@ -37,7 +37,7 @@ body[class*="user-"] {
     }
     table a,
     .badge-group-list a:not(.badge-link) {
-        color: var(--header_primary)!important;
+        color: var(--header_primary-high)!important;
     } 
    .nav-pills > li > a {
         &.active,
