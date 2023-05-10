@@ -126,9 +126,11 @@ div.edit-category {
 .admin-controls,
 .admin-controls .controls,
 .admin-controls nav {
-    background-color: var(--primary-100);   
+    background-color: var(--primary-100); 
+    .nav-pills > li a.active {
+    background: var(--primary-medium) !important;
+  }
 }  
 .admin-controls .btn-flat .d-icon {
     color: var(--primary);   
-}  
-   
+} 
