@@ -17,19 +17,16 @@
 
 .user-info .user-detail .name a, 
 .user-info .user-detail .username a {
-  color: var(--primary-high);
+  color: var(--primary);
+  transition: all 0.15s;
+     &:hover {
+          color: var(--primary-800)!important;
+   }   
 }
 
 .badge-link {
      transition: all 0.15s;
      &:hover {
           color: var(--primary-700)!important;
-     }     
-}
-
-.badges-granted .username a {
-     transition: all 0.15s;
-     &:hover {
-          color: var(--primary-800)!important;
      }     
 }
