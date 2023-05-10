@@ -20,4 +20,7 @@
   background-color: var(--tertiary-or-white);
   padding: 0 30px;
   margin-bottom: 30px;
+  .topic-list tbody tr:nth-child(2n+1) {
+      background-color: var(--primary-low);
+    }
 }
