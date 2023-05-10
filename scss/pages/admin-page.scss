@@ -19,10 +19,7 @@ input[type="color"] {
 .group-staff,
 .user-content,
 .group-details-container,
-.select-kit.multi-select .multi-select-header,
-.counters-list .counters-header,
-.counters-list .admin-report .main,
-.dashboard .misc, .dashboard-next .misc {
+.select-kit.multi-select .multi-select-header {
   background-color: var(--tertiary-or-white)
 }  
 
@@ -43,7 +40,10 @@ input[type="color"] {
 .admin-interface {
   .version-checks .section-title,
   .dashboard .section .section-title, 
-  .dashboard-next .section .section-title {
+  .dashboard-next .section .section-title,
+  .counters-list .counters-header,
+  .counters-list .admin-report .main,
+  .dashboard .misc, .dashboard-next .misc {
       border-bottom: 1px solid var(--primary-low-mid);
   } 
   #main-outlet-wrapper {
