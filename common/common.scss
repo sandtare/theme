@@ -89,6 +89,9 @@ tr {
   &:hover {
     background-color: var(--secondary);
     } 
+  &:focus svg {
+    var(--primary-high)
+  }
 }  
 
 .btn-danger:hover, 
