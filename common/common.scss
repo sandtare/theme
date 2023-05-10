@@ -116,7 +116,6 @@ tr {
 }
 
 body:not(.categories-list):not(.navigation-topics):not([class*="category-"]) {
-  div:not(.admin-controls) {
     .nav-pills {
         background-color: var(--primary-100);
         padding: 10px;
@@ -129,7 +128,6 @@ body:not(.categories-list):not(.navigation-topics):not([class*="category-"]) {
           }
         } 
       }
-  } 
 }
 
 
