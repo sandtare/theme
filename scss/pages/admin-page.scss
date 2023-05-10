@@ -38,6 +38,9 @@ input[type="color"] {
 }
 
 .admin-interface {
+  .user-fields .user-field {
+    border-bottom: 1px solid var(--primary-low-mid)
+  }  
   .admin-actions .btn {
     background: var(--primary-100)
   }  
