@@ -1,28 +1,3 @@
-@import "pages/home-categories-page";
-@import "pages/category-page";
-@import "plugins/category-header-widget";
-@import "plugins/voting";
-@import "plugins/solved";
-@import "pages/subcategory-page";
-@import "pages/users-page";
-@import "pages/user-card";
-@import "pages/admin-page";
-@import "pages/topic-page";
-@import "pages/login-page";
-@import "pages/review-page";
-@import "pages/results-page";
-@import "pages/topic-modal";
-@import "pages/badges-page";
-@import "pages/groups-page";
-@import "pages/tags-page";
-@import "pages/personal-message";
-@import "pages/about-page";
-@import "header/header-menu";
-@import "header/navigation-menu";
-@import "footer/footer-sus-sections";
-@import "footer/footer-arturia";
-
-
 .list-container {
   background-color: var(--tertiary-or-white);
   margin: 30px 0;
@@ -128,5 +103,29 @@ tr {
       }
     } 
 }
+
+@import "pages/home-categories-page";
+@import "pages/category-page";
+@import "plugins/category-header-widget";
+@import "plugins/voting";
+@import "plugins/solved";
+@import "pages/subcategory-page";
+@import "pages/users-page";
+@import "pages/user-card";
+@import "pages/admin-page";
+@import "pages/topic-page";
+@import "pages/login-page";
+@import "pages/review-page";
+@import "pages/results-page";
+@import "pages/topic-modal";
+@import "pages/badges-page";
+@import "pages/groups-page";
+@import "pages/tags-page";
+@import "pages/personal-message";
+@import "pages/about-page";
+@import "header/header-menu";
+@import "header/navigation-menu";
+@import "footer/footer-sus-sections";
+@import "footer/footer-arturia";
 
 
