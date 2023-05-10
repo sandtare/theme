@@ -1,5 +1,5 @@
 .tags-page {  
-     #main-outlet {
+     .list-container {
           padding: 25px 50px;
           margin-bottom: 30px;
           margin-top: 30px;
@@ -9,6 +9,9 @@
      }     
      &:not(.body-group):not([class*="tag-"]) #main-outlet {
           background-color: var(--tertiary-or-white);
+          padding: 25px 50px;
+          margin-bottom: 30px;
+          margin-top: 30px;
      }       
 }     
 
