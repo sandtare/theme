@@ -24,3 +24,7 @@
 .discourse-tag.simple:hover {
   color: var(--primary-high);
 }
+
+.discourse-tag.simple:visited {
+  color: var(--primary-medium);
+}
