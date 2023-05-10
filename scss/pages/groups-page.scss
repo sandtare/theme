@@ -47,3 +47,7 @@
 .group-form-bio {
   border: 1px solid var(--primary-medium);
 }
+
+.discourse-no-touch .groups-boxes .group-box:hover {
+  box-shadow: none;
+}
