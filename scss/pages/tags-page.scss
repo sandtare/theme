@@ -33,5 +33,6 @@ a.discourse-tag.simple {
 }
 
 section.tag-info {
-     background-color: var(--tertiary-or-white)
+     background-color: var(--tertiary-or-white);
+     border: 1px solid var(--primary-low-mid)
 }
