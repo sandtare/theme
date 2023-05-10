@@ -50,7 +50,8 @@ input[type="color"] {
   .dashboard .misc, .dashboard-next .misc,
   .admin-report-table .table,
   .admin-badges .content-list .admin-badge-list,
-  .dashboard-reports .report {
+  .dashboard-reports .report,
+  .admin-customize .themes-list-container {
       border: 1px solid var(--primary-low-mid);
   }
   .dashboard .misc .storage-stats, .dashboard-next .misc .storage-stats {
