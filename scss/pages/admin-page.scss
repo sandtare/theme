@@ -42,7 +42,8 @@ input[type="color"] {
   .dashboard .section .section-title, 
   .dashboard-next .section .section-title,
   .content-list ul li,
-  .admin-badges .badges-header {
+  .admin-badges .badges-header,
+  .admin-customize .themes-list-container .themes-list-item {
       border-bottom: 1px solid var(--primary-low-mid);
   } 
   .counters-list .counters-header,
