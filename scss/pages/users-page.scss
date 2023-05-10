@@ -43,6 +43,9 @@ body[class*="user-"] {
           color: var(--header_primary-medium);
        }  
     } 
+   .main-nav.nav.nav-pills {
+     margin: 0
+    }    
    .nav-pills > li > a {
         &.active,
         &:hover {
