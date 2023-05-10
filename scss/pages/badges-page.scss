@@ -7,11 +7,12 @@
 }
 
 .badges-page .badge-card {
-    background-color: var(--primary-100);
+    background-color: var(--primary-low);
+    border: 1px solid var(--primary-low-mid);
 }
 
 .badge-info.user-info {
-     background-color: var(--primary-200);
+     background-color: var(--primary-very-low);
      padding: 15px 10px 10px
 }
 
