@@ -2,3 +2,11 @@
   padding-left: 5px;
   padding-right: 5px
 }
+
+#navigation-bar .navigation-toggle {
+  border: none;
+  .toggle-link {
+    color: var(--secondary);
+    background-color: var(--quaternary)
+  }
+}  
