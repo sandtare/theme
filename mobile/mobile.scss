@@ -94,6 +94,10 @@ body.categories-list.category {
   }
 }
 
+body.category:not(.categories-list) #list-area {
+  padding-top: 15px;
+}
+
 .topic-list {
   .topic-list-data {
     padding: 12px 10px
