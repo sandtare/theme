@@ -47,3 +47,14 @@
   width: 100%;
   padding: 6px 5px;
 }
+
+// SUBCATEGORY PAGE
+.discovery-above-outlet {
+  boder-bottom: 1px solid var(--primary)
+  .category-header div[class^="category-title-header"] {
+    text-align: left;
+  }
+  .category-title-name h1 {
+  font-size: 1.8em
+  } 
+}   
