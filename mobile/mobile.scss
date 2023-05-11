@@ -20,6 +20,7 @@
   tbody tr {
     margin-bottom: 0;
     border-bottom: 1px solid var(--primary-low-mid);
+    padding: 13px 5px;
   }
   .list-container {
     background-color: var(--secondary-or-primary);
@@ -31,3 +32,8 @@
   border: none
 }
 
+
+.category-list .category-name {
+  white-space: wrap;
+  text-overflow: initial;
+}
