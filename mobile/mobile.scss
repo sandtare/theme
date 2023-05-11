@@ -21,7 +21,7 @@
 
 
 // HOME PAGE
-.categories-list.navigation-categories {
+body.categories-list.navigation-categories {
   tbody tr {
     margin-bottom: 0;
     border-bottom: 1px solid var(--primary-low-mid);
@@ -62,7 +62,7 @@
 }   
 
 // CATEGORY PAGE
-.categories-list.category {
+body.categories-list.category {
   .category-list-item {
     margin-top: 0
   }
