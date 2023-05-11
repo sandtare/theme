@@ -86,17 +86,20 @@ body.categories-list.category {
   }
   .discovery-above-outlet {
     border-bottom: 1px solid var(--primary);
-    padding-left: 5px;
-    padding-right: 5px;
-    .category-title-name h1 {
-      font-size: 1.8em
-      } 
   }
 }
 
 body.category:not(.categories-list) #list-area {
   padding-top: 15px;
 }
+
+.discovery-above-outlet {
+  padding-left: 5px;
+  padding-right: 5px;
+  .category-title-name h1 {
+    font-size: 1.8em
+  } 
+}  
 
 .topic-list {
   .topic-list-data {
