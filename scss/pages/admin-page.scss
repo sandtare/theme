@@ -128,7 +128,7 @@ div.edit-category {
     background-color: var(--primary-100); 
     .nav-pills > li a.active {
         background: var(--primary-medium) !important;
-        &.hover {
+        &:hover {
           background: var(--highlight-medium) !important;
         }   
    }   
