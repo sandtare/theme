@@ -1,8 +1,4 @@
-#main-outlet-wrapper {
-  padding-left: 5px;
-  padding-right: 5px
-}
-
+// NAVIGATION HEADER
 #navigation-bar .navigation-toggle {
   border: none;
   .toggle-link {
@@ -10,3 +6,15 @@
     background-color: var(--quaternary)
   }
 }  
+
+
+// HOME PAGE
+#main-outlet-wrapper {
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+.categories-list.navigation-categories tbody tr {
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--primary-low-mid);
+}
