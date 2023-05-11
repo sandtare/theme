@@ -10,12 +10,17 @@
 }  
 
 
-// HOME PAGE
 #main-outlet-wrapper {
   padding-left: 5px!important;
   padding-right: 5px!important
 }
+  .category-list-item {
+    padding: 0;
+    border: none!important
+  }
 
+
+// HOME PAGE
 .categories-list.navigation-categories {
   tbody tr {
     margin-bottom: 0;
@@ -26,29 +31,19 @@
     background-color: var(--secondary-or-primary);
     margin: 0
   }  
+  .category-name {
+    white-space: initial;
+    text-overflow: initial;
+  }
+  .category-list-item.category tr:first-of-type {
+    border-bottom: 1px solid var(--primary);
+  }
+  tbody tr td {
+    width: 100%;
+    padding: 6px 5px;
+  }
 }
 
-.category-list-item {
-  padding: 0;
-  border: none!important
-}
-
-
-.category-list .category-name {
-  white-space: initial;
-  text-overflow: initial;
-}
-
-.category-list-item.category tr:first-of-type {
-  border-bottom: 1px solid var(--primary);
-}
-
-.categories-list.navigation-categories tbody tr td {
-  width: 100%;
-  padding: 6px 5px;
-}
-
-// SUBCATEGORY PAGE
 .category-header div[class^="category-title-header"] {
     text-align: left;
     .category-title-contents {
@@ -66,3 +61,9 @@
     } 
 }   
 
+// CATEGORY PAGE
+.categories-list.category {
+  .category-list-item {
+    margin-top: 0
+  }
+}
