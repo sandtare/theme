@@ -1,1 +1,5 @@
-
+.categories-list.navigation-categories {
+  .number:after {
+     content: ' replies';  
+   }
+}
