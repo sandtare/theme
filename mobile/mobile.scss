@@ -42,3 +42,8 @@
 .category-list-item.category tr:first-of-type {
   border-bottom: 1px solid var(--primary);
 }
+
+.categories-list.navigation-categories tbody tr td {
+  width: 100%;
+  padding: 5px 5px;
+}
