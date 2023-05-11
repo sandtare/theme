@@ -51,11 +51,18 @@
 // SUBCATEGORY PAGE
 .category-header div[class^="category-title-header"] {
     text-align: left;
-  }
+    .category-title-contents {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
 
 .discovery-above-outlet {
   border-bottom: 1px solid var(--primary);
+  padding-left: 5px;
+  padding-right: 5px;
   .category-title-name h1 {
     font-size: 1.8em
     } 
 }   
+
