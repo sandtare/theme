@@ -177,8 +177,8 @@
     }
   }  
   &.new-topic::before {
-    background: $base!important;
-    color: $black!important;
+    background: $base-dark!important;
+    color: $white!important;
     transition: all 0.15s;  
   } 
   &.new-topic:hover::before {
