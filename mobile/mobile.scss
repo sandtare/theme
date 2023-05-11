@@ -52,14 +52,7 @@ body.categories-list.navigation-categories {
     }
 }
 
-.discovery-above-outlet {
-  border-bottom: 1px solid var(--primary);
-  padding-left: 5px;
-  padding-right: 5px;
-  .category-title-name h1 {
-    font-size: 1.8em
-    } 
-}   
+   
 
 // CATEGORY PAGE
 body.categories-list.category {
@@ -90,6 +83,14 @@ body.categories-list.category {
   }
   #list-area {
     padding: 30px 5px 30px 5px;
+  }
+  .discovery-above-outlet {
+    border-bottom: 1px solid var(--primary);
+    padding-left: 5px;
+    padding-right: 5px;
+    .category-title-name h1 {
+      font-size: 1.8em
+      } 
   }
 }
 
