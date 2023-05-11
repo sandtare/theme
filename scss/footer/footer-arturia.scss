@@ -94,7 +94,7 @@
   text-align: center;
 }
 
-.hide-mobile {
+.m-none {
   display: none;
   @media (min-width: 576px) {
     display: inline-block
