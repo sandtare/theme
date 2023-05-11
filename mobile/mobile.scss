@@ -16,7 +16,18 @@
   padding-right: 5px
 }
 
-.categories-list.navigation-categories tbody tr {
-  margin-bottom: 0;
-  border-bottom: 1px solid var(--primary-low-mid);
+.categories-list.navigation-categories {
+  tbody tr {
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--primary-low-mid);
+  }
+  .list-container {
+    background-color: var(--secondary-or-primary);
+  }  
 }
+
+.category-list-item {
+  padding: 0;
+  border: none
+}
+
