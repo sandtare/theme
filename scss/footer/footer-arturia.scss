@@ -167,7 +167,7 @@
   max-width: 100%;
 }
 
-.arturia-footer .col-9{
+.arturia-footer .col-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
@@ -188,6 +188,12 @@
     padding-right: 9.75px;
     position: relative;
     width: 100%;
+  }
+  
+   .arturia-footer .col-sm-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
   }
 }
 
