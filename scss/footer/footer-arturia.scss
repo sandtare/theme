@@ -94,7 +94,7 @@
   text-align: center;
 }
 
-.m-none {
+.arturia-footer  .m-none {
   display: none;
   @media (min-width: 576px) {
     display: inline-block
@@ -197,6 +197,20 @@
     max-width: 75%;
   }
 }
+
+@media (min-width: 768px) {
+  .arturia-footer .col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  
+  .arturia-footer .col-md-4 {
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+}  
 
 @media (min-width: 992px) {
   .arturia-footer .col-lg-3 {
