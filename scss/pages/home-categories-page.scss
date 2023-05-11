@@ -5,9 +5,6 @@
   .latest-topic-list-item {
       border-bottom: 1px solid var(--primary-low-mid);
   } 
-   .number:after {
-     content: ' replies';  
-   }
    .categories-and-latest, 
    .categories-and-top {
      background-color: var(--secondary-or-primary)
