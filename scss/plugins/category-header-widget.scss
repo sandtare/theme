@@ -30,17 +30,6 @@
       font-weight: 400;
     }   
   }  
-  .category-title-name {
-      overflow:hidden;
-      &:after {
-          content:'';
-          display: inline-block;
-          width: 100%; 
-          height: 100%;
-          margin-right: -100%;
-          border-bottom: 1px solid var(--tertiary);
-      }
-   }    
   .parent-box-link {
     display: none;
   }  
