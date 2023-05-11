@@ -37,3 +37,7 @@
   white-space: wrap;
   text-overflow: initial;
 }
+
+.category-list-item.category tr:first-of-type {
+  border: 1px solid var(--primary);
+}
