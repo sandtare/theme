@@ -158,6 +158,11 @@ body[class*="user-"] .user-main {
     margin-right: 0;
     padding-left: 10px;
     padding-right: 10px;
+    .secondary {
+      max-width: 100%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }   
     .staff-counters {
       margin-bottom: 0;
       margin-left: -10px;
