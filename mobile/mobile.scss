@@ -15,7 +15,7 @@ body.badges-page,
 body.body-badges,
 body.users-page,
 body.groups-page,
-body.body-group,
+body.body-group:not(.tags-page),
 body.tags-page {
   #main-outlet {
     background: var(--tertiary-or-white);
