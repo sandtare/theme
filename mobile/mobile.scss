@@ -9,7 +9,6 @@
   }
 }  
 
-
 #main-outlet-wrapper {
   padding-left: 5px!important;
   padding-right: 5px!important
@@ -19,6 +18,9 @@
     border: none!important
   }
 
+body[class*="body-"]:not(.category):not(.tags-page) #list-area {
+  padding-top: 30px;
+}
 
 // HOME PAGE
 body.categories-list.navigation-categories {
