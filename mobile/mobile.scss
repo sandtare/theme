@@ -18,7 +18,7 @@
 }
 .reviewable,
 .badges-page .badges {
-  padding: 0px 10px;
+  padding: 0;
   margin-top: 0
 } 
 
@@ -207,6 +207,10 @@ body[class*="user-"] .user-main {
 .user-info.medium.badge-info {
   min-width: 100%;
 }
+user-primary-navigation {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 // FOOTER
 .tuned {
@@ -236,6 +240,4 @@ body[class*="user-"] .user-main {
 } 
 
 // ADMIN
-.directory .directory-controls {
-  padding: 0 10px;
-} 
+
