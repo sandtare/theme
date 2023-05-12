@@ -111,3 +111,7 @@ body.category:not(.categories-list) #list-area {
     border-color: inherit;
     top: 4px;
   }
+h3:after {
+  content:"AFTER";
+    color: red;
+}
