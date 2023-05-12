@@ -116,3 +116,12 @@ body.category:not(.categories-list) #list-area {
     top: 4px;
   }
 */
+
+// TOPIC PAGE
+.title-voting {
+  padding-top: 0;
+  background-color: var(--tertiary-or-white);
+}
+[class*="archetype-"] #topic-title {
+  padding: 25px 30px 20px;
+}
