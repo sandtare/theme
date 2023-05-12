@@ -122,6 +122,12 @@ body.category:not(.categories-list) #list-area {
   padding-top: 20px;
   background-color: var(--tertiary-or-white);
 }
-[class*="archetype-"] #topic-title {
-  padding: 25px 30px 20px;
+[class*="archetype-"] {
+  #topic-title {
+    padding: 25px 10px 20px;
+  }
+  .posts:not(.posts-map) {
+    padding: 0 10px
+  }
 }
+
