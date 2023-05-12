@@ -40,3 +40,25 @@ body.categories-list.category {
        } 
     }   
 } 
+
+.body-bookmarks:not(.category),
+.body-top:not(.category),
+.body-latest:not(.category),
+.body-new:not(.category),
+.body-unread:not(.category) {
+    .discovery-above-outlet {  
+        span {
+            &:after {
+                content: '';
+                display: inline-block;
+                width: 100%;
+                height: 1px;
+                margin-right: -100%;
+                border-bottom: 1px solid var(--tertiary);
+                position: absolute;
+                top: 31px;
+                z-index: -1;
+            }  
+        }
+    }
+  }
