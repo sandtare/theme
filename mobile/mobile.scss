@@ -16,7 +16,7 @@ body.body-badges,
 body.users-page,
 body.groups-page,
 body.body-group:not(.tags-page),
-body.tags-page {
+body..tags-page:not(.body-group):not([class*="tag-"]) {
   #main-outlet {
     background: var(--tertiary-or-white);
     padding: 25px 10px;
