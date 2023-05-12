@@ -251,9 +251,12 @@ body[class*="user-"] .user-main {
 } 
 .reviewable-settings,
 .no-review {
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 20px
 }
 
 // ADMIN
+.group-details-container {
+  padding: 0
+}
 
