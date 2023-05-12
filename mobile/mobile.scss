@@ -66,6 +66,10 @@ body.categories-list.category {
   .category-list-item > h3 {
     border-color: inherit;
     border-width: 10px;
+    &:after {
+    content: "ADTER";
+   color: red
+    }
   }
   #list-area {
     padding: 30px 5px 30px 5px;
