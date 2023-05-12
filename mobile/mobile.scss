@@ -185,8 +185,11 @@ body[class*="user-"] .user-main {
     margin: 0;
     max-width: 100%;
   }
- .row {
+  .row {
     margin-right: 0;
     margin-left: 0;
  }  
+  .help-txt p {
+    padding-right: 0;
+  }
 }  
