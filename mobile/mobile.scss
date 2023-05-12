@@ -153,6 +153,9 @@ body.category:not(.categories-list) #list-area {
 body[class*="user-"] .user-main {
   background-color: var(--tertiary-or-white);
   padding: 30px 0px;
+ .top-sub-section {
+    width: 100%;
+  }  
   .about {
     margin-left: 0;
     margin-right: 0;
