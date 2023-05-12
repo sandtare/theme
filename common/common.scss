@@ -115,7 +115,7 @@ tr {
   }
 }
 
-body:not(.categories-list):not(.navigation-topics):not([class*="category-"]) {
+body:not(.categories-list):not(.navigation-topics):not([class*="category-"]):not(.tags-page) {
     .nav-pills {
         background-color: var(--primary-100);
         padding: 10px;
