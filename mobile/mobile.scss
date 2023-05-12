@@ -189,7 +189,10 @@ body[class*="user-"] .user-main {
     margin-right: 0;
     margin-left: 0;
  }  
-  .help-txt p {
-    padding-right: 0;
+  .help-txt {
+    padding-left: 0;
+    p {
+      padding-right: 0;
+    }
   }
 }  
