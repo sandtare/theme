@@ -288,3 +288,11 @@ body[class*="user-"] .user-main {
 .tags-page .list-container {
   padding: 0
 }  
+
+// FAQ
+.nav-item-about,
+.nav-item-faq,
+.nav-item-tos,
+.nav-item-privacy {
+  font-size: var(--font-down-1);
+}  
