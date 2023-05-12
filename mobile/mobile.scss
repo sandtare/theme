@@ -5,10 +5,22 @@
   padding-left: 5px!important;
   padding-right: 5px!important
 }
-  .category-list-item {
-    padding: 0;
-    border: none!important
-  }
+
+.category-list-item {
+  padding: 0;
+  border: none!important
+}
+
+#main-outlet {
+  background: var(--tertiary-or-white);
+  padding: 25px 0px;
+  margin: 25px 0px;
+}
+.reviewable,
+.badges-page .badges, 
+.body-badges #main-outlet {
+  padding: 25px 10px;
+} 
 
 body[class*="body-"]:not(.category):not(.tags-page) #list-area {
   padding-top: 20px;
@@ -218,8 +230,4 @@ body[class*="user-"] .user-main {
 } 
 
 // ADMIN
-#main-outlet {
-  background: var(--tertiary-or-white);
-  padding: 25px 0px;
-  margin: 25px 0px;
-}
+ 
