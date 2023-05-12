@@ -243,6 +243,11 @@ body[class*="user-"] .user-main {
 .reviewable-settings .reviewable-score-type .title {
   width: 50%;
 } 
+.reviewable-settings,
+.no-review {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
 
 // ADMIN
 
