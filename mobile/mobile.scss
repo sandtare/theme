@@ -94,6 +94,10 @@ body.categories-list.navigation-categories {
    
 
 // CATEGORY PAGE
+body.categories-list.category .category-list .category {
+  border-left: 6px solid red
+}    
+    
 body.categories-list.category {
   .category-list-item {
     margin-top: 0
