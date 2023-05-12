@@ -150,8 +150,13 @@ body.category:not(.categories-list) #list-area {
 }
 
 // USER PAGE
-body[class*="user-"] .user-main .about {
-  margin-left: 0;
-  padding-left: 10px;
-  padding-right: 10px
-}  
+body[class*="user-"] .user-main {
+  background-color: var(--tertiary-or-white);
+  padding: 5px 0px;
+  .about {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px
+  }  
+} 
