@@ -15,3 +15,27 @@
           border-bottom: 1px solid var(--tertiary);
       }
    }    
+
+body.categories-list.category {
+    .category {
+      border-left: none;
+      padding-left: 0;
+      > h3:first-child  {
+        border-color: inherit; 
+        border-width: 0;
+        position: relative;
+        > a {
+          border-color: inherit; 
+          border-width: 0;
+          border-style: solid;
+          &::before {
+              content: "";
+              height: 16px;
+              position: absolute;
+              border-style: solid;
+              border-color: inherit;
+              top: 4px;
+           }  
+         }
+       } 
+} 
