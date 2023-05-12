@@ -16,11 +16,19 @@ body.body-badges,
 body.users-page,
 body.groups-page,
 body.body-group,
-body.tags-page:not(.body-group) {
+body.tags-page {
   #main-outlet {
     background: var(--tertiary-or-white);
-    padding: 25px 10px!important;
-    margin: 25px 0px!important;
+    padding: 25px 10px;
+    margin: 25px 0px;
+  }
+}
+
+body.tags-page.body-group {
+  #main-outlet {
+    background: none;
+    padding: initial;
+    margin: initial;
   }
 }
 
