@@ -132,5 +132,8 @@ body.category:not(.categories-list) #list-area {
   .topic-body {
     width: 100%
   }
+  .topic-post article {
+    border-top: none;
+  }
 }
 
