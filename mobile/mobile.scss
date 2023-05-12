@@ -93,6 +93,9 @@ body.categories-list.category {
     border-bottom: 1px solid var(--primary);
   }
 }
+.category-header-widget {
+  margin-top: 0
+}
 
 // SUBCATEGORY
 body.category:not(.categories-list) #list-area {
