@@ -63,17 +63,17 @@ body.categories-list.category {
     margin-left: 15px;
     margin-right: 15px;
   }
-  .category-list .category > h3:first-child {
+  .category-list-item > h3:first-child {
     border-color: inherit;
     border-width: 0;
     position: relative;
   }
-  .category-list .category > h3:first-child > a {
+  .category-list-item > h3:first-child > a {
     border-color: inherit;
     border-width: 0;
     border-style: solid;
   }
-  .category-list .category > h3:first-child > a::before {
+  .category-list-item > h3:first-child > a::before {
     content: "";
     height: 16px;
     position: absolute;
