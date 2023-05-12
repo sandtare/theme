@@ -17,9 +17,8 @@
   margin: 25px 0px;
 }
 .reviewable,
-.badges-page .badges, 
-.body-badges #main-outlet {
-  padding: 25px 10px;
+.badges-page .badges {
+  padding: 0px 10px;
 } 
 
 body[class*="body-"]:not(.category):not(.tags-page) #list-area {
