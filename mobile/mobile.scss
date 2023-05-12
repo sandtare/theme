@@ -196,6 +196,9 @@ body[class*="user-"] .user-main {
 .badge-card.large .badge-contents {
   padding-top: 20px;
 }
+.user-info.medium.badge-info {
+  min-width: 100%;
+}
 
 // FOOTER
 .tuned {
@@ -219,4 +222,11 @@ body[class*="user-"] .user-main {
 // REVIEW PAGE
 .reviewable-settings .reviewable-score-type .title {
   width: 50%;
+}
+
+// ADMIN
+#main-outlet {
+    background: var(--tertiary-or-white);
+  padding: 25px 10px;
+  margin: 30px 0px;
 }
