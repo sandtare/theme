@@ -18,7 +18,9 @@ body.groups-page,
 body.body-group:not(.tags-page),
 body.tags-page:not(.body-group):not([class*="tag-"]),
 body.static-faq,
-body.static-privacy {
+body.static-privacy,
+body.about-page,
+body.static-tos {
   #main-outlet {
     background: var(--tertiary-or-white);
     padding: 25px 10px;
