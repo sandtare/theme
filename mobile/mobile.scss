@@ -47,6 +47,10 @@ body[class*="body-"]:not(.category):not(.tags-page) #list-area {
 }
 
 
+body:not(.categories-list):not(.navigation-topics):not([class*="category-"]):not(.tags-page) .nav-pills li {
+  font-size: smaller
+}    
+
 // NAVIGATION HEADER
 #navigation-bar .navigation-toggle {
   border: none;
