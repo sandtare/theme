@@ -32,7 +32,7 @@ body[class*="user-"] {
       background: var(--tertiary-or-white)!important;
       }  
     }  
-    .top-section a {
+    .top-section a:not(.badge-link) {
         color: $blue;
     }
     table a,
