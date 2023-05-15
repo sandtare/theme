@@ -80,6 +80,7 @@
              .category-name {
                   color: var(--primary-high);
                   transition: all 0.15s;
+                  font-size: var(--base-font-size-larger);
                   &:hover {
                     color: var(--primary-medium);
                   }
