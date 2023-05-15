@@ -43,6 +43,7 @@
           "primary-low-mid": "373737", 
           "secondary": "000000",
           "tertiary": "dfdfdf",
+          "tertiary-hover": "d5d5d5",
           "quaternary": "00B1A9",
           "header_background": "000000",
           "header_primary": "ffffff",
