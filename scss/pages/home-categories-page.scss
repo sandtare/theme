@@ -182,10 +182,8 @@
   &.new-topic:hover::before {
       background-color: $base!important;
       color: $black!important;
-    }
-  
-  .badge-wrapper.bullet .badge-category-bg {
-      height: 12px;
-  }  
+    }  
 }
-
+.badge-wrapper.bullet .badge-category-bg {
+      height: 10px;
+  }
