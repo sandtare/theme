@@ -142,5 +142,9 @@
 
 .topic-list .topic-list-data.bulk-select {
      text-align: center
-}    
+}   
+
+.small-action button .d-icon:not(.d-icon-trash-alt) {
+  color: var(--primary-500);
+}
 
