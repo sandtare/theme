@@ -159,3 +159,6 @@
      }
 }
 
+body:not(.footer-nav-visible) #topic-progress-wrapper {
+  margin-top: 20px;
+}
