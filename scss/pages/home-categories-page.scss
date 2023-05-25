@@ -196,8 +196,11 @@
     &:hover {
         background: var(--primary-medium);
         color: var(--secondary);
+      .d-icon {
+        color: var(--secondary);
       }
-    }  
+    }
+   }  
   a {
     color: var(--quaternary);
     transition: all 0.2s;
