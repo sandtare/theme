@@ -195,6 +195,7 @@
   }
   a {
     color: var(--quaternary);
+    transition: all 0.15s;
     &:hover {
       color: var(--quaternary-hover);
     } 
