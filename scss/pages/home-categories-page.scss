@@ -190,8 +190,11 @@
 
 #banner {
   background-color: var(--highlight-medium);
-  .floated-buttons > .btn:hover {
-    background-color: var(--primary-300);
+  .floated-buttons > .btn {
+    padding: 5px 8px;
+    &:hover {
+      background-color: var(--primary-300);
+    }  
   }
   a {
     color: var(--quaternary);
