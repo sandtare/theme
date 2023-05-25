@@ -144,7 +144,12 @@
      text-align: center
 }   
 
-.small-action button .d-icon:not(.d-icon-trash-alt) {
-  color: var(--primary-500)!important;
+.small-action button {
+     .d-icon {
+       color: var(--primary-500);
+     }
+     .d-icon-trash-alt {
+          color: var(--primary-100);
+     }
 }
 
