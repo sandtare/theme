@@ -193,7 +193,9 @@
   .floated-buttons > .btn:hover {
     background-color: var(--primary-300);
   }
-  a:hover {
-    color: var(--tertiary-hover);
-  }  
+  a {
+    color: var(--quaternary);
+    &:hover {
+      color: var(--quaternary-hover);
+    }   
 }  
