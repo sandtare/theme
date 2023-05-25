@@ -202,10 +202,10 @@
     }
    }  
   a {
-    color: #017e78;
+    color: var(--quaternary);
     transition: all 0.2s;
     &:hover {
-      color: var(--quaternary);
+      color: var(--quaternary-hover);
     } 
    }  
   .close {
