@@ -23,7 +23,9 @@
     }    
 }
 
-#activate-account-button:hover {
+#activate-account-button:hover,
+.login-button:hover,
+.sign-up-button:hover {
     background-color: var(--primary-medium)
 }
 
