@@ -3,8 +3,13 @@
     display: none  
 }   
 
-.password-reset .col-form, .invites-show .col-form {
+.password-reset .col-form, 
+.invites-show .col-form {
   padding: 0.5em 2em 2em;
   max-width: 100%;
   text-align: center;
+}
+
+#simple-container {
+    margin: 0 auto 20px
 }
