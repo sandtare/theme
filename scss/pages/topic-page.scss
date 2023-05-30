@@ -162,3 +162,7 @@
 body:not(.footer-nav-visible) #topic-progress-wrapper {
   margin-top: 20px;
 }
+
+.popup-menu .btn.popup-menu-btn-danger:hover .d-button-label {
+  color: inherit;
+ }    
