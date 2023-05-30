@@ -161,9 +161,12 @@ body:not(.categories-list.navigation-categories) .help {
   display: none; 
 }
 
-body.navigation-categories .tuned {
-  display: none;
-}
+body.navigation-categories,
+body.no-ember {
+  .tuned {
+    display: none;
+  }
+}  
 
 .h-30 {
   height: 30px
