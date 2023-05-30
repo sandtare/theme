@@ -1,7 +1,7 @@
 [class*="archetype-"]  {
      .topic-body,
      .topic-avatar {
-       border-top: 1px solid var(--primary-low-mid);
+       border-top: 1px solid var(--primary-300);
      } 
      aside.onebox {
        background: var(--primary-200);
@@ -51,7 +51,7 @@
           }  
           .map,
           .topic-map-expanded {
-               border-top: 1px solid var(--primary-low-mid)
+               border-top: 1px solid var(--primary-300)
           }          
      } 
      
