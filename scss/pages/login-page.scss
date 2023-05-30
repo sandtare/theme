@@ -13,9 +13,17 @@
 #simple-container {
     margin: 0 auto 20px;
     width: 600px;
-    background-color: var(--tertiary-or-white)
+    background-color: var(--tertiary-or-white);
+    .account-created .ac-page {
+        border-top: none;
+        box-shadow: none
+    }    
 }
 
 #activate-account-button:hover {
     background-color: var(--primary-medium)
+}
+
+.login-welcome-header {
+    background-color: var(--tertiary-or-white);
 }
