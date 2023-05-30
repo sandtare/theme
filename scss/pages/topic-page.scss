@@ -166,3 +166,7 @@ body:not(.footer-nav-visible) #topic-progress-wrapper {
 .popup-menu .btn.popup-menu-btn-danger:hover .d-button-label {
   color: inherit!important;
  }    
+
+.post-notice.old {
+  color: var(--primary-high);
+}
