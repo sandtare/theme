@@ -101,7 +101,10 @@
                font-family: supply-regular;
           }
      }    
-     
+     fa {
+       color: var(--primary-high-or-secondary-low);
+       margin-left: 0.5rem;
+     }
      .topic-meta-data {
           align-items: start;
           .user-title {
