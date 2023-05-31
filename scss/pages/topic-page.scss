@@ -10,11 +10,7 @@
           .actions {
                button .d-icon,
                .double-button button {
-                    &.my-likes .d-icon, 
-                    &.read-indicator .d-icon, 
-                    &.regular-likes .d-icon {
-                         color: var(--primary-high-or-secondary-low)!important
-                    }
+                      color: var(--primary-high-or-secondary-low)!important
               }  
           }     
           .extra-buttons .accepted {
