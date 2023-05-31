@@ -40,7 +40,7 @@
           "primary": "f8f8f8",
           "primary-high": "ededed",
           "primary-low": "373737", 
-          "primary-low-mid": "373737", 
+          "primary-low-mid": "505050", 
           "secondary": "000000",
           "tertiary": "dfdfdf",
           "tertiary-hover": "d9d9d59",
@@ -55,7 +55,7 @@
           "success": "00B1A9",
           "love": "fa6c8d",
           "primary-high-or-secondary-low": "A9A9A9",
-          "primary-low-mid-or-secondary-high": "7a7979"
+          "primary-low-mid-or-secondary-high": "797979"
         }
     }
 }
