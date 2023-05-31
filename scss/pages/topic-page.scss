@@ -188,3 +188,8 @@ body:not(.footer-nav-visible) #topic-progress-wrapper {
 .first.new-user:not(.staff) a {
   color: var(--primary-medium);
 }
+
+.post-controls .extra-buttons .accepted .d-icon,
+.post-controls .extra-buttons .accepted .d-button-label {
+  color: var(--quaternary);
+}
