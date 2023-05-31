@@ -170,3 +170,10 @@ body:not(.footer-nav-visible) #topic-progress-wrapper {
 .post-notice.old {
   color: var(--primary-high);
 }
+
+.small-action .topic-avatar, 
+.small-action .small-action-desc, 
+.topic-status-info, 
+.topic-timer-info {
+  border-top: 1px solid var(--primary-300);
+}
