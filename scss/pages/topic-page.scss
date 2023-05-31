@@ -13,7 +13,7 @@
                     &.my-likes .d-icon, 
                     &.read-indicator .d-icon, 
                     &.regular-likes .d-icon {
-                         color: var(--primary-high-or-secondary-low)
+                         color: var(--primary-high-or-secondary-low)!important
                     }
               }  
           }     
