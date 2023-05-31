@@ -10,7 +10,7 @@
           .actions {
                button .d-icon:not(.d-icon-d-liked),
                .double-button button {
-                      color: var(--primary-high-or-secondary-low)
+                      color: var(--primary-high-or-secondary-low);
                       &.my-likes .d-icon {    
                            color: var(--love)
                        }          
