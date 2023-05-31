@@ -8,7 +8,7 @@
      }
      nav.post-controls {
           .actions {
-               button .d-icon:not(.d-icon-d-liked):not(.d-icon-far-trash-alt),
+               button .d-icon:not(.d-icon-d-liked),
                .double-button button {
                       color: var(--primary-high-or-secondary-low);
                       &.my-likes .d-icon {    
