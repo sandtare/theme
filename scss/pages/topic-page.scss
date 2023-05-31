@@ -177,3 +177,10 @@ body:not(.footer-nav-visible) #topic-progress-wrapper {
 .topic-timer-info {
   border-top: 1px solid var(--primary-300)!important;
 }
+
+.quote-button .btn, 
+.quote-button .btn:hover, 
+.quote-button .d-icon, 
+.quote-button .btn:hover .d-icon {
+  color: var(--primary);
+}
