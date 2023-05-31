@@ -130,6 +130,7 @@ body:not(.categories-list):not(.navigation-topics):not([class*="category-"]):not
       }
 }
 
-
-
+.modal-inner-container {
+  background-color: var(--primary-low-mid-or-secondary-high);
+}
 
