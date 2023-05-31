@@ -95,12 +95,14 @@
           align-items: first baseline;
      }
 
-     .names span {
-          overflow: initial;
-          a {
-               font-family: supply-regular;
-          }
-     }    
+     .names {
+          span {
+               overflow: initial;
+               a {
+                    font-family: supply-regular;
+               }
+          }    
+     }      
      fa {
        color: var(--primary-high-or-secondary-low);
        margin-left: 0.5rem;
