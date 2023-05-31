@@ -6,9 +6,24 @@
      aside.onebox {
        background: var(--primary-200);
      }
-     nav.post-controls .actions button .d-icon {
-          color: var(--primary-high-or-secondary-low)
-     }
+     nav.post-controls {
+          .actions {
+               button .d-icon,
+               .double-button button {
+                    &.my-likes .d-icon, 
+                    &.read-indicator .d-icon, 
+                    &.regular-likes .d-icon {
+                         color: var(--primary-high-or-secondary-low)
+                    }
+              }  
+          }     
+          .extra-buttons .accepted {
+               .d-icon,
+               .d-button-label {
+                      color: var(--quaternary)!important;
+                }
+           }
+     }     
      .search-banner::after {
           background-color: transparent!important;
      }    
@@ -188,7 +203,4 @@ body:not(.footer-nav-visible) #topic-progress-wrapper {
   color: var(--primary-medium);
 }
 
-.post-controls .extra-buttons .accepted .d-icon,
-.post-controls .extra-buttons .accepted .d-button-label {
-  color: var(--quaternary)!important;
-}
+
