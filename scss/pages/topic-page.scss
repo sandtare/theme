@@ -15,9 +15,18 @@
                            color: var(--love)
                        }          
               }  
-               button .d-icon-d-liked {
-                    color: var(--love)
-               }     
+               button {
+                    .d-icon-d-liked {
+                         color: var(--love)
+                    } 
+                    &.delete {
+                         &.d-hover .d-icon,
+                         :hover .d-icon,
+                         :focus .d-icon {
+                           color: var(--secondary);
+                         }
+                     }      
+               }      
           }     
           .extra-buttons .accepted {
                .d-icon,
@@ -26,6 +35,7 @@
                 }
            }
      }     
+     
      .search-banner::after {
           background-color: transparent!important;
      }    
