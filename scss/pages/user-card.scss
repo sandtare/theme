@@ -1,4 +1,7 @@
 .user-card {
+    &.show, .group-card.show {
+      width: 55%;
+    }
     border: 1px solid var(--primary);
     border-top-width: 10px;
     box-shadow: 0 0 0;
