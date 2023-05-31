@@ -1,7 +1,7 @@
 [class*="archetype-"]  {
      .topic-body,
      .topic-avatar {
-       border-top: 1px solid var(--primary-300);
+       border-top: 1px solid var(--primary-low-mid);
      } 
      aside.onebox {
        background: var(--primary-200);
@@ -77,7 +77,7 @@
           }  
           .map,
           .topic-map-expanded {
-               border-top: 1px solid var(--primary-300)
+               border-top: 1px solid var(--primary-low-mid)
           }          
      } 
      
@@ -206,7 +206,7 @@ body:not(.footer-nav-visible) #topic-progress-wrapper {
 .small-action .small-action-desc, 
 .topic-status-info, 
 .topic-timer-info {
-  border-top: 1px solid var(--primary-300)!important;
+  border-top: 1px solid var(--primary-low-mid)!important;
 }
 
 .quote-button .btn, 
