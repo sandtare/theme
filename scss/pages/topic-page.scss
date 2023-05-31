@@ -8,10 +8,13 @@
      }
      nav.post-controls {
           .actions {
-               button .d-icon,
+               button .d-icon:not(.d-icon-d-liked),
                .double-button button {
                       color: var(--primary-high-or-secondary-low)!important
               }  
+               button .d-icon-d-liked {
+                    color: var(--love)
+               }     
           }     
           .extra-buttons .accepted {
                .d-icon,
