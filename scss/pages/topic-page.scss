@@ -184,3 +184,7 @@ body:not(.footer-nav-visible) #topic-progress-wrapper {
 .quote-button .btn:hover .d-icon {
   color: var(--primary);
 }
+
+.first.new-user:not(.staff) a {
+  color: var(--primary-medium);
+}
