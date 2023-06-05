@@ -122,8 +122,13 @@
               $(".navbar-toggler").toggleClass("open");  
               $(".navbar-collapse").toggleClass("open");
            });
-         
-         $("button.vote-button").attr("title","after click");
+
       });
+    window.onload = function () {
+        window.document.getElementByClassName("vote-button").onclick = function () {
+            this.title = "after click";
+            return false;
+        };
+    };
 </script>
 
