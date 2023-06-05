@@ -55,8 +55,7 @@
      tbody {
          border-top: none;
          display: flex;
-         flex-direction: column;
-         justify-content: space-between;
+         flex-wrap: wrap;
          height: 100%;
          tr {
               display: block;
