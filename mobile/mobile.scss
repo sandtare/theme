@@ -52,6 +52,12 @@ body.category:not(.categories-list) #list-area {
   padding-right: 10px;
 }
    
+@import "variables/fonts";
+@import "variables/colors";
+  
+.categories-list.navigation-categories tbody {
+     flex-direction: column;
+ }   
 
 // NAVIGATION HEADER
 #navigation-bar .navigation-toggle {
