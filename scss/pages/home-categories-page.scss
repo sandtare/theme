@@ -57,6 +57,7 @@
          display: flex;
          flex-wrap: wrap;
          height: 100%;
+         flex-direction: column
          tr {
               display: block;
               background-color: var(--tertiary-or-white);
