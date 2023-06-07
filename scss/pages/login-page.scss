@@ -45,3 +45,7 @@
 .toggle-password-mask {
     background-color: transparent!important
 }
+
+.login-modal:not(.hidden) #login-form .input-group {
+    width : 100%
+}        
