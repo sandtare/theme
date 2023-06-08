@@ -45,7 +45,7 @@
 .toggle-password-mask {
     padding: 2px 5px;
     &:hover {
-        color: var(--secondary);
+        color: var(--secondary)!important;
         background-color: var(--primary-medium)!important
     }     
 }
