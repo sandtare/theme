@@ -43,7 +43,10 @@
 }
 
 .toggle-password-mask {
-    background-color: transparent!important
+    padding: 2px 5px;
+    &:hover {
+        color: var(--primary)
+    }     
 }
 
 .login-modal:not(.hidden) #login-form .input-group {
