@@ -77,39 +77,3 @@
     
 </script>
 
-<script type="text/discourse-plugin" version="0.8.13">
-api.reopenWidget("header-buttons", {
-      tagName: "span.header-buttons",
-
-  html(attrs) {
-    if (this.currentUser) {
-      return;
-    }
-
-    const buttons = [];
-
-    if (attrs.canSignUp) {
-      buttons.push(
-        this.attach("button", {
-          label: "sign_up",
-          className: "btn-primary btn-small sign-up-button",
-          action: "showCreateAccount"
-        })
-      );
-    }
-
-    if (!attrs.topic) {
-    buttons.push(
-      this.attach("button", {
-        label: "log_in",
-        className: "btn-primary btn-small login-button",
-        action: "showLogin",
-        icon: "user"
-      })
-    );
-    }
-    
-    return buttons;
-  }
-});
-</script>
