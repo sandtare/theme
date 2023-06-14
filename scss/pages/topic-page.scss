@@ -141,7 +141,7 @@
 
 .post-notice.new-user {
      background: var(--highlight-medium);
-     width: 85%;
+     width: calc(90% + 45px);
      max-width: 100%
 }     
 .popup-menu .btn:focus .d-icon, .popup-menu .btn:hover .d-icon {
@@ -226,4 +226,6 @@ body:not(.footer-nav-visible) #topic-progress-wrapper {
 
 .signup-cta {
   max-width: 100%;
-}      
+}    
+
+
