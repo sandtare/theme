@@ -136,3 +136,7 @@ div.edit-category {
 .admin-controls .btn-flat .d-icon {
     color: var(--primary);   
 } 
+
+.dashboard .charts .chart-canvas, .dashboard-next .charts .chart-canvas {
+  background: var(--primary);
+}
