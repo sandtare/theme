@@ -112,4 +112,6 @@ hr {
    border-top: 1px solid var(--tertiary-200);
 }
    
-
+.chat-channel-unread-indicator .number::after {
+    content: '';
+}
