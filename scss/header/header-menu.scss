@@ -113,5 +113,5 @@ hr {
 }
    
 .chat-channel-unread-indicator .number::after {
-    content: '';
+    content: ''!important;
 }
