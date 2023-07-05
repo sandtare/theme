@@ -229,5 +229,5 @@ body:not(.footer-nav-visible) #topic-progress-wrapper {
 }    
 
 .small-action.topic-post-visited .topic-post-visited-line {
-  width: 100%;
+  width: calc(90% + 45px);
 }
