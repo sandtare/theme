@@ -137,6 +137,7 @@ div.edit-category {
     color: var(--primary);   
 } 
 
-.dashboard .charts .chart-canvas, .dashboard-next .charts .chart-canvas {
+.dashboard .charts .chart-canvas, .dashboard-next .charts .chart-canvas,
+.admin-reports .admin-report-chart .chart-canvas-container .chart-canvas {
   background: $gray-light;
 }
