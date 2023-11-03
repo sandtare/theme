@@ -178,9 +178,9 @@
 }     
 
 .topic-list-item.visited .main-link a.title {
-     color: var(--primary-medium);    
+     color: var(--primary-medium)!important;    
      &:hover {
-          color: var(--primary)
+          color: var(--primary)!important
      }
 }
 
