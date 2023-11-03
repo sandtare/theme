@@ -177,7 +177,8 @@
      }          
 }     
 
-.topic-list-item.visited .main-link a.title {
+.topic-list-item.visited .main-link a.title,
+.topic-list-item.last-visit .main-link a.title {
      color: var(--primary-medium)!important;    
      &:hover {
           color: var(--primary)!important
