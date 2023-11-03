@@ -177,6 +177,7 @@
      }          
 }     
 
+.latest-topic-list-item.visited .main-link a.title,
 .topic-list-item.visited:not(.pinned) .main-link a.title,
 .topic-list-item.last-visit .main-link a.title {
      color: var(--primary-medium)!important;    
